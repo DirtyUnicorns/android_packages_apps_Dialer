@@ -50,7 +50,7 @@
     <color name="dialpad_primary_text_color">#6d6d6d</color>
 
     <!-- Call button color separated from dialpad_primary_text_color, for better theme support -->
-    <color name="dialpad_call_button_color">#22b5e5</color>
+    <color name="dialpad_call_button_color">#6d6d6d</color>
 
     <!-- Secondary color of dialpad text (used for the letters corresponding to each digit -->
     <color name="dialpad_secondary_text_color">#6d6d6d</color>
