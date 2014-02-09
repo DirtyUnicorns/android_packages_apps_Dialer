@@ -17,9 +17,10 @@ import java.util.List;
 import com.android.contacts.common.GeoUtil;
 import com.android.contacts.common.list.ContactListItemView;
 import com.android.contacts.common.list.PhoneNumberListAdapter;
-
-import com.android.dialer.omni.AbstractPlaceApi;
-import com.android.dialer.omni.OsmApi;
+import com.android.dialer.omni.Place;
+import com.android.dialer.omni.IRemoteApi;
+import com.android.dialer.omni.IPlacesAroundApi;
+import com.android.dialer.omni.clients.OsmApi;
 import com.android.dialer.R;
 
 /**
@@ -37,8 +38,8 @@ public class DialerPhoneNumberListAdapter extends PhoneNumberListAdapter {
     private String mFormattedQueryString;
     private String mCountryIso;
 
-    private AbstractPlaceApi mPlaceApi;
-    private List<AbstractPlaceApi.Place> mPlacesList;
+    private IPlacesAroundApi mPlacesAroundApi;
+    private List<Place> mPlacesList;
     private String mPreviousQuery;
     private Handler mHandler;
     private Thread mQueryThread;
@@ -71,9 +72,11 @@ public class DialerPhoneNumberListAdapter extends PhoneNumberListAdapter {
         }
 
         mHandler = new Handler();
-        mPlaceApi = new OsmApi("http://overpass-api.de/api/interpreter");
+
+        // TODO: UI to select client
+        mPlacesAroundApi = new OsmApi();
         mEnableSuggestions = Settings.System.getInt(context.getContentResolver(),
-            Settings.System.ENABLE_DIALER_SUGGESTIONS, 1) == 1;
+            Settings.System.ENABLE_DIALER_SUGGESTIONS, 0) == 1;
     }
 
     @Override
@@ -157,7 +160,7 @@ public class DialerPhoneNumberListAdapter extends PhoneNumberListAdapter {
 
     public String getSuggestionPhoneNumber(int position) {
         final int index = getSuggestionIndexFromPosition(position);
-        final String phoneNum = mPlacesList.get(index).tags.get(AbstractPlaceApi.Place.TAG_PHONE);
+        final String phoneNum = mPlacesList.get(index).getPhoneNumber();
         return PhoneNumberUtils.convertAndStrip(phoneNum);
     }
 
@@ -225,7 +228,7 @@ public class DialerPhoneNumberListAdapter extends PhoneNumberListAdapter {
 
     private void assignSuggestionToView(ContactListItemView v, int suggestionIndex) {
         final Resources resources = getContext().getResources();
-        final OsmApi.Place place = mPlacesList.get(suggestionIndex);
+        final Place place = mPlacesList.get(suggestionIndex);
         if (mPreviousQuery != null) {
             v.setHighlightedPrefix(mPreviousQuery.toUpperCase());
         }
@@ -235,8 +238,8 @@ public class DialerPhoneNumberListAdapter extends PhoneNumberListAdapter {
             v.setSectionHeader(null);
         }
         v.setDrawableResource(R.drawable.list_item_avatar_bg, R.drawable.ic_phone_dk);
-        v.setDisplayName(place.tags.get(OsmApi.Place.TAG_NAME));
-        v.setPhoneNumber(PhoneNumberUtils.formatNumber(PhoneNumberUtils.convertAndStrip(place.tags.get(OsmApi.Place.TAG_PHONE)), mCountryIso));
+        v.setDisplayName(place.getName());
+        v.setPhoneNumber(PhoneNumberUtils.formatNumber(PhoneNumberUtils.convertAndStrip(place.getPhoneNumber()), mCountryIso));
         v.setPhotoPosition(super.getPhotoPosition());
     }
 
@@ -292,7 +295,7 @@ public class DialerPhoneNumberListAdapter extends PhoneNumberListAdapter {
                     Log.w(TAG, "Nearby search canceled as location data is unavailable.");
                     return;
                 }
-                List<AbstractPlaceApi.Place> places = mPlaceApi.getNamedPlacesAround(query, lat, lon, 0.4);
+                List<Place> places = mPlacesAroundApi.getNamedPlacesAround(query, lat, lon, 0.4);
 
                 if (isInterrupted()) {
                     Log.i(TAG, "Cancelling current nearby search, superseeded by a newer one");
