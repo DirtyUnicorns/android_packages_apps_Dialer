@@ -31,10 +31,16 @@ public final class LookupSettings {
     public static final String FLP_OPENSTREETMAP = "OpenStreetMap";
     public static final String FLP_DEFAULT = FLP_GOOGLE;
 
+    /** People lookup providers */
+    public static final String PLP_WHITEPAGES = "WhitePages";
+    public static final String PLP_DEFAULT = PLP_WHITEPAGES;
+
     /** Reverse lookup providers */
     public static final String RLP_OPENCNAM = "OpenCnam";
     public static final String RLP_WHITEPAGES = "WhitePages";
+    public static final String RLP_WHITEPAGES_CA = "WhitePages_CA";
     public static final String RLP_YELLOWPAGES = "YellowPages";
+    public static final String RLP_YELLOWPAGES_CA = "YellowPages_CA";
     public static final String RLP_ZABASEARCH = "ZabaSearch";
     public static final String RLP_DEFAULT = RLP_OPENCNAM;
 
@@ -44,6 +50,11 @@ public final class LookupSettings {
     public static boolean isForwardLookupEnabled(Context context) {
         return Settings.System.getInt(context.getContentResolver(),
                 Settings.System.ENABLE_FORWARD_LOOKUP, 1) != 0;
+    }
+
+    public static boolean isPeopleLookupEnabled(Context context) {
+        return Settings.System.getInt(context.getContentResolver(),
+                Settings.System.ENABLE_PEOPLE_LOOKUP, 1) != 0;
     }
 
     public static boolean isReverseLookupEnabled(Context context) {
@@ -68,6 +79,23 @@ public final class LookupSettings {
         return provider;
     }
 
+    public static String getPeopleLookupProvider(Context context) {
+        upgradePProviders(context);
+
+        String provider = getString(context,
+                Settings.System.PEOPLE_LOOKUP_PROVIDER);
+
+        if (provider == null) {
+            putString(context,
+                    Settings.System.PEOPLE_LOOKUP_PROVIDER, PLP_DEFAULT);
+
+            provider = getString(context,
+                    Settings.System.PEOPLE_LOOKUP_PROVIDER);
+        }
+
+        return provider;
+    }
+
     public static String getReverseLookupProvider(Context context) {
         upgradeRProviders(context);
 
@@ -76,7 +104,7 @@ public final class LookupSettings {
 
         if (provider == null) {
             putString(context,
-                    Settings.System.REVERSE_LOOKUP_PROVIDER, RLP_DEFAULT):
+                    Settings.System.REVERSE_LOOKUP_PROVIDER, RLP_DEFAULT);
 
             provider = getString(context,
                     Settings.System.REVERSE_LOOKUP_PROVIDER);
@@ -87,14 +115,19 @@ public final class LookupSettings {
 
     private static void upgradeFProviders(Context context) {
         String provider = getString(context,
-                Settings.System.REVERSE_LOOKUP_PROVIDER);
+                Settings.System.FORWARD_LOOKUP_PROVIDER);
+    }
+
+    private static void upgradePProviders(Context context) {
+        String provider = getString(context,
+                Settings.System.PEOPLE_LOOKUP_PROVIDER);
     }
 
     private static void upgradeRProviders(Context context) {
         String provider = getString(context,
                 Settings.System.REVERSE_LOOKUP_PROVIDER);
 
-        if (provider.equals("Google")) {
+        if ("Google".equals(provider)) {
             putString(context,
                     Settings.System.REVERSE_LOOKUP_PROVIDER, RLP_DEFAULT);
         }
