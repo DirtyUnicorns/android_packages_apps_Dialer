@@ -19,6 +19,7 @@ package com.android.dialer.calllog;
 import android.content.Context;
 import android.content.Intent;
 import android.telecom.TelecomManager;
+import com.android.contacts.common.CallUtil;
 
 /**
  * Helper class operating on call log notifications.
@@ -36,5 +37,14 @@ public class CallLogNotificationsHelper {
         Intent serviceIntent = new Intent(context, CallLogNotificationsService.class);
         serviceIntent.setAction(CallLogNotificationsService.ACTION_UPDATE_NOTIFICATIONS);
         context.startService(serviceIntent);
+    }
+
+    /** Send broadcast to let VideoCall app cancel the missed vtcall notifications. */
+    public static void removeMissedCSVTCallNotifications(Context context) {
+        if (CallUtil.isCSVTEnabled()) {
+            Intent intent = new Intent(CallUtil.INTENT_ACTION_CLEAR_MISSED_CSVTCALL);
+            intent.putExtra(CallUtil.CLEAR_MISSED_CSVTCALL_UPDATE_CALLLOG, false);
+            context.sendBroadcast(intent);
+        }
     }
 }

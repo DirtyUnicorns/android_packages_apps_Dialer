@@ -507,6 +507,7 @@ public class CallLogFragment extends AnalyticsListFragment
             }
             CallLogNotificationsHelper.removeMissedCallNotifications(getActivity());
             CallLogNotificationsHelper.updateVoicemailNotifications(getActivity());
+            CallLogNotificationsHelper.removeMissedCSVTCallNotifications(getActivity());
         }
     }
 
