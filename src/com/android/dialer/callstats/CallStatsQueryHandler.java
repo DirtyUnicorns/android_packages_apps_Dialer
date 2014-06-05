@@ -28,7 +28,6 @@ import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
 import android.provider.CallLog.Calls;
-import android.telephony.PhoneNumberUtils;
 import android.util.Log;
 
 import com.android.contacts.common.CallUtil;
@@ -165,7 +164,7 @@ public class CallStatsQueryHandler extends AsyncQueryHandler {
             final long duration = cursor.getLong(CallStatsQuery.DURATION);
             final int callType = cursor.getInt(CallStatsQuery.CALL_TYPE);
 
-            if (pending == null || !phoneNumbersEqual(pending.number.toString(), number)) {
+            if (pending == null || !CallUtil.phoneNumbersEqual(pending.number.toString(), number)) {
                 final long date = cursor.getLong(CallStatsQuery.DATE);
                 final int numberPresentation = cursor.getInt(CallStatsQuery.NUMBER_PRESENTATION);
                 final String countryIso = cursor.getString(CallStatsQuery.COUNTRY_ISO);
@@ -191,46 +190,6 @@ public class CallStatsQueryHandler extends AsyncQueryHandler {
 
         return result;
     }
-    
-    /**
-     * Checks whether two phone numbers resolve to the same phone.
-     * This function should actually present in CallUtil.java as per cm code.
-     */
-    private boolean phoneNumbersEqual(String number1, String number2) {
-        if (PhoneNumberUtils.isUriNumber(number1) || PhoneNumberUtils.isUriNumber(number2)) {
-            return sipAddressesEqual(number1, number2);
-        } else {
-            return PhoneNumberUtils.compare(number1, number2);
-        }
-    }
-    
-    private boolean sipAddressesEqual(String number1, String number2) {
-        if (number1 == null || number2 == null) return number1 == number2;
-
-        int index1 = number1.indexOf('@');
-        final String userinfo1;
-        final String rest1;
-        if (index1 != -1) {
-            userinfo1 = number1.substring(0, index1);
-            rest1 = number1.substring(index1);
-        } else {
-            userinfo1 = number1;
-            rest1 = "";
-        }
-
-        int index2 = number2.indexOf('@');
-        final String userinfo2;
-        final String rest2;
-        if (index2 != -1) {
-            userinfo2 = number2.substring(0, index2);
-            rest2 = number2.substring(index2);
-        } else {
-            userinfo2 = number2;
-            rest2 = "";
-        }
-
-        return userinfo1.equals(userinfo2) && rest1.equalsIgnoreCase(rest2);
-    }
 
     private void mergeItemsByNumber(List<CallStatsDetails> calls, List<ContactInfo> infos) {
         // temporarily store items marked for removal
@@ -245,7 +204,7 @@ public class CallStatsQueryHandler extends AsyncQueryHandler {
                 final CallStatsDetails innerItem = calls.get(j);
                 final String innerNumber = innerItem.number.toString();
 
-                if (phoneNumbersEqual(currentFormattedNumber, innerNumber)) {
+                if (CallUtil.phoneNumbersEqual(currentFormattedNumber, innerNumber)) {
                     outerItem.mergeWith(innerItem);
                     //make sure we're not counting twice in case we're dealing with
                     //multiple different formats

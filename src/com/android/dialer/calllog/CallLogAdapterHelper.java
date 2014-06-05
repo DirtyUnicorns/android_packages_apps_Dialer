@@ -185,7 +185,7 @@ public class CallLogAdapterHelper implements ViewTreeObserver.OnPreDrawListener 
     private Callback mCb;
     private final Context mContext;
     private final ContactInfoHelper mContactInfoHelper;
-    private final PhoneNumberHelper mPhoneNumberHelper;
+    private final PhoneNumberDisplayHelper mPhoneNumberDisplayHelper;
 
     /**
      * A cache of the contact details for the phone numbers in the call log.
@@ -344,7 +344,16 @@ public class CallLogAdapterHelper implements ViewTreeObserver.OnPreDrawListener 
         // view.
         NumberWithCountryIso numberCountryIso = new NumberWithCountryIso(number, countryIso);
         ContactInfo existingInfo = mContactInfoCache.getPossiblyExpired(numberCountryIso);
-        boolean updated = (existingInfo != ContactInfo.EMPTY) && !info.equals(existingInfo);
+        final boolean isRemoteSource = info.sourceType != 0;
+
+        // Don't force redraw if existing info in the cache is equal to {@link ContactInfo#EMPTY}
+        // to avoid updating the data set for every new row that is scrolled into view.
+        // see (https://googleplex-android-review.git.corp.google.com/#/c/166680/)
+
+        // Exception: Photo uris for contacts from remote sources are not cached in the call log
+        // cache, so we have to force a redraw for these contacts regardless.
+        boolean updated = (existingInfo != ContactInfo.EMPTY || isRemoteSource) &&
+                !info.equals(existingInfo);
 
         // Store the data in the cache so that the UI thread can use to display it. Store it
         // even if it has not changed so that it is marked as not expired.
@@ -445,11 +454,11 @@ public class CallLogAdapterHelper implements ViewTreeObserver.OnPreDrawListener 
 
     public CallLogAdapterHelper(Context context, Callback cb,
             ContactInfoHelper contactInfoHelper,
-            PhoneNumberHelper phoneNumberHelper) {
+            PhoneNumberDisplayHelper phoneNumberHelper) {
         mContext = context;
         mCb = cb;
         mContactInfoHelper = contactInfoHelper;
-        mPhoneNumberHelper = phoneNumberHelper;
+        mPhoneNumberDisplayHelper = phoneNumberHelper;
 
         mContactInfoCache = ExpirableCache.create(CONTACT_INFO_CACHE_SIZE);
         mRequests = new LinkedList<ContactInfoRequest>();

@@ -230,7 +230,7 @@ public class CallLogFragment extends ListFragment
         updateEmptyMessage(mCallTypeFilter);
         String currentCountryIso = GeoUtil.getCurrentCountryIso(getActivity());
         mAdapter = ObjectFactory.newCallLogAdapter(getActivity(), this, new ContactInfoHelper(
-                getActivity(), currentCountryIso), false, true);
+                getActivity(), currentCountryIso), true, true);
         setListAdapter(mAdapter);
         getListView().setItemsCanFocus(true);
     }
@@ -340,12 +340,6 @@ public class CallLogFragment extends ListFragment
             case Calls.MISSED_TYPE:
                 message = getString(R.string.recentMissed_empty);
                 break;
-            case Calls.INCOMING_TYPE:
-                message = getString(R.string.recentIncoming_empty);
-                break;
-            case Calls.OUTGOING_TYPE:
-                message = getString(R.string.recentOutgoing_empty);
-                break;
             case CallLogQueryHandler.CALL_TYPE_ALL:
                 message = getString(R.string.recentCalls_empty);
                 break;
@@ -423,9 +417,12 @@ public class CallLogFragment extends ListFragment
             mAdapter.invalidateCache();
             startCallsQuery();
             startVoicemailStatusQuery();
-            updateOnEntry();
             mRefreshDataRequired = false;
+        } else {
+            // make adapter refresh, so call dates are updated
+            mAdapter.notifyDataSetChanged();
         }
+        updateOnEntry();
     }
 
     /** Updates call data and notification state while leaving the call log tab. */

@@ -19,7 +19,7 @@
     <!-- Secondary text color in the Phone app -->
     <color name="dialtacts_primary_text_color">#FFFFFF</color>
     <color name="dialtacts_secondary_text_color">#888888</color>
-    <color name="dialpad_text_color">#FFFFFF</color>
+    <color name="dialpad_text_color">#ffffff</color>
 
     <!-- Color of the text describing an unconsumed missed call. -->
     <color name="call_log_missed_call_highlight_color">#FF0000</color>
@@ -44,14 +44,18 @@
     <color name="background_dialer_list_items">#000000</color>
 
     <!-- Background color of new dialpad -->
-    <color name="background_dialpad">#ff111111</color>
+    <color name="background_dialpad">#000000</color>
+    <!-- Pressed color of dialpad buttons -->
+    <color name="background_dialpad_pressed">#3265c1</color>
+    <!-- Color of dialpad digits -->
+    <color name="dialpad_digits_text_color">#ffffff</color>
 
     <!-- Primary color of dialpad text, including the call button -->
     <color name="dialpad_primary_text_color">#ffffff</color>
     <!-- Call button color separated from dialpad_primary_text_color, for better theme support -->
     <color name="dialpad_call_button_color">#181818</color>
     <!-- Secondary color of dialpad text (used for the letters corresponding to each digit -->
-    <color name="dialpad_secondary_text_color">#aaaaaa</color>
+    <color name="dialpad_secondary_text_color">#8b8b8b</color>
 
     <!-- Background color of action bars -->
     <color name="actionbar_background_color">#222222</color>
@@ -78,4 +82,12 @@
     <color name="call_stats_outgoing">#99cc00</color>
     <color name="call_stats_missed">#eb1313</color>
     <color name="call_stats_bar_background">#88888888</color>
+
+    <!-- Background gradient start color for tabs in an unpressed state. -->
+    <color name="tab_background_gradient_start_color">#000000</color>
+    <!-- Background gradient end color for tabs in an unpressed state. -->
+    <color name="tab_background_gradient_end_color">#000000</color>
+
+    <color name="call_log_primary_text_color">#ffffff</color>
+
 </resources>
