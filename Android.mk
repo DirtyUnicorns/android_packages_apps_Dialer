@@ -9,7 +9,7 @@ incallui_dir := ../InCallUI
 src_dirs := src $(contacts_common_dir)/src $(incallui_dir)/src
 res_dirs := res $(contacts_common_dir)/res $(incallui_dir)/res
 
-LOCAL_SRC_FILES := $(call all-java-files-under, $(src_dirs))
+LOCAL_SRC_FILES := $(call all-java-files-under, $(src_dirs)) $(call all-Iaidl-files-under, $(src_dirs))
 LOCAL_RESOURCE_DIR := $(addprefix $(LOCAL_PATH)/, $(res_dirs))
 LOCAL_ASSET_DIR := $(LOCAL_PATH)/assets
 
