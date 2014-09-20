@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2014 The Dirty Unicorns project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="call_log_stats_title">Statistiques</string>
+    <string name="callStatsDetailTitle">Détails des statistiques d\'appel</string>
+    <string name="call_stats">Statistiques</string>
+    <string name="call_stats_refresh">Rafraîchir</string>
+    <string name="activity_title_call_stats">Statistiques</string>
+    <string name="call_stats_nav_all">Tous</string>
+    <string name="call_stats_nav_incoming">Entrants</string>
+    <string name="call_stats_nav_outgoing">Sortants</string>
+    <string name="call_stats_nav_missed">Manqués</string>
+    <string name="call_stats_incoming">Entrants\u00A0: <xliff:g id="percent">%d</xliff:g>%%</string>
+    <string name="call_stats_outgoing">Sortants\u00A0: <xliff:g id="percent">%d</xliff:g>%%</string>
+    <string name="call_stats_missed">Manqués</string>
+    <string name="call_stats_missed_percent">Manqués\u00A0: <xliff:g id="percent">%d</xliff:g>%%</string>
+    <string name="call_stats_header_total">Total\u00A0: <xliff:g id="call_count">%s</xliff:g>, <xliff:g id="duration">%s</xliff:g></string>
+    <string name="call_stats_header_total_callsonly">Total\u00A0: <xliff:g id="call_count">%s</xliff:g></string>
+    <string name="call_stats_filter_from">Date de début</string>
+    <string name="call_stats_filter_to">Date de fin</string>
+    <string name="call_stats_filter_picker_title">Plage de temps</string>
+    <string name="date_quick_selection">Sélection rapide</string>
+    <string name="date_qs_currentmonth">Mois courant</string>
+    <string name="date_qs_currentquarter">Trimestre courant</string>
+    <string name="date_qs_currentyear">Année courante</string>
+    <string name="date_qs_lastweek">Dernière semaine</string>
+    <string name="date_qs_lastmonth">Dernier mois</string>
+    <string name="date_qs_lastquarter">Dernier trimestre</string>
+    <string name="date_qs_lastyear">Dernière année</string>
+    <string name="call_stats_date_filter">Ajuster la plage</string>
+    <string name="call_stats_date_adjust">Ajuster la plage</string>
+    <string name="call_stats_reset_filter">Réinitialiser la plage</string>
+    <string name="call_stats_sort_by_duration">Trier par durée d\'appel</string>
+    <string name="call_stats_sort_by_count">Trier par nombre d\'appels</string>
+    <string name="menu_add_to_blacklist">Ajouter à la liste noire</string>
+    <string name="toast_added_to_blacklist">%s ajouté à la liste noire</string>
+
+    <!-- Forward lookup -->
+    <string name="nearby_places">Lieux à proximité</string>
+    <string name="people">Personne</string>
+
+    <!-- Title for the call log tab containing the list of incoming calls
+         [CHAR LIMIT=15] -->
+    <string name="call_log_incoming_title">Entrants</string>
+
+    <!-- Title for the call log tab containing the list of outgoing calls
+         [CHAR LIMIT=15] -->
+    <string name="call_log_outgoing_title">Sortants</string>
+
+    <!-- Text displayed when the list of incoming calls is empty -->
+    <string name="recentIncoming_empty">Pas d\'appels entrants récents.</string>
+
+    <!-- Text displayed when the list of outgoing calls is empty -->
+    <string name="recentOutgoing_empty">Pas d\'appels sortants récents.</string>
+
+    <string name="calllog_search_hint">Chercher le journal d\'appels</string>
+</resources>
