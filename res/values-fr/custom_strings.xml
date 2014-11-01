@@ -68,4 +68,8 @@
     <string name="recentOutgoing_empty">Pas d\'appels sortants récents.</string>
 
     <string name="calllog_search_hint">Chercher le journal d\'appels</string>
+
+    <string name="start_call_playback">Écouter l\'enregistrement</string>
+    <string name="stop_call_playback">Arrêter</string>
+    <string name="call_playback_error_message">Échec de la lecture de l\'enregistrement</string>
 </resources>
