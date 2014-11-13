@@ -90,6 +90,9 @@
     <!-- Color for missed call icons. -->
     <color name="missed_call">#ff2e58</color>
 
+    <!-- Color for blacklist call icons. -->
+    <color name="blacklisted_call">#ff000000</color>
+
     <!-- Color for answered call icons. -->
     <color name="answered_incoming_call">@color/dialer_blue_highlight_color</color>
 
