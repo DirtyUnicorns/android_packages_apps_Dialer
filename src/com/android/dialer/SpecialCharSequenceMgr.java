@@ -380,6 +380,8 @@ public class SpecialCharSequenceMgr {
         String imeiStr = null;
         int subId = SubscriptionManager.getDefaultVoiceSubId();
         int slotId = SubscriptionManager.getSlotId(subId);
+        //In case of no-sim, slotId will be -1.
+        if (slotId < 0) slotId = 0;
         imeiStr = telephonyManager.getDeviceId(slotId);
 
         AlertDialog alert = new AlertDialog.Builder(context)
@@ -395,6 +397,8 @@ public class SpecialCharSequenceMgr {
         String meidStr = null;
         int subId = SubscriptionManager.getDefaultVoiceSubId();
         int slotId = SubscriptionManager.getSlotId(subId);
+        //In case of no-sim, slotId will be -1.
+        if (slotId < 0) slotId = 0;
         meidStr = telephonyManager.getDeviceId(slotId);
 
         AlertDialog alert = new AlertDialog.Builder(context)
