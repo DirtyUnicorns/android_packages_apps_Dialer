@@ -97,11 +97,6 @@ public class PhoneCallDetails {
     public final static int DEFAULT_PHONE_ID = 0;
 
     /**
-     * Duration type for this call.
-     */
-    public final int durationType;
-
-    /**
      * Create the details for a call, with empty defaults specified for extra fields that are
      * not necessary for testing.
      */
@@ -142,8 +137,7 @@ public class PhoneCallDetails {
             Long dataUsage, String transcription) {
        this(number, numberPresentation, formattedNumber, countryIso, geocode, callTypes,
                date, duration, name, numberType, numberLabel, contactUri, photoUri, sourceType,
-               accountLabel, accountIcon, features, dataUsage, transcription, DEFAULT_PHONE_ID,
-               Calls.DURATION_TYPE_ACTIVE);
+               accountLabel, accountIcon, features, dataUsage, transcription, DEFAULT_PHONE_ID);
     }
 
     /** Create the details for a call with a number associated with a contact. */
@@ -152,7 +146,7 @@ public class PhoneCallDetails {
             int[] callTypes, long date, long duration, CharSequence name,
             int numberType, CharSequence numberLabel, Uri contactUri,
             Uri photoUri, int sourceType, String accountLabel, Drawable accountIcon, int features,
-            Long dataUsage, String transcription, int accountId, int durationType) {
+            Long dataUsage, String transcription, int accountId) {
         this.number = number;
         this.numberPresentation = numberPresentation;
         this.formattedNumber = formattedNumber;
@@ -173,6 +167,5 @@ public class PhoneCallDetails {
         this.dataUsage = dataUsage;
         this.transcription = transcription;
         this.accountId = accountId;
-        this.durationType = durationType;
     }
 }
