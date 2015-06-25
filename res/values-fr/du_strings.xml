@@ -17,17 +17,17 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="nearby_places">Lieux à proximité</string>
-  <string name="people">Personnes</string>
+  <string name="people">Contacts</string>
   <string name="lookup_settings_label">Annuaire</string>
   <string name="lookup_settings_description">Recherche des numéros de téléphone inconnus</string>
   <string name="enable_forward_lookup_title">Localisation</string>
   <string name="enable_forward_lookup_summary">Afficher les lieux à proximité lors de la saisie dans le numéroteur téléphonique</string>
-  <string name="enable_people_lookup_title">Personnes</string>
-  <string name="enable_people_lookup_summary">Afficher les résultats en ligne pour les personnes lors de la saisie dans le numéroteur téléphonique</string>
+  <string name="enable_people_lookup_title">Contacts</string>
+  <string name="enable_people_lookup_summary">Afficher les résultats en ligne pour les contacts lors de la saisie dans le numéroteur téléphonique</string>
   <string name="enable_reverse_lookup_title">Annuaire inversé</string>
-  <string name="enable_reverse_lookup_summary">Rechercher des informations sur la personne ou le lieu pour les appels entrants dont le numéros est inconnu</string>
+  <string name="enable_reverse_lookup_summary">Rechercher des informations sur le contact ou le lieu pour les appels entrants dont le numéros est inconnu</string>
   <string name="forward_lookup_provider_title">Fournisseur pour la recherche de localisation</string>
-  <string name="people_lookup_provider_title">Fournisseur pour la recherche de personnes</string>
+  <string name="people_lookup_provider_title">Fournisseur pour la recherche de contacts</string>
   <string name="reverse_lookup_provider_title">Fournisseur d\'annuaire inversé</string>
   <string name="cyngn_reverse_lookup_provider_name">Cyngn Chinese (CN)</string>
 </resources>
