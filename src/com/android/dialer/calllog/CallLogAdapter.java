@@ -1025,20 +1025,16 @@ public class CallLogAdapter extends GroupingListAdapter
             views.callBackButtonView.setVisibility(View.GONE);
         }
 
-        // If one of the calls had video capabilities, show the video call button.
+        // Show video call button in either of below cases:
+        // 1. When one of the calls had video capabilities
+        // 2. When CSVT is enabled
         if (CallUtil.isVideoEnabled(mContext) && canPlaceCallToNumber &&
                 views.phoneCallDetailsViews.callTypeIcons.isVideoShown()) {
             views.videoCallButtonView.setTag(
                     IntentProvider.getReturnVideoCallIntentProvider(views.number));
             views.videoCallButtonView.setVisibility(View.VISIBLE);
             views.videoCallButtonView.setOnClickListener(mActionListener);
-        } else {
-            views.videoCallButtonView.setTag(null);
-            views.videoCallButtonView.setVisibility(View.GONE);
-        }
-
-        // if csvt is enabled, shoue video call options.
-        if (CallUtil.isCSVTEnabled() && canPlaceCallToNumber) {
+        } else if (CallUtil.isCSVTEnabled() && canPlaceCallToNumber) {
             views.videoCallButtonView.setTag(
                     IntentProvider.getReturnCSVTCallIntentProvider(views.number));
             views.videoCallButtonView.setVisibility(View.VISIBLE);

@@ -1714,10 +1714,14 @@ public class DialpadFragment extends AnalyticsFragment
                 return true;
             case R.id.menu_video_call:
                 final String number = mDigits.getText().toString();
-                if (CallUtil.isCSVTEnabled()) {
-                    getActivity().startActivity(CallUtil.getCSVTCallIntent(number));
-                } else if (false) {
+                if (CallUtil.isVideoEnabled(mContext)) {
                     //add support for ims video call;
+                    final Intent intent = CallUtil.getVideoCallIntent(number,
+                                (getActivity() instanceof DialtactsActivity ?
+                                    ((DialtactsActivity) getActivity()).getCallOrigin() : null));
+                    DialerUtils.startActivityWithErrorToast(getActivity(), intent);
+                } else if (CallUtil.isCSVTEnabled()) {
+                    getActivity().startActivity(CallUtil.getCSVTCallIntent(number));
                 }
             default:
                 return false;
