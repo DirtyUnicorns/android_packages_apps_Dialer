@@ -37,4 +37,15 @@
     <!-- Chinese Reverse Lookup Provider -->
     <string name="cyngn_reverse_lookup_provider_name">Cyngn Chinese (CN)</string>
 
+    <!--  for speed dial -->
+    <string name="speed_dial_settings">Paramètres de numérotation abrégée</string>
+    <string name="speed_dial_not_set">(non défini)</string>
+    <string name="speed_dial_replace">Remplacer</string>
+    <string name="speed_dial_delete">Effacer</string>
+    <string name="speed_dial_unassigned_dialog_title">Touche libre</string>
+    <string name="speed_dial_unassigned_dialog_message">Aucune numérotation rapide n\'est définie pour la touche \"<xliff:g id="number">%s</xliff:g>\". Attribuer une numérotation rapide maintenant ?</string>
+    <string name="dialog_speed_dial_airplane_mode_message">Pour utiliser la numérotation abrégée, désactiver d\'abord  le mode Avion.</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+
 </resources>
