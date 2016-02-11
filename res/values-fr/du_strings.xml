@@ -48,4 +48,12 @@
     <string name="yes">Oui</string>
     <string name="no">Non</string>
 
+    <!-- In call vibrate options -->
+    <string name="incall_vibration_category_title">Vibreur lors des appels</string>
+    <string name="incall_vibrate_outgoing_title">Vibrer en cas de réponse</string>
+    <string name="vibrate_call_waiting">Vibrer en cas d\'appel en attente</string>
+    <string name="incall_vibrate_hangup_title">Vibrer à la fin de l\'appel</string>
+    <string name="incall_vibrate_45_title">Vibrer chaque minute</string>
+    <string name="incall_vibrate_45_summary">Vibrer à la quarante-cinquième seconde de chaque minute lors des appels sortants</string>
+
 </resources>
