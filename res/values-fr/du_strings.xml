@@ -56,4 +56,12 @@
     <string name="incall_vibrate_45_title">Vibrer chaque minute</string>
     <string name="incall_vibrate_45_summary">Vibrer à la quarante-cinquième seconde de chaque minute lors des appels sortants</string>
 
+    <!-- Description for incoming calls that were blacklisted -->
+    <string name="type_blacklist">Liste des appels bloqués</string>
+    <string name="menu_add_to_blacklist">Ajouter à la liste des numéros de téléphone bloqués</string>
+    <string name="toast_added_to_blacklist">%s ajouté à la liste des numéros de téléphone bloqués</string>
+    <string name="toast_removed_from_blacklist">%s supprimé de la liste des numéros de téléphone bloqués</string>
+    <string name="call_log_action_block">Numéro de téléphone bloqués</string>
+    <string name="call_log_action_unblock">Numéro de téléphone débloqué</string>
+
 </resources>
