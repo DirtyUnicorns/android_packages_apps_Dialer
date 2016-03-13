@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2013-2014 The CyanogenMod Project
 
-     Licensed under the Apache License, Version 2.0 (the "License");
-     you may not use this file except in compliance with the License.
-     You may obtain a copy of the License at
-
-          http://www.apache.org/licenses/LICENSE-2.0
-
-     Unless required by applicable law or agreed to in writing, software
-     distributed under the License is distributed on an "AS IS" BASIS,
-     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-     See the License for the specific language governing permissions and
-     limitations under the License.
 
      French translation for Dirty Unicorns
 -->
@@ -63,5 +51,110 @@
     <string name="toast_removed_from_blacklist">%s supprimé de la liste des numéros de téléphone bloqués</string>
     <string name="call_log_action_block">Numéro de téléphone bloqués</string>
     <string name="call_log_action_unblock">Numéro de téléphone débloqué</string>
+
+    <!-- https://android.googlesource.com/platform/packages/apps/Dialer/+/e3813d9a3aa0464fa34e532e8971ec6e8edfff9f/res/values-fr/strings.xml -->
+
+    <!-- Text for a menu item to report a call as having been incorrectly identified.
+         [CHAR LIMIT=30] -->
+    <string name="call_detail_menu_report">Signaler un numéro incorrect</string>
+
+    <!-- Label of the button displayed when the call log is empty. Allows the user to make a call. -->
+    <string name="recentCalls_empty_action">Passer un appel</string>
+
+    <!-- Title for promo card for visual voicemail. [CHAR LIMIT=40] -->
+    <string name="visual_voicemail_title">Messagerie vocale visuelle</string>
+
+    <!-- Promo card text for visual voicemail. -->
+    <string name="visual_voicemail_text">Affichez et écoutez vos messages vocaux, sans devoir appeler un numéro. Des frais supplémentaires liés à la consommation de données peuvent être facturés.</string>
+
+    <!-- Text for "Settings" link for visual voicemail promo card. [CHAR LIMIT=30] -->
+    <string name="visual_voicemail_settings">Settings</string>
+
+    <!-- A nicely formatted call duration displayed when viewing call details for duration less than 1 minute. For example "28 sec" -->
+    <string name="callDetailsShortDurationFormat"><xliff:g id="seconds" example="28">%s</xliff:g> secondes</string>
+
+    <!-- Accessibility text for the tab showing the user's voicemails. [CHAR LIMIT=40] -->
+    <string name="tab_voicemail">Messagerie vocale</string>
+
+    <!-- Shortcut item used to add a number to an existing contact directly from search.
+         [CHAR LIMIT=25] -->
+    <string name="search_shortcut_add_to_contact">Ajouter à un contact</string>
+
+    <!-- Title for the call log list item that brings users to the full call history when clicked -->
+    <string name="show_call_history">Afficher tout l\'historique des appels</string>
+
+    <!-- Shown as an action when there are no speed dial favorites -->
+    <string name="speed_dial_empty_add_favorite_action">Ajouter un favori</string>
+
+    <!-- Shown as an action when the all contacts list is empty -->
+    <string name="all_contacts_empty_add_contact_action">Ajouter un contact</string>
+
+    <!-- Button text for a button displayed underneath an entry in the call log, which opens up a
+         messaging app to send a SMS to the number represented by the call log entry.
+         [CHAR LIMIT=30] -->
+    <string name="call_log_action_send_message">Envoyer un message</string>
+
+    <!-- Button text for the button displayed underneath an entry in the call log, which when
+         tapped triggers a return call to the named user. [CHAR LIMIT=30] -->
+    <string name="call_log_action_call">Appeler <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g></string>
+
+    <!-- String describing the "play voicemail" action for an entry in the call log.
+         Note: AccessibilityServices uses this attribute to announce the purpose of the button.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_voicemail_play">Lire le message vocal de <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g></string>
+
+    <!-- String describing the "pause voicemail" action for an entry in the call log.
+         Note: AccessibilityServices uses this attribute to announce the purpose of the button.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_voicemail_pause">Interrompre le message vocal de <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g></string>
+
+    <!-- String describing the "delete voicemail" action for an entry in the call log.
+         Note: AccessibilityServices uses this attribute to announce the purpose of the button.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_voicemail_delete">Supprimer le message vocal de <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g></string>
+
+    <!-- String describing the number of new voicemails, displayed as a number badge on a tab.
+         Note: AccessibilityServices uses this attribute to announce the purpose of the button.
+         [CHAR LIMIT=NONE] -->
+    <plurals name="description_voicemail_unread">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> nouveau message vocal</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> nouveaux messages vocaux</item>
+    </plurals>
+
+    <!-- Description for the "create new contact" action for an entry in the call log. This action
+         opens a screen for creating a new contact for this name or number. [CHAR LIMIT=NONE] -->
+    <string name="description_create_new_contact_action">Créer un contact pour \"<xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>\"</string>
+
+    <!-- Description for the "add to existing contact" action for an entry in the call log. This
+         action opens a screen for adding this name or number to an existing contact.
+         [CHAR LIMIT=NONE] -->
+    <string name="description_add_to_existing_contact_action">Ajouter \"<xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>\" à un contact</string>
+
+    <!-- The label of the button used to turn on a single permission -->
+    <string name="permission_single_turn_on">Activer</string>
+
+    <!--  The label of the button used to turn on multiple permissions -->
+    <string name="permission_multiple_turn_on">Définir les autorisations</string>
+
+    <!-- Shown as a prompt to turn on the contacts permission to enable speed dial -->
+    <string name="permission_no_speeddial">Pour activer la numérotation abrégée,\n activez l\'autorisation Contacts.</string>
+
+    <!-- Shown as a prompt to turn on the phone permission to enable the call log -->
+    <string name="permission_no_calllog">Pour consulter votre journal d\'appels,\n activez l\'autorisation Téléphone.</string>
+
+    <!-- Shown as a prompt to turn on the contacts permission to show all contacts -->
+    <string name="permission_no_contacts">Pour consulter vos contacts,\n activez l\'autorisation Contacts.</string>
+
+    <!-- Shown as a prompt to turn on the phone permission to show voicemails -->
+    <string name="permission_no_voicemail">Pour accéder à votre messagerie vocale,\n activez l\'autorisation Téléphone.</string>
+
+    <!-- Shown as a prompt to turn on contacts permissions to allow contact search -->
+    <string name="permission_no_search">Pour rechercher vos contacts, activez l\'autorisation Contacts.</string>
+
+    <!-- Shown as a prompt to turn on the phone permission to allow a call to be placed -->
+    <string name="permission_place_call">Pour passer un appel,\n activez l\'autorisation Téléphone.</string>
+
+    <!-- Shown as a message that notifies the user that the Phone app cannot write to system settings, which is why the system settings app is being launched directly instead.-->
+    <string name="toast_cannot_write_system_settings">L\'application Téléphone n\'est pas autorisée à modifier les paramètres du système.</string>
 
 </resources>
