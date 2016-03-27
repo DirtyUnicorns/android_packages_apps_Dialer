@@ -40,8 +40,6 @@ public final class LookupSettings {
     /** Reverse lookup providers */
     public static final String RLP_OPENCNAM = "OpenCnam";
     public static final String RLP_WHITEPAGES = "WhitePages";
-    public static final String RLP_YELLOWPAGES = "YellowPages";
-    public static final String RLP_YELLOWPAGES_CA = "YellowPages_CA";
     public static final String RLP_ZABASEARCH = "ZabaSearch";
     public static final String RLP_CYNGN_CHINESE = "CyngnChinese";
     public static final String RLP_DASTELEFONBUCH = "DasTelefonbuch";

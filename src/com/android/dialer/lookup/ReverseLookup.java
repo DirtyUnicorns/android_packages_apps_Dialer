@@ -23,7 +23,6 @@ import com.android.dialer.lookup.dastelefonbuch.TelefonbuchReverseLookup;
 import com.android.dialer.lookup.gebeld.GebeldReverseLookup;
 import com.android.dialer.lookup.opencnam.OpenCnamReverseLookup;
 import com.android.dialer.lookup.whitepages.WhitePagesReverseLookup;
-import com.android.dialer.lookup.yellowpages.YellowPagesReverseLookup;
 import com.android.dialer.lookup.zabasearch.ZabaSearchReverseLookup;
 
 import android.content.Context;
@@ -48,9 +47,6 @@ public abstract class ReverseLookup {
                 INSTANCE = new OpenCnamReverseLookup(context);
             } else if (provider.equals(LookupSettings.RLP_WHITEPAGES)) {
                 INSTANCE = new WhitePagesReverseLookup(context);
-            } else if (provider.equals(LookupSettings.RLP_YELLOWPAGES)
-                    || provider.equals(LookupSettings.RLP_YELLOWPAGES_CA)) {
-                INSTANCE = new YellowPagesReverseLookup(context);
             } else if (provider.equals(LookupSettings.RLP_ZABASEARCH)) {
                 INSTANCE = new ZabaSearchReverseLookup(context);
             } else if (provider.equals(LookupSettings.RLP_CYNGN_CHINESE)) {
@@ -73,10 +69,6 @@ public abstract class ReverseLookup {
             return true;
         } else if (provider.equals(LookupSettings.RLP_WHITEPAGES)
                 && INSTANCE instanceof WhitePagesReverseLookup) {
-            return true;
-        } else if ((provider.equals(LookupSettings.RLP_YELLOWPAGES)
-                || provider.equals(LookupSettings.RLP_YELLOWPAGES_CA))
-                && INSTANCE instanceof YellowPagesReverseLookup) {
             return true;
         } else if (provider.equals(LookupSettings.RLP_ZABASEARCH)
                 && INSTANCE instanceof ZabaSearchReverseLookup) {
