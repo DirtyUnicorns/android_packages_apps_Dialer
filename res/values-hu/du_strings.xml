@@ -17,44 +17,44 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Forward lookup -->
-  <string name="nearby_places">Nearby places</string>
-  <string name="people">People</string>
+  <string name="nearby_places">Közeli helyek</string>
+  <string name="people">Személyek</string>
   <!-- Number lookup -->
-  <string name="lookup_settings_label">Phone number lookup</string>
-  <string name="lookup_settings_description">Lookup of unknown phone numbers</string>
-  <string name="enable_forward_lookup_title">Forward lookup</string>
-  <string name="enable_forward_lookup_summary">Show nearby places when searching in the dialer</string>
-  <string name="enable_people_lookup_title">People lookup</string>
-  <string name="enable_people_lookup_summary">Show online results for people when searching in the dialer</string>
-  <string name="enable_reverse_lookup_title">Reverse lookup</string>
-  <string name="enable_reverse_lookup_summary">Look up information about the person or place for unknown numbers on incoming calls</string>
-  <string name="forward_lookup_provider_title">Forward lookup provider</string>
-  <string name="people_lookup_provider_title">People lookup provider</string>
-  <string name="reverse_lookup_provider_title">Reverse lookup provider</string>
+  <string name="lookup_settings_label">Telefonszám keresése</string>
+  <string name="lookup_settings_description">Keresés ismeretlen telefonszámok esetén</string>
+  <string name="enable_forward_lookup_title">Címkeresés</string>
+  <string name="enable_forward_lookup_summary">Közeli helyek mutatása a tárcsázóban keresés közben</string>
+  <string name="enable_people_lookup_title">Személy keresés</string>
+  <string name="enable_people_lookup_summary">Online eredmények megjelenítése a tárcsázóban történő személy kereséskor</string>
+  <string name="enable_reverse_lookup_title">Névkeresés</string>
+  <string name="enable_reverse_lookup_summary">Személy vagy hely információk megjelenítése ismeretlen számról történő bejövő hívás esetén</string>
+  <string name="forward_lookup_provider_title">Címkeresési szolgáltató</string>
+  <string name="people_lookup_provider_title">Személy keresési szolgáltató</string>
+  <string name="reverse_lookup_provider_title">Névkeresési szolgáltató</string>
   <!-- Chinese Reverse Lookup Provider -->
-  <string name="cyngn_reverse_lookup_provider_name">Cyngn Chinese (CN)</string>
+  <string name="cyngn_reverse_lookup_provider_name">Cyngn Kínai (CN)</string>
   <!--  for speed dial -->
-  <string name="speed_dial_settings">Speed dial settings</string>
-  <string name="speed_dial_not_set">(not set)</string>
-  <string name="speed_dial_replace">Replace</string>
-  <string name="speed_dial_delete">Delete</string>
-  <string name="speed_dial_unassigned_dialog_title">Key unassigned</string>
-  <string name="speed_dial_unassigned_dialog_message">No speed dial action is assigned to number key \'<xliff:g id="number">%s</xliff:g>\'. Do you want to assign an action now?</string>
-  <string name="dialog_speed_dial_airplane_mode_message">To use speed dial, first turn off Airplane mode.</string>
-  <string name="yes">Yes</string>
-  <string name="no">No</string>
+  <string name="speed_dial_settings">Gyorstárcsázó beállítások</string>
+  <string name="speed_dial_not_set">(nincs beállítva)</string>
+  <string name="speed_dial_replace">Cserél</string>
+  <string name="speed_dial_delete">Törlés</string>
+  <string name="speed_dial_unassigned_dialog_title">Nem hozzárendelt kulcs</string>
+  <string name="speed_dial_unassigned_dialog_message">Nincs gyorstárcsázási művelet hozzárendelve a következő számhoz: \"<xliff:g id="number">%s</xliff:g>\". Szeretne most hozzárendelni egy műveletet?</string>
+  <string name="dialog_speed_dial_airplane_mode_message">Gyorshívás használatához először kapcsolja ki a Repülőgép üzemmódot.</string>
+  <string name="yes">Igen</string>
+  <string name="no">Nem</string>
   <!-- In call vibrate options -->
-  <string name="incall_vibration_category_title">In-call vibration</string>
-  <string name="incall_vibrate_outgoing_title">Vibrate on answer</string>
-  <string name="vibrate_call_waiting">Vibrate on call waiting</string>
-  <string name="incall_vibrate_hangup_title">Vibrate on hang up</string>
-  <string name="incall_vibrate_45_title">Vibrate every minute</string>
-  <string name="incall_vibrate_45_summary">Vibrates at the 45 second mark of every minute during outgoing calls</string>
+  <string name="incall_vibration_category_title">Hívás közbeni rezgés</string>
+  <string name="incall_vibrate_outgoing_title">Válaszkor rezeg</string>
+  <string name="vibrate_call_waiting">Hívásvárakoztatáskor rezeg</string>
+  <string name="incall_vibrate_hangup_title">Bontáskor rezeg</string>
+  <string name="incall_vibrate_45_title">45 mp-ként rezeg</string>
+  <string name="incall_vibrate_45_summary">Minden 45. másodpercben rezeg a kimenő hívások során</string>
   <!-- Description for incoming calls that were blacklisted -->
-  <string name="type_blacklist">Blacklisted call</string>
-  <string name="menu_add_to_blacklist">Add to blocked caller list</string>
-  <string name="toast_added_to_blacklist">%s added to blocked caller list.</string>
-  <string name="toast_removed_from_blacklist">%s removed from blocked caller list.</string>
-  <string name="call_log_action_block">Block caller</string>
-  <string name="call_log_action_unblock">Caller blocked</string>
+  <string name="type_blacklist">Tiltólistára tett hívás</string>
+  <string name="menu_add_to_blacklist">Hozzáadás a blokkolt hívók listájához</string>
+  <string name="toast_added_to_blacklist">%s hozzáadva a blokkolt hívók listájához.</string>
+  <string name="toast_removed_from_blacklist">%s eltávolítva a blokkolt hívók listájáról.</string>
+  <string name="call_log_action_block">Hívó blokkolása</string>
+  <string name="call_log_action_unblock">Hívó blokkolva</string>
 </resources>

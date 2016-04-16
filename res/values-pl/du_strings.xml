@@ -23,11 +23,11 @@
   <string name="lookup_settings_label">Wyszukiwanie numeru telefonu</string>
   <string name="lookup_settings_description">Wyszukiwanie nieznanych numerów</string>
   <string name="enable_forward_lookup_title">Wyszukiwanie w przód</string>
-  <string name="enable_forward_lookup_summary">Show nearby places when searching in the dialer</string>
+  <string name="enable_forward_lookup_summary">Pokaż miejsca w pobliżu podczas wyszukiwania w dialerze</string>
   <string name="enable_people_lookup_title">Wyszukiwanie osób</string>
-  <string name="enable_people_lookup_summary">Show online results for people when searching in the dialer</string>
+  <string name="enable_people_lookup_summary">Pokaż wyniki online dla osób podczas wyszukiwania w dialerze</string>
   <string name="enable_reverse_lookup_title">Wyszukiwanie wstecz</string>
-  <string name="enable_reverse_lookup_summary">Look up information about the person or place for unknown numbers on incoming calls</string>
+  <string name="enable_reverse_lookup_summary">Wyszukuj informacje na temat osoby lub miejsca w przypadku połączeń przychodzących od nieznanych numerów</string>
   <string name="forward_lookup_provider_title">Dostawca wyszukiwania w przód</string>
   <string name="people_lookup_provider_title">Dostawca wyszukiwania osób</string>
   <string name="reverse_lookup_provider_title">Dostawca wyszukiwania wstecz</string>
@@ -39,8 +39,8 @@
   <string name="speed_dial_replace">Zastąp</string>
   <string name="speed_dial_delete">Usuń</string>
   <string name="speed_dial_unassigned_dialog_title">Klawisz nieprzypisany</string>
-  <string name="speed_dial_unassigned_dialog_message">No speed dial action is assigned to number key \'<xliff:g id="number">%s</xliff:g>\'. Do you want to assign an action now?</string>
-  <string name="dialog_speed_dial_airplane_mode_message">To use speed dial, first turn off Airplane mode.</string>
+  <string name="speed_dial_unassigned_dialog_message">Do klawisza \'<xliff:g id="number">%s</xliff:g>\' nie przypisano żadnej akcji szybkiego wybierania. Czy chcesz przypisać ją teraz?</string>
+  <string name="dialog_speed_dial_airplane_mode_message">Aby korzystać z szybkiego wybierania, najpierw należy wyłączyć tryb samolotowy.</string>
   <string name="yes">Tak</string>
   <string name="no">Nie</string>
   <!-- In call vibrate options -->
@@ -49,7 +49,7 @@
   <string name="vibrate_call_waiting">Wibracja przy połączeniu oczekującym</string>
   <string name="incall_vibrate_hangup_title">Wibracja przy rozłączeniu</string>
   <string name="incall_vibrate_45_title">Wibracja co minutę</string>
-  <string name="incall_vibrate_45_summary">Vibrates at the 45 second mark of every minute during outgoing calls</string>
+  <string name="incall_vibrate_45_summary">Wibruje co 45 sekundę w każdej minucie podczas trwania połączeń wychodzących</string>
   <!-- Description for incoming calls that were blacklisted -->
   <string name="type_blacklist">Połączenie z czarnej listy</string>
   <string name="menu_add_to_blacklist">Dodaj do czarnej listy</string>

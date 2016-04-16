@@ -21,13 +21,13 @@
   <string name="people">Personer</string>
   <!-- Number lookup -->
   <string name="lookup_settings_label">Telefonnummersökning</string>
-  <string name="lookup_settings_description">Lookup of unknown phone numbers</string>
-  <string name="enable_forward_lookup_title">Forward lookup</string>
-  <string name="enable_forward_lookup_summary">Show nearby places when searching in the dialer</string>
-  <string name="enable_people_lookup_title">People lookup</string>
-  <string name="enable_people_lookup_summary">Show online results for people when searching in the dialer</string>
-  <string name="enable_reverse_lookup_title">Reverse lookup</string>
-  <string name="enable_reverse_lookup_summary">Look up information about the person or place for unknown numbers on incoming calls</string>
+  <string name="lookup_settings_description">Sökning av okända telefonnummer</string>
+  <string name="enable_forward_lookup_title">Platssökning</string>
+  <string name="enable_forward_lookup_summary">Visa närliggande platser när du söker i telefon</string>
+  <string name="enable_people_lookup_title">Personsökning</string>
+  <string name="enable_people_lookup_summary">Visa online resultat för personer när du söker i telefonen</string>
+  <string name="enable_reverse_lookup_title">Omvänd sökning</string>
+  <string name="enable_reverse_lookup_summary">Sök efter information om personen eller platsen för okända nummer vid inkommande samtal</string>
   <string name="forward_lookup_provider_title">Forward lookup provider</string>
   <string name="people_lookup_provider_title">People lookup provider</string>
   <string name="reverse_lookup_provider_title">Reverse lookup provider</string>

@@ -40,7 +40,7 @@
   <string name="recentCalls_callNumber">Ring <xliff:g id="NAME">%s</xliff:g></string>
   <!-- Text for a menu item to report a call as having been incorrectly identified.
          [CHAR LIMIT=30] -->
-  <string name="call_detail_menu_report">Report inaccurate number</string>
+  <string name="call_detail_menu_report">Rapportera felaktiga nummer</string>
   <!-- Menu item used to copy a number from the call log to the dialer so it can be edited before calling it -->
   <string name="recentCalls_editNumberBeforeCall">Redigera nummer före samtal</string>
   <!-- Menu item used to add a number from the call log to contacts -->
@@ -347,10 +347,8 @@
   <string name="dialer_hint_find_contact">Ange ett namn eller telefonnummer</string>
   <!-- String resource for the font-family to use for the call log activity's title
          Do not translate. -->
-  <string name="call_log_activity_title_font_family">sans-serif-light</string>
   <!-- String resource for the font-family to use for the full call history footer
          Do not translate. -->
-  <string name="view_full_call_history_font_family">sans-serif</string>
   <!-- Text displayed when the list of missed calls is empty -->
   <string name="recentMissed_empty">Inga samtal</string>
   <!-- Text displayed when the list of voicemails is empty -->

@@ -346,10 +346,8 @@
   <string name="dialer_hint_find_contact">輸入姓名或電話號碼</string>
   <!-- String resource for the font-family to use for the call log activity's title
          Do not translate. -->
-  <string name="call_log_activity_title_font_family">sans-serif-light</string>
   <!-- String resource for the font-family to use for the full call history footer
          Do not translate. -->
-  <string name="view_full_call_history_font_family">sans-serif</string>
   <!-- Text displayed when the list of missed calls is empty -->
   <string name="recentMissed_empty">沒有通話紀錄</string>
   <!-- Text displayed when the list of voicemails is empty -->

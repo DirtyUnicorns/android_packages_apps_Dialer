@@ -32,7 +32,7 @@
   <string name="people_lookup_provider_title">Personensuche Provider</string>
   <string name="reverse_lookup_provider_title">Rückwärtssuche Provider</string>
   <!-- Chinese Reverse Lookup Provider -->
-  <string name="cyngn_reverse_lookup_provider_name">Cyngn Chinese (CN)</string>
+  <string name="cyngn_reverse_lookup_provider_name">Cyngn Chinesisch (CN)</string>
   <!--  for speed dial -->
   <string name="speed_dial_settings">Kurzwahl Einstellungen</string>
   <string name="speed_dial_not_set">(nicht gesetzt)</string>

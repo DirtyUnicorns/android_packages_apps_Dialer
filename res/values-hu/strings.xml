@@ -40,7 +40,7 @@
   <string name="recentCalls_callNumber"><xliff:g id="NAME">%s</xliff:g> hívása</string>
   <!-- Text for a menu item to report a call as having been incorrectly identified.
          [CHAR LIMIT=30] -->
-  <string name="call_detail_menu_report">Report inaccurate number</string>
+  <string name="call_detail_menu_report">Helytelen szám jelentése</string>
   <!-- Menu item used to copy a number from the call log to the dialer so it can be edited before calling it -->
   <string name="recentCalls_editNumberBeforeCall">Szám szerkesztése hívás előtt</string>
   <!-- Menu item used to add a number from the call log to contacts -->
@@ -56,7 +56,7 @@
   <!-- Text displayed when the call log is empty. -->
   <string name="recentCalls_empty">Nincsenek hívások</string>
   <!-- Label of the button displayed when the call log is empty. Allows the user to make a call. -->
-  <string name="recentCalls_empty_action">Make a call</string>
+  <string name="recentCalls_empty_action">Hívásindítás</string>
   <!-- Title of the confirmation dialog for clearing the call log. [CHAR LIMIT=37]  -->
   <string name="clearCallLogConfirmation_title">Törli a híváslistát?</string>
   <!-- Confirmation dialog for clearing the call log. [CHAR LIMIT=NONE]  -->
@@ -98,13 +98,13 @@
   <!-- The header to show that call log is only showing missed calls. [CHAR LIMIT=40] -->
   <string name="call_log_missed_header">Csak nem fogadott hívások</string>
   <!-- Title for promo card for visual voicemail. [CHAR LIMIT=40] -->
-  <string name="visual_voicemail_title">Visual voicemail</string>
+  <string name="visual_voicemail_title">Vizuális hangpostaüzenet</string>
   <!-- Promo card text for visual voicemail. -->
   <string name="visual_voicemail_text">
-        See and listen to your voicemail, without having to call a number. Data charges may apply.
+        Hangposta hallgatása és megtekintése hívószám nélkül. Adathasználati díjak merülhetnek fel.
     </string>
   <!-- Text for "Settings" link for visual voicemail promo card. [CHAR LIMIT=30] -->
-  <string name="visual_voicemail_settings">Settings</string>
+  <string name="visual_voicemail_settings">Beállitások</string>
   <!--  Voicemail status message shown at the top of call log to notify the user that no new
     voicemails are currently available. This can happen when both notification as well as data
     connection to the voicemail server is lost. [CHAR LIMIT=64] -->
@@ -309,7 +309,7 @@
   <!-- String used to display calls from pay phone in the call log -->
   <string name="payphone">Nyilvános telefon</string>
   <!-- A nicely formatted call duration displayed when viewing call details for duration less than 1 minute. For example "28 sec" -->
-  <string name="callDetailsShortDurationFormat"><xliff:g id="seconds" example="28">%s</xliff:g> sec</string>
+  <string name="callDetailsShortDurationFormat"><xliff:g id="seconds" example="28">%s</xliff:g> mp</string>
   <!-- A nicely formatted call duration displayed when viewing call details. For example "42 min 28 sec" -->
   <string name="callDetailsDurationFormat"><xliff:g id="MINUTES">%s</xliff:g> perc <xliff:g id="SECONDS">%s</xliff:g> másodperc</string>
   <!-- Dialog message which is shown when the user tries to make a phone call
@@ -329,7 +329,7 @@
   <!-- The title of a dialog that displays the MEID of the CDMA phone -->
   <string name="meid">MEID</string>
   <!-- Dialog text displayed when loading a phone number from the SIM card for speed dial -->
-  <string name="simContacts_emptyLoading">Betöltés a SIM kártyáról...</string>
+  <string name="simContacts_emptyLoading">Betöltés a SIM kártyáról\u2026</string>
   <!-- Dialog title displayed when loading a phone number from the SIM card for speed dial -->
   <string name="simContacts_title">Névjegyek a SIM kártyán</string>
   <!-- Message displayed when there is no application available to handle the add contact menu option. [CHAR LIMIT=NONE] -->
@@ -347,10 +347,8 @@
   <string name="dialer_hint_find_contact">Név vagy telefonszám megadása</string>
   <!-- String resource for the font-family to use for the call log activity's title
          Do not translate. -->
-  <string name="call_log_activity_title_font_family">sans-serif-light</string>
   <!-- String resource for the font-family to use for the full call history footer
          Do not translate. -->
-  <string name="view_full_call_history_font_family">sans-serif</string>
   <!-- Text displayed when the list of missed calls is empty -->
   <string name="recentMissed_empty">Nincsenek hívások</string>
   <!-- Text displayed when the list of voicemails is empty -->
@@ -376,7 +374,7 @@
   <!-- Accessibility text for the tab showing the user's contacts. [CHAR LIMIT=40] -->
   <string name="tab_all_contacts">Címtár</string>
   <!-- Accessibility text for the tab showing the user's voicemails. [CHAR LIMIT=40] -->
-  <string name="tab_voicemail">Voicemail</string>
+  <string name="tab_voicemail">Hangposta</string>
   <!--  Text displayed when user swipes out a favorite contact -->
   <string name="favorite_hidden">Eltávolítva a kedvencek közül</string>
   <!--  Text displayed for the undo button to undo removing a favorite contact -->
@@ -388,23 +386,23 @@
   <string name="search_shortcut_create_new_contact">Új névjegy létrehozása</string>
   <!-- Shortcut item used to add a number to an existing contact directly from search.
          [CHAR LIMIT=25] -->
-  <string name="search_shortcut_add_to_contact">Add to a contact</string>
+  <string name="search_shortcut_add_to_contact">Hozzáadás a névjegyekhez</string>
   <!-- Shortcut item used to send a text message directly from search. [CHAR LIMIT=25] -->
   <string name="search_shortcut_send_sms_message">SMS küldése</string>
   <!-- Shortcut item used to make a video call directly from search. [CHAR LIMIT=25] -->
   <string name="search_shortcut_make_video_call">Videohívás kezdeményezése</string>
   <!-- Title for the call log list item that brings users to the full call history when clicked -->
-  <string name="show_call_history">View full call history</string>
+  <string name="show_call_history">Teljes híváselőzmények megtekintése</string>
   <!-- Number of missed calls shown on call card [CHAR LIMIT=40] -->
   <string name="num_missed_calls"><xliff:g id="NUMBER">%s</xliff:g> új nem fogadott hívás</string>
   <!-- Shown when there are no speed dial favorites. -->
   <string name="speed_dial_empty">A gyorshívás egyérintéses tárcsázást jelent a kedvenc és gyakran hívott számokhoz</string>
   <!-- Shown as an action when there are no speed dial favorites -->
-  <string name="speed_dial_empty_add_favorite_action">Add a favorite</string>
+  <string name="speed_dial_empty_add_favorite_action">Kedvenc hozzáadása</string>
   <!-- Shown when there are no contacts in the all contacts list. -->
   <string name="all_contacts_empty">Nincsenek névjegyek</string>
   <!-- Shown as an action when the all contacts list is empty -->
-  <string name="all_contacts_empty_add_contact_action">Add a contact</string>
+  <string name="all_contacts_empty_add_contact_action">Névjegy hozzáadása</string>
   <!-- Shows up as a tooltip to provide a hint to the user that the profile pic in a contact
          card can be tapped to bring up a list of all numbers, or long pressed to start reordering
          [CHAR LIMIT=NONE]
@@ -419,7 +417,7 @@
   <!-- Button text for a button displayed underneath an entry in the call log, which opens up a
          messaging app to send a SMS to the number represented by the call log entry.
          [CHAR LIMIT=30] -->
-  <string name="call_log_action_send_message">Send Message</string>
+  <string name="call_log_action_send_message">Üzenet küldése</string>
   <!-- Button text for the button displayed underneath an entry in the call log.
          Tapping navigates the user to the call details screen where the user can view details for
          the call log entry. [CHAR LIMIT=30] -->
@@ -427,7 +425,7 @@
   <!-- Button text for the button displayed underneath an entry in the call log, which when
          tapped triggers a return call to the named user. [CHAR LIMIT=30] -->
   <string name="call_log_action_call">
-        Call <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
+        <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g> hívása
     </string>
   <!-- String describing an incoming missed call entry in the call log.
          Note: AccessibilityServices uses this attribute to announce what the view represents.
@@ -470,37 +468,37 @@
          Note: AccessibilityServices uses this attribute to announce the purpose of the button.
          [CHAR LIMIT=NONE] -->
   <string name="description_voicemail_play">
-        Play voicemail from <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
+        <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g> hangpostaüzenetének meghallgatása
     </string>
   <!-- String describing the "pause voicemail" action for an entry in the call log.
          Note: AccessibilityServices uses this attribute to announce the purpose of the button.
          [CHAR LIMIT=NONE] -->
   <string name="description_voicemail_pause">
-        Pause voicemail from <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
+        <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g> hangpostaüzenetének megállítása
     </string>
   <!-- String describing the "delete voicemail" action for an entry in the call log.
          Note: AccessibilityServices uses this attribute to announce the purpose of the button.
          [CHAR LIMIT=NONE] -->
   <string name="description_voicemail_delete">
-        Delete voicemail from <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
+        <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g> hangpostaüzenetének törlése
     </string>
   <!-- String describing the number of new voicemails, displayed as a number badge on a tab.
          Note: AccessibilityServices uses this attribute to announce the purpose of the button.
          [CHAR LIMIT=NONE] -->
   <plurals name="description_voicemail_unread">
-    <item quantity="one"><xliff:g id="count">%d</xliff:g> new voicemail</item>
-    <item quantity="other"><xliff:g id="count">%d</xliff:g> new voicemails</item>
+    <item quantity="one"><xliff:g id="count">%d</xliff:g> új hangpostaüzenet</item>
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> új hangpostaüzenet</item>
   </plurals>
   <!-- Description for the "create new contact" action for an entry in the call log. This action
          opens a screen for creating a new contact for this name or number. [CHAR LIMIT=NONE] -->
   <string name="description_create_new_contact_action">
-        Create contact for <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
+        <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g> kapcsolat létrehozása
     </string>
   <!-- Description for the "add to existing contact" action for an entry in the call log. This
          action opens a screen for adding this name or number to an existing contact.
          [CHAR LIMIT=NONE] -->
   <string name="description_add_to_existing_contact_action">
-        Add <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g> to existing contact
+        <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g> hozzáadása meglévő kapcsolathoz
     </string>
   <!-- String describing the "details" action for an entry in the call log.  The details action
          displays the call details screen for an entry in the call log.  This shows the calls to
@@ -589,21 +587,21 @@
   <!-- DO NOT TRANSLATE. Internal key for vibrate when ringing preference. -->
   <!-- DO NOT TRANSLATE. Internal key for DTMF tone length preference. -->
   <!-- The label of the button used to turn on a single permission -->
-  <string name="permission_single_turn_on">Turn on</string>
+  <string name="permission_single_turn_on">Bekapcsolás</string>
   <!--  The label of the button used to turn on multiple permissions -->
-  <string name="permission_multiple_turn_on">Set permissions</string>
+  <string name="permission_multiple_turn_on">Engedélyek szerkeztése</string>
   <!-- Shown as a prompt to turn on the contacts permission to enable speed dial -->
-  <string name="permission_no_speeddial">To enable speed dial,\n turn on the Contacts permission.</string>
+  <string name="permission_no_speeddial">Gyorshívó engedélyezéséhez\n kapcsolja be a Névjegyek engedélyt.</string>
   <!-- Shown as a prompt to turn on the phone permission to enable the call log -->
-  <string name="permission_no_calllog">To see your call log,\n turn on the Phone permission.</string>
+  <string name="permission_no_calllog">A hívásnapló megjelenítéséhez\n kapcsolja be a Telefon engedélyt.</string>
   <!-- Shown as a prompt to turn on the contacts permission to show all contacts -->
-  <string name="permission_no_contacts">To see your contacts,\n turn on the Contacts permission.</string>
+  <string name="permission_no_contacts">A névjegyek megtekintéséhez\n kapcsolja be a Névjegyek engedélyt.</string>
   <!-- Shown as a prompt to turn on the phone permission to show voicemails -->
-  <string name="permission_no_voicemail">To access your voicemail,\n turn on the Phone permission.</string>
+  <string name="permission_no_voicemail">A hangposta eléréséhez\n kapcsolja be a Telefon engedélyt.</string>
   <!-- Shown as a prompt to turn on contacts permissions to allow contact search -->
-  <string name="permission_no_search">To search your contacts, turn on the Contacts permissions.</string>
+  <string name="permission_no_search">A névjegyek kereséséhez kapcsolja be a Névjegyek engedélyt.</string>
   <!-- Shown as a prompt to turn on the phone permission to allow a call to be placed -->
-  <string name="permission_place_call">To place a call,\n turn on the Phone permission.</string>
+  <string name="permission_place_call">Hívás kezdeményezéséhez\n kapcsolja be a Telefon engedélyt.</string>
   <!-- Shown as a message that notifies the user that the Phone app cannot write to system settings, which is why the system settings app is being launched directly instead.-->
-  <string name="toast_cannot_write_system_settings">Phone app does not have permission to write to system settings.</string>
+  <string name="toast_cannot_write_system_settings">Telefon alkalmazásnak nincs jogosultsága a rendszer beállításaiba írni.</string>
 </resources>
