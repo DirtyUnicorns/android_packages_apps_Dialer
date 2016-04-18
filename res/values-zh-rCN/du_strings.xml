@@ -17,44 +17,44 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Forward lookup -->
-  <string name="nearby_places">Nearby places</string>
-  <string name="people">People</string>
+  <string name="nearby_places">附近地点</string>
+  <string name="people">人</string>
   <!-- Number lookup -->
-  <string name="lookup_settings_label">Phone number lookup</string>
-  <string name="lookup_settings_description">Lookup of unknown phone numbers</string>
-  <string name="enable_forward_lookup_title">Forward lookup</string>
-  <string name="enable_forward_lookup_summary">Show nearby places when searching in the dialer</string>
-  <string name="enable_people_lookup_title">People lookup</string>
-  <string name="enable_people_lookup_summary">Show online results for people when searching in the dialer</string>
-  <string name="enable_reverse_lookup_title">Reverse lookup</string>
-  <string name="enable_reverse_lookup_summary">Look up information about the person or place for unknown numbers on incoming calls</string>
-  <string name="forward_lookup_provider_title">Forward lookup provider</string>
-  <string name="people_lookup_provider_title">People lookup provider</string>
-  <string name="reverse_lookup_provider_title">Reverse lookup provider</string>
+  <string name="lookup_settings_label">号码查询</string>
+  <string name="lookup_settings_description">查找未知的电话号码</string>
+  <string name="enable_forward_lookup_title">正向查询</string>
+  <string name="enable_forward_lookup_summary">在拨号器搜索时显示附近地点</string>
+  <string name="enable_people_lookup_title">人名查询</string>
+  <string name="enable_people_lookup_summary">在拨号器中搜索时显示在线人名搜索结果</string>
+  <string name="enable_reverse_lookup_title">反向查询</string>
+  <string name="enable_reverse_lookup_summary">为未知来电号码查询人名或地点信息</string>
+  <string name="forward_lookup_provider_title">正向查询提供商</string>
+  <string name="people_lookup_provider_title">人名查询提供商</string>
+  <string name="reverse_lookup_provider_title">反向查询提供商</string>
   <!-- Chinese Reverse Lookup Provider -->
-  <string name="cyngn_reverse_lookup_provider_name">Cyngn Chinese (CN)</string>
+  <string name="cyngn_reverse_lookup_provider_name">Cyngn 中文 (CN)</string>
   <!--  for speed dial -->
-  <string name="speed_dial_settings">Speed dial settings</string>
-  <string name="speed_dial_not_set">(not set)</string>
-  <string name="speed_dial_replace">Replace</string>
-  <string name="speed_dial_delete">Delete</string>
-  <string name="speed_dial_unassigned_dialog_title">Key unassigned</string>
-  <string name="speed_dial_unassigned_dialog_message">No speed dial action is assigned to number key \'<xliff:g id="number">%s</xliff:g>\'. Do you want to assign an action now?</string>
-  <string name="dialog_speed_dial_airplane_mode_message">To use speed dial, first turn off Airplane mode.</string>
-  <string name="yes">Yes</string>
-  <string name="no">No</string>
+  <string name="speed_dial_settings">快速拨号设置</string>
+  <string name="speed_dial_not_set">（未设置）</string>
+  <string name="speed_dial_replace">替换</string>
+  <string name="speed_dial_delete">删除</string>
+  <string name="speed_dial_unassigned_dialog_title">按键未分配</string>
+  <string name="speed_dial_unassigned_dialog_message">此快速拨号按键 “<xliff:g id="number">%s</xliff:g>” 尚未被使用，您现在想要指定一个动作吗？</string>
+  <string name="dialog_speed_dial_airplane_mode_message">若要使用快速拨号，请先关闭飞行模式。</string>
+  <string name="yes">是</string>
+  <string name="no">否</string>
   <!-- In call vibrate options -->
-  <string name="incall_vibration_category_title">In-call vibration</string>
-  <string name="incall_vibrate_outgoing_title">Vibrate on answer</string>
-  <string name="vibrate_call_waiting">Vibrate on call waiting</string>
-  <string name="incall_vibrate_hangup_title">Vibrate on hang up</string>
-  <string name="incall_vibrate_45_title">Vibrate every minute</string>
-  <string name="incall_vibrate_45_summary">Vibrates at the 45 second mark of every minute during outgoing calls</string>
+  <string name="incall_vibration_category_title">来电振动</string>
+  <string name="incall_vibrate_outgoing_title">对方接听时振动</string>
+  <string name="vibrate_call_waiting">呼叫等待时振动</string>
+  <string name="incall_vibrate_hangup_title">挂断时振动</string>
+  <string name="incall_vibrate_45_title">每分钟振动</string>
+  <string name="incall_vibrate_45_summary">呼出通话达到每分钟的 45 秒时振动</string>
   <!-- Description for incoming calls that were blacklisted -->
-  <string name="type_blacklist">Blacklisted call</string>
-  <string name="menu_add_to_blacklist">Add to blocked caller list</string>
-  <string name="toast_added_to_blacklist">%s added to blocked caller list.</string>
-  <string name="toast_removed_from_blacklist">%s removed from blocked caller list.</string>
-  <string name="call_log_action_block">Block caller</string>
-  <string name="call_log_action_unblock">Caller blocked</string>
+  <string name="type_blacklist">已屏蔽的呼叫</string>
+  <string name="menu_add_to_blacklist">添加到呼叫黑名单</string>
+  <string name="toast_added_to_blacklist">%s 已添加到呼叫黑名单。</string>
+  <string name="toast_removed_from_blacklist">%s 已从呼叫黑名单中删除</string>
+  <string name="call_log_action_block">屏蔽联系人</string>
+  <string name="call_log_action_unblock">已屏蔽的联系人</string>
 </resources>

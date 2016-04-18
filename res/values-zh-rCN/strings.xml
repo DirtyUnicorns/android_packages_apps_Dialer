@@ -40,7 +40,7 @@
   <string name="recentCalls_callNumber">呼叫<xliff:g id="NAME">%s</xliff:g></string>
   <!-- Text for a menu item to report a call as having been incorrectly identified.
          [CHAR LIMIT=30] -->
-  <string name="call_detail_menu_report">Report inaccurate number</string>
+  <string name="call_detail_menu_report">报告错误的号码</string>
   <!-- Menu item used to copy a number from the call log to the dialer so it can be edited before calling it -->
   <string name="recentCalls_editNumberBeforeCall">呼叫之前编辑号码</string>
   <!-- Menu item used to add a number from the call log to contacts -->
@@ -56,7 +56,7 @@
   <!-- Text displayed when the call log is empty. -->
   <string name="recentCalls_empty">没有任何通话</string>
   <!-- Label of the button displayed when the call log is empty. Allows the user to make a call. -->
-  <string name="recentCalls_empty_action">Make a call</string>
+  <string name="recentCalls_empty_action">拨打电话</string>
   <!-- Title of the confirmation dialog for clearing the call log. [CHAR LIMIT=37]  -->
   <string name="clearCallLogConfirmation_title">要清除通话记录吗？</string>
   <!-- Confirmation dialog for clearing the call log. [CHAR LIMIT=NONE]  -->
@@ -97,13 +97,12 @@
   <!-- The header to show that call log is only showing missed calls. [CHAR LIMIT=40] -->
   <string name="call_log_missed_header">只显示未接来电</string>
   <!-- Title for promo card for visual voicemail. [CHAR LIMIT=40] -->
-  <string name="visual_voicemail_title">Visual voicemail</string>
+  <string name="visual_voicemail_title">可视语音邮箱</string>
   <!-- Promo card text for visual voicemail. -->
   <string name="visual_voicemail_text">
-        See and listen to your voicemail, without having to call a number. Data charges may apply.
-    </string>
+无需拨号就可以查看和收听您的语音邮件。不过，可能会产生额外的数据流量费。    </string>
   <!-- Text for "Settings" link for visual voicemail promo card. [CHAR LIMIT=30] -->
-  <string name="visual_voicemail_settings">Settings</string>
+  <string name="visual_voicemail_settings">设置</string>
   <!--  Voicemail status message shown at the top of call log to notify the user that no new
     voicemails are currently available. This can happen when both notification as well as data
     connection to the voicemail server is lost. [CHAR LIMIT=64] -->
@@ -308,7 +307,7 @@
   <!-- String used to display calls from pay phone in the call log -->
   <string name="payphone">公用电话</string>
   <!-- A nicely formatted call duration displayed when viewing call details for duration less than 1 minute. For example "28 sec" -->
-  <string name="callDetailsShortDurationFormat"><xliff:g id="seconds" example="28">%s</xliff:g> sec</string>
+  <string name="callDetailsShortDurationFormat"><xliff:g id="seconds" example="28">%s</xliff:g> 秒</string>
   <!-- A nicely formatted call duration displayed when viewing call details. For example "42 min 28 sec" -->
   <string name="callDetailsDurationFormat"><xliff:g id="MINUTES">%s</xliff:g> 分钟 <xliff:g id="SECONDS">%s</xliff:g> 秒</string>
   <!-- Dialog message which is shown when the user tries to make a phone call
@@ -373,7 +372,7 @@
   <!-- Accessibility text for the tab showing the user's contacts. [CHAR LIMIT=40] -->
   <string name="tab_all_contacts">联系人</string>
   <!-- Accessibility text for the tab showing the user's voicemails. [CHAR LIMIT=40] -->
-  <string name="tab_voicemail">Voicemail</string>
+  <string name="tab_voicemail">语音邮件</string>
   <!--  Text displayed when user swipes out a favorite contact -->
   <string name="favorite_hidden">已从收藏中移除</string>
   <!--  Text displayed for the undo button to undo removing a favorite contact -->
@@ -385,23 +384,23 @@
   <string name="search_shortcut_create_new_contact">新建联系人</string>
   <!-- Shortcut item used to add a number to an existing contact directly from search.
          [CHAR LIMIT=25] -->
-  <string name="search_shortcut_add_to_contact">Add to a contact</string>
+  <string name="search_shortcut_add_to_contact">添加至联系人</string>
   <!-- Shortcut item used to send a text message directly from search. [CHAR LIMIT=25] -->
   <string name="search_shortcut_send_sms_message">发送短信</string>
   <!-- Shortcut item used to make a video call directly from search. [CHAR LIMIT=25] -->
   <string name="search_shortcut_make_video_call">发起视频通话</string>
   <!-- Title for the call log list item that brings users to the full call history when clicked -->
-  <string name="show_call_history">View full call history</string>
+  <string name="show_call_history">查看全部通话记录</string>
   <!-- Number of missed calls shown on call card [CHAR LIMIT=40] -->
   <string name="num_missed_calls"><xliff:g id="NUMBER">%s</xliff:g>个新的未接电话</string>
   <!-- Shown when there are no speed dial favorites. -->
   <string name="speed_dial_empty">使用快速拨号功能，只需轻轻一点即可拨打收藏联系人的电话号码以及经常拨打的电话号码。</string>
   <!-- Shown as an action when there are no speed dial favorites -->
-  <string name="speed_dial_empty_add_favorite_action">Add a favorite</string>
+  <string name="speed_dial_empty_add_favorite_action">添加至收藏夹</string>
   <!-- Shown when there are no contacts in the all contacts list. -->
   <string name="all_contacts_empty">没有联系人</string>
   <!-- Shown as an action when the all contacts list is empty -->
-  <string name="all_contacts_empty_add_contact_action">Add a contact</string>
+  <string name="all_contacts_empty_add_contact_action">添加至联系人</string>
   <!-- Shows up as a tooltip to provide a hint to the user that the profile pic in a contact
          card can be tapped to bring up a list of all numbers, or long pressed to start reordering
          [CHAR LIMIT=NONE]
@@ -416,7 +415,7 @@
   <!-- Button text for a button displayed underneath an entry in the call log, which opens up a
          messaging app to send a SMS to the number represented by the call log entry.
          [CHAR LIMIT=30] -->
-  <string name="call_log_action_send_message">Send Message</string>
+  <string name="call_log_action_send_message">发送信息</string>
   <!-- Button text for the button displayed underneath an entry in the call log.
          Tapping navigates the user to the call details screen where the user can view details for
          the call log entry. [CHAR LIMIT=30] -->
@@ -424,8 +423,7 @@
   <!-- Button text for the button displayed underneath an entry in the call log, which when
          tapped triggers a return call to the named user. [CHAR LIMIT=30] -->
   <string name="call_log_action_call">
-        Call <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
-    </string>
+呼叫<xliff:g id="NAMEORNUMBER">^1</xliff:g>    </string>
   <!-- String describing an incoming missed call entry in the call log.
          Note: AccessibilityServices uses this attribute to announce what the view represents.
          [CHAR LIMIT=NONE] -->
@@ -467,37 +465,32 @@
          Note: AccessibilityServices uses this attribute to announce the purpose of the button.
          [CHAR LIMIT=NONE] -->
   <string name="description_voicemail_play">
-        Play voicemail from <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
-    </string>
+播放来自<xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>的语音邮件    </string>
   <!-- String describing the "pause voicemail" action for an entry in the call log.
          Note: AccessibilityServices uses this attribute to announce the purpose of the button.
          [CHAR LIMIT=NONE] -->
   <string name="description_voicemail_pause">
-        Pause voicemail from <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
-    </string>
+暂停来自<xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>的语音邮件    </string>
   <!-- String describing the "delete voicemail" action for an entry in the call log.
          Note: AccessibilityServices uses this attribute to announce the purpose of the button.
          [CHAR LIMIT=NONE] -->
   <string name="description_voicemail_delete">
-        Delete voicemail from <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
-    </string>
+删除来自<xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>的语音邮件    </string>
   <!-- String describing the number of new voicemails, displayed as a number badge on a tab.
          Note: AccessibilityServices uses this attribute to announce the purpose of the button.
          [CHAR LIMIT=NONE] -->
   <plurals name="description_voicemail_unread">
-    <item quantity="other"><xliff:g id="count">%d</xliff:g> new voicemails</item>
+    <item quantity="other"><xliff:g id="count">%d</xliff:g>条新语音邮件</item>
   </plurals>
   <!-- Description for the "create new contact" action for an entry in the call log. This action
          opens a screen for creating a new contact for this name or number. [CHAR LIMIT=NONE] -->
   <string name="description_create_new_contact_action">
-        Create contact for <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
-    </string>
+为<xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>创建联系人信息    </string>
   <!-- Description for the "add to existing contact" action for an entry in the call log. This
          action opens a screen for adding this name or number to an existing contact.
          [CHAR LIMIT=NONE] -->
   <string name="description_add_to_existing_contact_action">
-        Add <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g> to existing contact
-    </string>
+将<xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g> 添加到现有联系人    </string>
   <!-- String describing the "details" action for an entry in the call log.  The details action
          displays the call details screen for an entry in the call log.  This shows the calls to
          and from the specified number associated with the call log entry.
