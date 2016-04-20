@@ -56,7 +56,7 @@
   <!-- Text displayed when the call log is empty. -->
   <string name="recentCalls_empty">Keine Anrufe</string>
   <!-- Label of the button displayed when the call log is empty. Allows the user to make a call. -->
-  <string name="recentCalls_empty_action">Anrufen</string>
+  <string name="recentCalls_empty_action">Anruf tätigen</string>
   <!-- Title of the confirmation dialog for clearing the call log. [CHAR LIMIT=37]  -->
   <string name="clearCallLogConfirmation_title">Anrufliste löschen?</string>
   <!-- Confirmation dialog for clearing the call log. [CHAR LIMIT=NONE]  -->
@@ -396,7 +396,7 @@
   <!-- Number of missed calls shown on call card [CHAR LIMIT=40] -->
   <string name="num_missed_calls"><xliff:g id="NUMBER">%s</xliff:g> neue verpasste Anrufe</string>
   <!-- Shown when there are no speed dial favorites. -->
-  <string name="speed_dial_empty">Schnellauswahl bedeutet Rufaufbau mit einer Berührung für Favoriten und häufig angerufene Nummern.</string>
+  <string name="speed_dial_empty">Kurzwahl ermöglicht den Rufaufbau mit einer Berührung, für favoriten und häufig angerufene Nummern</string>
   <!-- Shown as an action when there are no speed dial favorites -->
   <string name="speed_dial_empty_add_favorite_action">Favorit hinzufügen</string>
   <!-- Shown when there are no contacts in the all contacts list. -->

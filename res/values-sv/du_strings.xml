@@ -28,15 +28,15 @@
   <string name="enable_people_lookup_summary">Visa online resultat för personer när du söker i telefonen</string>
   <string name="enable_reverse_lookup_title">Omvänd sökning</string>
   <string name="enable_reverse_lookup_summary">Sök efter information om personen eller platsen för okända nummer vid inkommande samtal</string>
-  <string name="forward_lookup_provider_title">Forward lookup provider</string>
-  <string name="people_lookup_provider_title">People lookup provider</string>
-  <string name="reverse_lookup_provider_title">Reverse lookup provider</string>
+  <string name="forward_lookup_provider_title">Platssökningstjänst</string>
+  <string name="people_lookup_provider_title">Leverantör för personsökning</string>
+  <string name="reverse_lookup_provider_title">Leverantör för omvänd sökning</string>
   <!-- Chinese Reverse Lookup Provider -->
   <string name="cyngn_reverse_lookup_provider_name">Cyngn Chinese (CN)</string>
   <!--  for speed dial -->
   <string name="speed_dial_settings">Speed dial settings</string>
   <string name="speed_dial_not_set">(not set)</string>
-  <string name="speed_dial_replace">Replace</string>
+  <string name="speed_dial_replace">Ersätt</string>
   <string name="speed_dial_delete">Delete</string>
   <string name="speed_dial_unassigned_dialog_title">Key unassigned</string>
   <string name="speed_dial_unassigned_dialog_message">No speed dial action is assigned to number key \'<xliff:g id="number">%s</xliff:g>\'. Do you want to assign an action now?</string>
