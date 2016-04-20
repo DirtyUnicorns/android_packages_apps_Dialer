@@ -22,15 +22,15 @@
   <!-- Number lookup -->
   <string name="lookup_settings_label">Wyszukiwanie numeru telefonu</string>
   <string name="lookup_settings_description">Wyszukiwanie nieznanych numerów</string>
-  <string name="enable_forward_lookup_title">Wyszukiwanie w przód</string>
+  <string name="enable_forward_lookup_title">Wyszukiwanie miejsc</string>
   <string name="enable_forward_lookup_summary">Pokaż miejsca w pobliżu podczas wyszukiwania w dialerze</string>
   <string name="enable_people_lookup_title">Wyszukiwanie osób</string>
   <string name="enable_people_lookup_summary">Pokaż wyniki online dla osób podczas wyszukiwania w dialerze</string>
-  <string name="enable_reverse_lookup_title">Wyszukiwanie wstecz</string>
+  <string name="enable_reverse_lookup_title">Wyszukiwanie nieznanych</string>
   <string name="enable_reverse_lookup_summary">Wyszukuj informacje na temat osoby lub miejsca w przypadku połączeń przychodzących od nieznanych numerów</string>
-  <string name="forward_lookup_provider_title">Dostawca wyszukiwania w przód</string>
+  <string name="forward_lookup_provider_title">Dostawca wyszukiwania miejsc</string>
   <string name="people_lookup_provider_title">Dostawca wyszukiwania osób</string>
-  <string name="reverse_lookup_provider_title">Dostawca wyszukiwania wstecz</string>
+  <string name="reverse_lookup_provider_title">Dostawca wyszukiwania nieznanych</string>
   <!-- Chinese Reverse Lookup Provider -->
   <string name="cyngn_reverse_lookup_provider_name">Cyngn Chinese (CN)</string>
   <!--  for speed dial -->
