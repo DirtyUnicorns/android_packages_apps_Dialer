@@ -56,7 +56,7 @@
   <!-- Text displayed when the call log is empty. -->
   <string name="recentCalls_empty">Çağrı yok</string>
   <!-- Label of the button displayed when the call log is empty. Allows the user to make a call. -->
-  <string name="recentCalls_empty_action">Make a call</string>
+  <string name="recentCalls_empty_action">Çağrı yap</string>
   <!-- Title of the confirmation dialog for clearing the call log. [CHAR LIMIT=37]  -->
   <string name="clearCallLogConfirmation_title">Çağrı geçmişi temizlensin mi?</string>
   <!-- Confirmation dialog for clearing the call log. [CHAR LIMIT=NONE]  -->
@@ -98,7 +98,7 @@
   <!-- The header to show that call log is only showing missed calls. [CHAR LIMIT=40] -->
   <string name="call_log_missed_header">Yalnızca cevapsız çağrılar</string>
   <!-- Title for promo card for visual voicemail. [CHAR LIMIT=40] -->
-  <string name="visual_voicemail_title">Visual voicemail</string>
+  <string name="visual_voicemail_title">Görsel Sesli Mesaj</string>
   <!-- Promo card text for visual voicemail. -->
   <string name="visual_voicemail_text">
         See and listen to your voicemail, without having to call a number. Data charges may apply.
@@ -309,7 +309,7 @@
   <!-- String used to display calls from pay phone in the call log -->
   <string name="payphone">Ankesörlü telefon</string>
   <!-- A nicely formatted call duration displayed when viewing call details for duration less than 1 minute. For example "28 sec" -->
-  <string name="callDetailsShortDurationFormat"><xliff:g id="seconds" example="28">%s</xliff:g> sec</string>
+  <string name="callDetailsShortDurationFormat"><xliff:g id="seconds" example="28">%s</xliff:g> saniye</string>
   <!-- A nicely formatted call duration displayed when viewing call details. For example "42 min 28 sec" -->
   <string name="callDetailsDurationFormat"><xliff:g id="MINUTES">%s</xliff:g> dk. <xliff:g id="SECONDS">%s</xliff:g> sn.</string>
   <!-- Dialog message which is shown when the user tries to make a phone call
@@ -374,7 +374,7 @@
   <!-- Accessibility text for the tab showing the user's contacts. [CHAR LIMIT=40] -->
   <string name="tab_all_contacts">Kişiler</string>
   <!-- Accessibility text for the tab showing the user's voicemails. [CHAR LIMIT=40] -->
-  <string name="tab_voicemail">Voicemail</string>
+  <string name="tab_voicemail">Sesli mail</string>
   <!--  Text displayed when user swipes out a favorite contact -->
   <string name="favorite_hidden">Favorilerden kaldırıldı</string>
   <!--  Text displayed for the undo button to undo removing a favorite contact -->
@@ -417,7 +417,7 @@
   <!-- Button text for a button displayed underneath an entry in the call log, which opens up a
          messaging app to send a SMS to the number represented by the call log entry.
          [CHAR LIMIT=30] -->
-  <string name="call_log_action_send_message">Send Message</string>
+  <string name="call_log_action_send_message">İleti Gönder</string>
   <!-- Button text for the button displayed underneath an entry in the call log.
          Tapping navigates the user to the call details screen where the user can view details for
          the call log entry. [CHAR LIMIT=30] -->

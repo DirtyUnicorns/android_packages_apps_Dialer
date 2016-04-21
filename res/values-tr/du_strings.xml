@@ -17,44 +17,44 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Forward lookup -->
-  <string name="nearby_places">Nearby places</string>
-  <string name="people">People</string>
+  <string name="nearby_places">Yakındaki yerler</string>
+  <string name="people">Kişiler</string>
   <!-- Number lookup -->
-  <string name="lookup_settings_label">Phone number lookup</string>
+  <string name="lookup_settings_label">Telefon numarası bul</string>
   <string name="lookup_settings_description">Lookup of unknown phone numbers</string>
   <string name="enable_forward_lookup_title">Forward lookup</string>
   <string name="enable_forward_lookup_summary">Show nearby places when searching in the dialer</string>
-  <string name="enable_people_lookup_title">People lookup</string>
-  <string name="enable_people_lookup_summary">Show online results for people when searching in the dialer</string>
+  <string name="enable_people_lookup_title">Kişi bul</string>
+  <string name="enable_people_lookup_summary">Çeviricide arama yaparken kişiler için çevrimiçi arama sonuçlarını göster</string>
   <string name="enable_reverse_lookup_title">Reverse lookup</string>
   <string name="enable_reverse_lookup_summary">Look up information about the person or place for unknown numbers on incoming calls</string>
   <string name="forward_lookup_provider_title">Forward lookup provider</string>
   <string name="people_lookup_provider_title">People lookup provider</string>
   <string name="reverse_lookup_provider_title">Reverse lookup provider</string>
   <!-- Chinese Reverse Lookup Provider -->
-  <string name="cyngn_reverse_lookup_provider_name">Cyngn Chinese (CN)</string>
+  <string name="cyngn_reverse_lookup_provider_name">Cyngn Çince (CN)</string>
   <!--  for speed dial -->
-  <string name="speed_dial_settings">Speed dial settings</string>
+  <string name="speed_dial_settings">Hızlı arama ayarları</string>
   <string name="speed_dial_not_set">(not set)</string>
   <string name="speed_dial_replace">Replace</string>
   <string name="speed_dial_delete">Delete</string>
-  <string name="speed_dial_unassigned_dialog_title">Key unassigned</string>
-  <string name="speed_dial_unassigned_dialog_message">No speed dial action is assigned to number key \'<xliff:g id="number">%s</xliff:g>\'. Do you want to assign an action now?</string>
-  <string name="dialog_speed_dial_airplane_mode_message">To use speed dial, first turn off Airplane mode.</string>
-  <string name="yes">Yes</string>
+  <string name="speed_dial_unassigned_dialog_title">Numara atanmadı</string>
+  <string name="speed_dial_unassigned_dialog_message">\'<xliff:g id="number">%s</xliff:g>\' numarasına hızlı arama işlevi atanmadı. Şimdi atamak ister misiniz?</string>
+  <string name="dialog_speed_dial_airplane_mode_message">Hızlı aramayı kullanmak için, önce uçak modunu kapatın.</string>
+  <string name="yes">Evet</string>
   <string name="no">No</string>
   <!-- In call vibrate options -->
   <string name="incall_vibration_category_title">In-call vibration</string>
   <string name="incall_vibrate_outgoing_title">Vibrate on answer</string>
-  <string name="vibrate_call_waiting">Vibrate on call waiting</string>
-  <string name="incall_vibrate_hangup_title">Vibrate on hang up</string>
-  <string name="incall_vibrate_45_title">Vibrate every minute</string>
+  <string name="vibrate_call_waiting">Çağrı bekletildiğinde titre</string>
+  <string name="incall_vibrate_hangup_title">Kapatıldığında titret</string>
+  <string name="incall_vibrate_45_title">Her dakika titre</string>
   <string name="incall_vibrate_45_summary">Vibrates at the 45 second mark of every minute during outgoing calls</string>
   <!-- Description for incoming calls that were blacklisted -->
   <string name="type_blacklist">Blacklisted call</string>
   <string name="menu_add_to_blacklist">Add to blocked caller list</string>
-  <string name="toast_added_to_blacklist">%s added to blocked caller list.</string>
-  <string name="toast_removed_from_blacklist">%s removed from blocked caller list.</string>
-  <string name="call_log_action_block">Block caller</string>
-  <string name="call_log_action_unblock">Caller blocked</string>
+  <string name="toast_added_to_blacklist">%s engellenen arayan listesine eklendi.</string>
+  <string name="toast_removed_from_blacklist">%s engellenen arayan listesinden silindi.</string>
+  <string name="call_log_action_block">Arayanı engelle</string>
+  <string name="call_log_action_unblock">Arayan bloke edildi</string>
 </resources>
