@@ -396,7 +396,7 @@
   <!-- Number of missed calls shown on call card [CHAR LIMIT=40] -->
   <string name="num_missed_calls"><xliff:g id="NUMBER">%s</xliff:g> neue verpasste Anrufe</string>
   <!-- Shown when there are no speed dial favorites. -->
-  <string name="speed_dial_empty">Kurzwahl ermöglicht den Rufaufbau mit einer Berührung, für favoriten und häufig angerufene Nummern</string>
+  <string name="speed_dial_empty">Über die Kurzwahl können Sie mit einer Berührung Ihre Favoriten und häufig gewählte Telefonnummern anrufen</string>
   <!-- Shown as an action when there are no speed dial favorites -->
   <string name="speed_dial_empty_add_favorite_action">Favorit hinzufügen</string>
   <!-- Shown when there are no contacts in the all contacts list. -->

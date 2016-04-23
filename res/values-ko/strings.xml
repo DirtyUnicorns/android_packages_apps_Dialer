@@ -56,7 +56,7 @@
   <!-- Text displayed when the call log is empty. -->
   <string name="recentCalls_empty">통화 기록 없음</string>
   <!-- Label of the button displayed when the call log is empty. Allows the user to make a call. -->
-  <string name="recentCalls_empty_action">Make a call</string>
+  <string name="recentCalls_empty_action">전화 걸기</string>
   <!-- Title of the confirmation dialog for clearing the call log. [CHAR LIMIT=37]  -->
   <string name="clearCallLogConfirmation_title">통화 기록을 삭제하시겠습니까?</string>
   <!-- Confirmation dialog for clearing the call log. [CHAR LIMIT=NONE]  -->
@@ -103,7 +103,7 @@
         See and listen to your voicemail, without having to call a number. Data charges may apply.
     </string>
   <!-- Text for "Settings" link for visual voicemail promo card. [CHAR LIMIT=30] -->
-  <string name="visual_voicemail_settings">Settings</string>
+  <string name="visual_voicemail_settings">설정</string>
   <!--  Voicemail status message shown at the top of call log to notify the user that no new
     voicemails are currently available. This can happen when both notification as well as data
     connection to the voicemail server is lost. [CHAR LIMIT=64] -->
@@ -385,23 +385,23 @@
   <string name="search_shortcut_create_new_contact">새 연락처 만들기</string>
   <!-- Shortcut item used to add a number to an existing contact directly from search.
          [CHAR LIMIT=25] -->
-  <string name="search_shortcut_add_to_contact">Add to a contact</string>
+  <string name="search_shortcut_add_to_contact">주소록에 추가</string>
   <!-- Shortcut item used to send a text message directly from search. [CHAR LIMIT=25] -->
   <string name="search_shortcut_send_sms_message">SMS 보내기</string>
   <!-- Shortcut item used to make a video call directly from search. [CHAR LIMIT=25] -->
   <string name="search_shortcut_make_video_call">화상 통화하기</string>
   <!-- Title for the call log list item that brings users to the full call history when clicked -->
-  <string name="show_call_history">View full call history</string>
+  <string name="show_call_history">전체 통화 기록 보기</string>
   <!-- Number of missed calls shown on call card [CHAR LIMIT=40] -->
   <string name="num_missed_calls">새로운 부재중 전화 <xliff:g id="NUMBER">%s</xliff:g>건</string>
   <!-- Shown when there are no speed dial favorites. -->
   <string name="speed_dial_empty">단축번호를 지정하면 즐겨찾거나 자주 전화하는 번호를 한 번만 터치하여 전화를 걸 수 있습니다.</string>
   <!-- Shown as an action when there are no speed dial favorites -->
-  <string name="speed_dial_empty_add_favorite_action">Add a favorite</string>
+  <string name="speed_dial_empty_add_favorite_action">즐겨찾기에 추가</string>
   <!-- Shown when there are no contacts in the all contacts list. -->
   <string name="all_contacts_empty">주소록 없음</string>
   <!-- Shown as an action when the all contacts list is empty -->
-  <string name="all_contacts_empty_add_contact_action">Add a contact</string>
+  <string name="all_contacts_empty_add_contact_action">연락처 추가</string>
   <!-- Shows up as a tooltip to provide a hint to the user that the profile pic in a contact
          card can be tapped to bring up a list of all numbers, or long pressed to start reordering
          [CHAR LIMIT=NONE]
@@ -416,7 +416,7 @@
   <!-- Button text for a button displayed underneath an entry in the call log, which opens up a
          messaging app to send a SMS to the number represented by the call log entry.
          [CHAR LIMIT=30] -->
-  <string name="call_log_action_send_message">Send Message</string>
+  <string name="call_log_action_send_message">메세지 보내기</string>
   <!-- Button text for the button displayed underneath an entry in the call log.
          Tapping navigates the user to the call details screen where the user can view details for
          the call log entry. [CHAR LIMIT=30] -->
@@ -587,7 +587,7 @@
   <!-- The label of the button used to turn on a single permission -->
   <string name="permission_single_turn_on">Turn on</string>
   <!--  The label of the button used to turn on multiple permissions -->
-  <string name="permission_multiple_turn_on">Set permissions</string>
+  <string name="permission_multiple_turn_on">권한 설정</string>
   <!-- Shown as a prompt to turn on the contacts permission to enable speed dial -->
   <string name="permission_no_speeddial">To enable speed dial,\n turn on the Contacts permission.</string>
   <!-- Shown as a prompt to turn on the phone permission to enable the call log -->
