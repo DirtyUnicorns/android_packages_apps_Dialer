@@ -17,44 +17,44 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Forward lookup -->
-  <string name="nearby_places">Nearby places</string>
-  <string name="people">People</string>
+  <string name="nearby_places">Lugares cercanos</string>
+  <string name="people">Personas</string>
   <!-- Number lookup -->
-  <string name="lookup_settings_label">Phone number lookup</string>
-  <string name="lookup_settings_description">Lookup of unknown phone numbers</string>
-  <string name="enable_forward_lookup_title">Forward lookup</string>
-  <string name="enable_forward_lookup_summary">Show nearby places when searching in the dialer</string>
-  <string name="enable_people_lookup_title">People lookup</string>
-  <string name="enable_people_lookup_summary">Show online results for people when searching in the dialer</string>
-  <string name="enable_reverse_lookup_title">Reverse lookup</string>
-  <string name="enable_reverse_lookup_summary">Look up information about the person or place for unknown numbers on incoming calls</string>
-  <string name="forward_lookup_provider_title">Forward lookup provider</string>
-  <string name="people_lookup_provider_title">People lookup provider</string>
-  <string name="reverse_lookup_provider_title">Reverse lookup provider</string>
+  <string name="lookup_settings_label">Búsqueda de número de teléfono</string>
+  <string name="lookup_settings_description">Búsqueda de números de teléfono desconocidos</string>
+  <string name="enable_forward_lookup_title">Búsqueda directa</string>
+  <string name="enable_forward_lookup_summary">Mostrar lugares cercanos al buscar en el marcador</string>
+  <string name="enable_people_lookup_title">Búsqueda de contactos</string>
+  <string name="enable_people_lookup_summary">Mostrar resultados de contactos al buscar en el marcador</string>
+  <string name="enable_reverse_lookup_title">Búsqueda inversa</string>
+  <string name="enable_reverse_lookup_summary">Buscar información sobre la persona o lugar para llamadas de números desconocidos</string>
+  <string name="forward_lookup_provider_title">Proveedor de busqueda para lugares</string>
+  <string name="people_lookup_provider_title">Proveedor de busqueda para personas</string>
+  <string name="reverse_lookup_provider_title">Proveedor de búsqueda inversa</string>
   <!-- Chinese Reverse Lookup Provider -->
-  <string name="cyngn_reverse_lookup_provider_name">Cyngn Chinese (CN)</string>
+  <string name="cyngn_reverse_lookup_provider_name">Cyngn Chino (CN)</string>
   <!--  for speed dial -->
-  <string name="speed_dial_settings">Speed dial settings</string>
-  <string name="speed_dial_not_set">(not set)</string>
-  <string name="speed_dial_replace">Replace</string>
-  <string name="speed_dial_delete">Delete</string>
-  <string name="speed_dial_unassigned_dialog_title">Key unassigned</string>
-  <string name="speed_dial_unassigned_dialog_message">No speed dial action is assigned to number key \'<xliff:g id="number">%s</xliff:g>\'. Do you want to assign an action now?</string>
-  <string name="dialog_speed_dial_airplane_mode_message">To use speed dial, first turn off Airplane mode.</string>
-  <string name="yes">Yes</string>
+  <string name="speed_dial_settings">Ajustes de marcado</string>
+  <string name="speed_dial_not_set">(sin establecer)</string>
+  <string name="speed_dial_replace">Reemplazar</string>
+  <string name="speed_dial_delete">Elimina</string>
+  <string name="speed_dial_unassigned_dialog_title">Tecla sin asignar</string>
+  <string name="speed_dial_unassigned_dialog_message">Ninguna acción rápida asignada al número \' <xliff:g id="number">%s\'. </xliff:g> ¿Quieres asignar una acción ahora?</string>
+  <string name="dialog_speed_dial_airplane_mode_message">Para usar el marcado rápido, primero desactiva el modo avión.</string>
+  <string name="yes">Si</string>
   <string name="no">No</string>
   <!-- In call vibrate options -->
-  <string name="incall_vibration_category_title">In-call vibration</string>
-  <string name="incall_vibrate_outgoing_title">Vibrate on answer</string>
-  <string name="vibrate_call_waiting">Vibrate on call waiting</string>
-  <string name="incall_vibrate_hangup_title">Vibrate on hang up</string>
-  <string name="incall_vibrate_45_title">Vibrate every minute</string>
-  <string name="incall_vibrate_45_summary">Vibrates at the 45 second mark of every minute during outgoing calls</string>
+  <string name="incall_vibration_category_title">Vibración en llamada</string>
+  <string name="incall_vibrate_outgoing_title">Vibrar al contestar</string>
+  <string name="vibrate_call_waiting">Vibrar con llamada en espera</string>
+  <string name="incall_vibrate_hangup_title">Vibrar al colgar</string>
+  <string name="incall_vibrate_45_title">Vibrar cada minuto</string>
+  <string name="incall_vibrate_45_summary">El dispositivo vibrará cada 45 segundos durante las llamadas</string>
   <!-- Description for incoming calls that were blacklisted -->
-  <string name="type_blacklist">Blacklisted call</string>
-  <string name="menu_add_to_blacklist">Add to blocked caller list</string>
-  <string name="toast_added_to_blacklist">%s added to blocked caller list.</string>
-  <string name="toast_removed_from_blacklist">%s removed from blocked caller list.</string>
-  <string name="call_log_action_block">Block caller</string>
-  <string name="call_log_action_unblock">Caller blocked</string>
+  <string name="type_blacklist">Entrada en la lista negra</string>
+  <string name="menu_add_to_blacklist">Añadir a lista de llamadas bloqueadas</string>
+  <string name="toast_added_to_blacklist">%s agregado a la lista de llamadas bloqueadas.</string>
+  <string name="toast_removed_from_blacklist">%s eliminado de la lista de llamadas bloqueadas.</string>
+  <string name="call_log_action_block">Bloquear llamada</string>
+  <string name="call_log_action_unblock">Llamadas bloqueadas</string>
 </resources>
