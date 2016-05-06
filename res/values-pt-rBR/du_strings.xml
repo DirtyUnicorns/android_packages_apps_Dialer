@@ -20,24 +20,24 @@
   <string name="nearby_places">Locais próximos</string>
   <string name="people">Pessoas</string>
   <!-- Number lookup -->
-  <string name="lookup_settings_label">Phone number lookup</string>
-  <string name="lookup_settings_description">Lookup of unknown phone numbers</string>
-  <string name="enable_forward_lookup_title">Forward lookup</string>
-  <string name="enable_forward_lookup_summary">Show nearby places when searching in the dialer</string>
-  <string name="enable_people_lookup_title">People lookup</string>
-  <string name="enable_people_lookup_summary">Show online results for people when searching in the dialer</string>
-  <string name="enable_reverse_lookup_title">Reverse lookup</string>
-  <string name="enable_reverse_lookup_summary">Look up information about the person or place for unknown numbers on incoming calls</string>
-  <string name="forward_lookup_provider_title">Forward lookup provider</string>
+  <string name="lookup_settings_label">Pesquisa de números de telefone</string>
+  <string name="lookup_settings_description">Pesquisa de números de telefones desconhecidos</string>
+  <string name="enable_forward_lookup_title">Pesquisa direta</string>
+  <string name="enable_forward_lookup_summary">Mostrar lugares próximos ao pesquisar no discador</string>
+  <string name="enable_people_lookup_title">Pesquisar pessoas</string>
+  <string name="enable_people_lookup_summary">Mostrar resultados online de pessoas ao pesquisar no discador</string>
+  <string name="enable_reverse_lookup_title">Pesquisa inversa</string>
+  <string name="enable_reverse_lookup_summary">Procurar informações sobre a pessoa ou local para números desconhecidos em chamadas recebidas</string>
+  <string name="forward_lookup_provider_title">Provedor de pesquisa direta</string>
   <string name="people_lookup_provider_title">People lookup provider</string>
   <string name="reverse_lookup_provider_title">Reverse lookup provider</string>
   <!-- Chinese Reverse Lookup Provider -->
   <string name="cyngn_reverse_lookup_provider_name">Cyngn Chinese (CN)</string>
   <!--  for speed dial -->
-  <string name="speed_dial_settings">Speed dial settings</string>
-  <string name="speed_dial_not_set">(not set)</string>
-  <string name="speed_dial_replace">Replace</string>
-  <string name="speed_dial_delete">Delete</string>
+  <string name="speed_dial_settings">Configurações de discagem rápida</string>
+  <string name="speed_dial_not_set">(não definido)</string>
+  <string name="speed_dial_replace">Substituir</string>
+  <string name="speed_dial_delete">Excluir</string>
   <string name="speed_dial_unassigned_dialog_title">Key unassigned</string>
   <string name="speed_dial_unassigned_dialog_message">No speed dial action is assigned to number key \'<xliff:g id="number">%s</xliff:g>\'. Do you want to assign an action now?</string>
   <string name="dialog_speed_dial_airplane_mode_message">To use speed dial, first turn off Airplane mode.</string>

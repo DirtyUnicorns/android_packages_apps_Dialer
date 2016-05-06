@@ -40,7 +40,7 @@
   <string name="recentCalls_callNumber">Позови <xliff:g id="NAME">%s</xliff:g></string>
   <!-- Text for a menu item to report a call as having been incorrectly identified.
          [CHAR LIMIT=30] -->
-  <string name="call_detail_menu_report">Report inaccurate number</string>
+  <string name="call_detail_menu_report">Пријави нетачан број</string>
   <!-- Menu item used to copy a number from the call log to the dialer so it can be edited before calling it -->
   <string name="recentCalls_editNumberBeforeCall">Измените број пре позива</string>
   <!-- Menu item used to add a number from the call log to contacts -->
@@ -56,7 +56,7 @@
   <!-- Text displayed when the call log is empty. -->
   <string name="recentCalls_empty">Нема позива</string>
   <!-- Label of the button displayed when the call log is empty. Allows the user to make a call. -->
-  <string name="recentCalls_empty_action">Make a call</string>
+  <string name="recentCalls_empty_action">Позови</string>
   <!-- Title of the confirmation dialog for clearing the call log. [CHAR LIMIT=37]  -->
   <string name="clearCallLogConfirmation_title">Желите да обришете историју позива?</string>
   <!-- Confirmation dialog for clearing the call log. [CHAR LIMIT=NONE]  -->
@@ -99,13 +99,12 @@
   <!-- The header to show that call log is only showing missed calls. [CHAR LIMIT=40] -->
   <string name="call_log_missed_header">Само пропуштени позиви</string>
   <!-- Title for promo card for visual voicemail. [CHAR LIMIT=40] -->
-  <string name="visual_voicemail_title">Visual voicemail</string>
+  <string name="visual_voicemail_title">Визуелна говорна пошта</string>
   <!-- Promo card text for visual voicemail. -->
   <string name="visual_voicemail_text">
-        See and listen to your voicemail, without having to call a number. Data charges may apply.
-    </string>
+Прегледај и преслушај своју гов. пошту, без позивања броја. Трошкови преноса података могу бити наплаћени.    </string>
   <!-- Text for "Settings" link for visual voicemail promo card. [CHAR LIMIT=30] -->
-  <string name="visual_voicemail_settings">Settings</string>
+  <string name="visual_voicemail_settings">Подешавања</string>
   <!--  Voicemail status message shown at the top of call log to notify the user that no new
     voicemails are currently available. This can happen when both notification as well as data
     connection to the voicemail server is lost. [CHAR LIMIT=64] -->
@@ -403,7 +402,7 @@
   <!-- Shown when there are no contacts in the all contacts list. -->
   <string name="all_contacts_empty">Нема контаката</string>
   <!-- Shown as an action when the all contacts list is empty -->
-  <string name="all_contacts_empty_add_contact_action">Add a contact</string>
+  <string name="all_contacts_empty_add_contact_action">Додај контакт</string>
   <!-- Shows up as a tooltip to provide a hint to the user that the profile pic in a contact
          card can be tapped to bring up a list of all numbers, or long pressed to start reordering
          [CHAR LIMIT=NONE]
@@ -418,7 +417,7 @@
   <!-- Button text for a button displayed underneath an entry in the call log, which opens up a
          messaging app to send a SMS to the number represented by the call log entry.
          [CHAR LIMIT=30] -->
-  <string name="call_log_action_send_message">Send Message</string>
+  <string name="call_log_action_send_message">Пошаљи Поруку</string>
   <!-- Button text for the button displayed underneath an entry in the call log.
          Tapping navigates the user to the call details screen where the user can view details for
          the call log entry. [CHAR LIMIT=30] -->

@@ -100,9 +100,7 @@
   <!-- Title for promo card for visual voicemail. [CHAR LIMIT=40] -->
   <string name="visual_voicemail_title">Buzón de voz visual</string>
   <!-- Promo card text for visual voicemail. -->
-  <string name="visual_voicemail_text">
-        See and listen to your voicemail, without having to call a number. Data charges may apply.
-    </string>
+  <string name="visual_voicemail_text">Vea y escuche su buzón de voz sin tener que llamar a un número. Se pueden aplicar cargos por datos</string>
   <!-- Text for "Settings" link for visual voicemail promo card. [CHAR LIMIT=30] -->
   <string name="visual_voicemail_settings">Preferencias</string>
   <!--  Voicemail status message shown at the top of call log to notify the user that no new
@@ -309,7 +307,7 @@
   <!-- String used to display calls from pay phone in the call log -->
   <string name="payphone">Teléfono público</string>
   <!-- A nicely formatted call duration displayed when viewing call details for duration less than 1 minute. For example "28 sec" -->
-  <string name="callDetailsShortDurationFormat"><xliff:g id="seconds" example="28">%s</xliff:g> sec</string>
+  <string name="callDetailsShortDurationFormat"><xliff:g id="seconds" example="28">%s</xliff:g> segundo</string>
   <!-- A nicely formatted call duration displayed when viewing call details. For example "42 min 28 sec" -->
   <string name="callDetailsDurationFormat"><xliff:g id="MINUTES">%s</xliff:g> min y <xliff:g id="SECONDS">%s</xliff:g> s</string>
   <!-- Dialog message which is shown when the user tries to make a phone call
@@ -466,27 +464,21 @@ Llamar a <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>    </strin
   <!-- String describing the "play voicemail" action for an entry in the call log.
          Note: AccessibilityServices uses this attribute to announce the purpose of the button.
          [CHAR LIMIT=NONE] -->
-  <string name="description_voicemail_play">
-        Play voicemail from <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
-    </string>
+  <string name="description_voicemail_play">Escuchar el mensaje de voz de <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g></string>
   <!-- String describing the "pause voicemail" action for an entry in the call log.
          Note: AccessibilityServices uses this attribute to announce the purpose of the button.
          [CHAR LIMIT=NONE] -->
-  <string name="description_voicemail_pause">
-        Pause voicemail from <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
-    </string>
+  <string name="description_voicemail_pause">Pausar mensaje de voz de  <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g></string>
   <!-- String describing the "delete voicemail" action for an entry in the call log.
          Note: AccessibilityServices uses this attribute to announce the purpose of the button.
          [CHAR LIMIT=NONE] -->
-  <string name="description_voicemail_delete">
-        Delete voicemail from <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
-    </string>
+  <string name="description_voicemail_delete">Eliminar mensaje de voz de  <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g></string>
   <!-- String describing the number of new voicemails, displayed as a number badge on a tab.
          Note: AccessibilityServices uses this attribute to announce the purpose of the button.
          [CHAR LIMIT=NONE] -->
   <plurals name="description_voicemail_unread">
-    <item quantity="one"><xliff:g id="count">%d</xliff:g> new voicemail</item>
-    <item quantity="other"><xliff:g id="count">%d</xliff:g> new voicemails</item>
+    <item quantity="one"><xliff:g id="count">%d</xliff:g> nuevo mensaje de voz</item>
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> nuevos mensajes de voz</item>
   </plurals>
   <!-- Description for the "create new contact" action for an entry in the call log. This action
          opens a screen for creating a new contact for this name or number. [CHAR LIMIT=NONE] -->
@@ -495,9 +487,7 @@ Crear contacto para <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
   <!-- Description for the "add to existing contact" action for an entry in the call log. This
          action opens a screen for adding this name or number to an existing contact.
          [CHAR LIMIT=NONE] -->
-  <string name="description_add_to_existing_contact_action">
-        Add <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g> to existing contact
-    </string>
+  <string name="description_add_to_existing_contact_action">Añadir <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>a contacto existente</string>
   <!-- String describing the "details" action for an entry in the call log.  The details action
          displays the call details screen for an entry in the call log.  This shows the calls to
          and from the specified number associated with the call log entry.
@@ -595,11 +585,11 @@ Crear contacto para <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
   <!-- Shown as a prompt to turn on the contacts permission to show all contacts -->
   <string name="permission_no_contacts">Para ver tus contactos, \n asigne el permiso de contactos.</string>
   <!-- Shown as a prompt to turn on the phone permission to show voicemails -->
-  <string name="permission_no_voicemail">To access your voicemail,\n turn on the Phone permission.</string>
+  <string name="permission_no_voicemail">Para ver su registro de llamadas, \n asigne el permiso de teléfono.</string>
   <!-- Shown as a prompt to turn on contacts permissions to allow contact search -->
-  <string name="permission_no_search">To search your contacts, turn on the Contacts permissions.</string>
+  <string name="permission_no_search">Para ver tus contactos, \n asigne el permiso de contactos.</string>
   <!-- Shown as a prompt to turn on the phone permission to allow a call to be placed -->
-  <string name="permission_place_call">To place a call,\n turn on the Phone permission.</string>
+  <string name="permission_place_call">Para ver su registro de llamadas, \n asigne el permiso de teléfono.</string>
   <!-- Shown as a message that notifies the user that the Phone app cannot write to system settings, which is why the system settings app is being launched directly instead.-->
-  <string name="toast_cannot_write_system_settings">Phone app does not have permission to write to system settings.</string>
+  <string name="toast_cannot_write_system_settings">Aplicación de teléfono no tiene permiso para escribir en la configuración del sistema.</string>
 </resources>
