@@ -51,17 +51,17 @@
   <!-- Menu item used to remove all calls from the call log -->
   <string name="recentCalls_deleteAll">Limpar histórico de chamadas</string>
   <!-- Menu item used to delete a voicemail. [CHAR LIMIT=30] -->
-  <string name="recentCalls_trashVoicemail">Delete voicemail</string>
+  <string name="recentCalls_trashVoicemail">Excluir mensagem de voz</string>
   <!-- Menu item used to share a voicemail. [CHAR LIMIT=30] -->
-  <string name="recentCalls_shareVoicemail">Share voicemail</string>
+  <string name="recentCalls_shareVoicemail">Compartilhar mensagem de voz</string>
   <!-- Text displayed when the call log is empty. -->
-  <string name="recentCalls_empty">Your call log is empty</string>
+  <string name="recentCalls_empty">Seu registro de chamadas está vazio</string>
   <!-- Label of the button displayed when the call log is empty. Allows the user to make a call. -->
   <string name="recentCalls_empty_action">Efetuar uma chamada</string>
   <!-- Title of the confirmation dialog for clearing the call log. [CHAR LIMIT=37]  -->
   <string name="clearCallLogConfirmation_title">Limpar histórico de chamadas?</string>
   <!-- Confirmation dialog for clearing the call log. [CHAR LIMIT=NONE]  -->
-  <string name="clearCallLogConfirmation">This will delete all calls from your history</string>
+  <string name="clearCallLogConfirmation">Todas as chamadas serão eliminadas do histórico</string>
   <!-- Title of the "Clearing call log" progress-dialog [CHAR LIMIT=35] -->
   <string name="clearCallLogProgress_title">Limpando histórico de chamadas\u2026</string>
   <!-- Title of the notification of new voicemails. [CHAR LIMIT=30] -->
@@ -84,44 +84,42 @@
         <xliff:g id="older_caller">%2$s</xliff:g>
     </string>
   <!-- Text used in the ticker to notify the user of the latest voicemail. [CHAR LIMIT=30] -->
-  <string name="notification_new_voicemail_ticker">New voicemail from
-        <xliff:g id="caller">%1$s</xliff:g>
-    </string>
+  <string name="notification_new_voicemail_ticker">Nova mensagem de voz de
+    <xliff:g id="caller">%1$s </xliff:g>    </string>
   <!-- Message to show when there is an error playing back the voicemail. [CHAR LIMIT=40] -->
-  <string name="voicemail_playback_error">Couldn\'t play voicemail</string>
+  <string name="voicemail_playback_error">Não foi poss. reprod. o correio de voz</string>
   <!-- Message to display before we have prepared the media player, i.e. before we know duration. [CHAR LIMIT=40] -->
-  <string name="voicemail_buffering">Buffering\u2026</string>
+  <string name="voicemail_buffering">Carregando\u2026</string>
   <!-- Message to display whilst we are waiting for the content to be fetched. [CHAR LIMIT=40] -->
-  <string name="voicemail_fetching_content">Loading voicemail\u2026</string>
+  <string name="voicemail_fetching_content">Carregando correio de voz\u2026</string>
   <!-- Message to display if we fail to get content within a suitable time period. [CHAR LIMIT=40] -->
-  <string name="voicemail_fetching_timout">Couldn\'t load voicemail</string>
+  <string name="voicemail_fetching_timout">Não foi poss. carregar o correio de voz</string>
   <!-- The header to show that call log is only showing voicemail calls. [CHAR LIMIT=40] -->
-  <string name="call_log_voicemail_header">Calls with voicemail only</string>
+  <string name="call_log_voicemail_header">Somente chamadas com correio de voz</string>
   <!-- The header to show that call log is only showing incoming calls. [CHAR LIMIT=40] -->
-  <string name="call_log_incoming_header">Incoming calls only</string>
+  <string name="call_log_incoming_header">Somente chamadas recebidas</string>
   <!-- The header to show that call log is only showing outgoing calls. [CHAR LIMIT=40] -->
-  <string name="call_log_outgoing_header">Outgoing calls only</string>
+  <string name="call_log_outgoing_header">Somente chamadas realizadas</string>
   <!-- The header to show that call log is only showing missed calls. [CHAR LIMIT=40] -->
-  <string name="call_log_missed_header">Missed calls only</string>
+  <string name="call_log_missed_header">Somente chamadas perdidas</string>
   <!-- Title for promo card for visual voicemail. [CHAR LIMIT=40] -->
-  <string name="visual_voicemail_title">Visual voicemail</string>
+  <string name="visual_voicemail_title">Correio de voz visual</string>
   <!-- Promo card text for visual voicemail. -->
   <string name="visual_voicemail_text">
-        See and listen to your voicemail, without having to call a number. Data charges may apply.
-    </string>
+Ver e ouvir suas mensagens de voz, sem ter que ligar para um número. Podem haver cobrança de dados.    </string>
   <!-- Text for "Settings" link for visual voicemail promo card. [CHAR LIMIT=30] -->
-  <string name="visual_voicemail_settings">Settings</string>
+  <string name="visual_voicemail_settings">Configurações</string>
   <!--  Voicemail status message shown at the top of call log to notify the user that no new
     voicemails are currently available. This can happen when both notification as well as data
     connection to the voicemail server is lost. [CHAR LIMIT=64] -->
-  <string name="voicemail_status_voicemail_not_available">Voicemail updates not available</string>
+  <string name="voicemail_status_voicemail_not_available">Atualizações do correio de voz não disponíveis</string>
   <!--  Voicemail status message shown at the top of call log to notify the user that there is no
       data connection to the voicemail server, but there are new voicemails waiting on the server.
       [CHAR LIMIT=64] -->
-  <string name="voicemail_status_messages_waiting">New voicemail waiting. Can\'t load right now.</string>
+  <string name="voicemail_status_messages_waiting">Novo correio de voz aguardando. Não é possível carregar agora.</string>
   <!--  Voicemail status message shown at the top of call log to invite the user to configure
     visual voicemail. [CHAR LIMIT=64] -->
-  <string name="voicemail_status_configure_voicemail">Set up your voicemail</string>
+  <string name="voicemail_status_configure_voicemail">Configurar o correio de voz</string>
   <!--  Voicemail status message shown at the top of call details screen to notify the user that
     the audio of this voicemail is not available. [CHAR LIMIT=64] -->
   <string name="voicemail_status_audio_not_available">Audio not available</string>
@@ -136,11 +134,11 @@
         <xliff:g id="date">%2$s</xliff:g>
     </string>
   <!-- Title for the sms disambiguation dialog -->
-  <string name="sms_disambig_title">Choose number</string>
+  <string name="sms_disambig_title">Escolher número</string>
   <!-- Title for the call disambiguation dialog -->
-  <string name="call_disambig_title">Choose number</string>
+  <string name="call_disambig_title">Escolher número</string>
   <!-- Message next to disamgiguation dialog check box -->
-  <string name="make_primary">Remember this choice</string>
+  <string name="make_primary">Lembrar essa escolha</string>
   <!-- String describing the Search ImageButton
 
          Used by AccessibilityService to announce the purpose of the button.
@@ -161,7 +159,7 @@
 
          Used by AccessibilityService to announce the purpose of the view.
     -->
-  <string name="description_playback_start_stop">Play or stop playback</string>
+  <string name="description_playback_start_stop">Tocar ou parar a reprodução</string>
   <!-- String describing the button in the voicemail playback to switch on/off speakerphone.
 
          Used by AccessibilityService to announce the purpose of the view.

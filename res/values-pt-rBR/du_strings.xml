@@ -29,8 +29,8 @@
   <string name="enable_reverse_lookup_title">Pesquisa inversa</string>
   <string name="enable_reverse_lookup_summary">Procurar informações sobre a pessoa ou local para números desconhecidos em chamadas recebidas</string>
   <string name="forward_lookup_provider_title">Provedor de pesquisa direta</string>
-  <string name="people_lookup_provider_title">People lookup provider</string>
-  <string name="reverse_lookup_provider_title">Reverse lookup provider</string>
+  <string name="people_lookup_provider_title">Provedor de pesquisa de pessoas</string>
+  <string name="reverse_lookup_provider_title">Provedor de pesquisa reversa</string>
   <!-- Chinese Reverse Lookup Provider -->
   <string name="cyngn_reverse_lookup_provider_name">Cyngn Chinese (CN)</string>
   <!--  for speed dial -->
@@ -38,23 +38,23 @@
   <string name="speed_dial_not_set">(não definido)</string>
   <string name="speed_dial_replace">Substituir</string>
   <string name="speed_dial_delete">Excluir</string>
-  <string name="speed_dial_unassigned_dialog_title">Key unassigned</string>
-  <string name="speed_dial_unassigned_dialog_message">No speed dial action is assigned to number key \'<xliff:g id="number">%s</xliff:g>\'. Do you want to assign an action now?</string>
-  <string name="dialog_speed_dial_airplane_mode_message">To use speed dial, first turn off Airplane mode.</string>
-  <string name="yes">Yes</string>
-  <string name="no">No</string>
+  <string name="speed_dial_unassigned_dialog_title">Tecla não atribuída</string>
+  <string name="speed_dial_unassigned_dialog_message">Nenhuma ação de discagem rápida está atribuída à tecla \'<xliff:g id="number">%s</xliff:g>\'. Deseja atribuir uma ação agora?</string>
+  <string name="dialog_speed_dial_airplane_mode_message">Para utilizar a discagem rápida, primeiro desligue o modo avião.</string>
+  <string name="yes">Sim</string>
+  <string name="no">Não</string>
   <!-- In call vibrate options -->
-  <string name="incall_vibration_category_title">In-call vibration</string>
-  <string name="incall_vibrate_outgoing_title">Vibrate on answer</string>
-  <string name="vibrate_call_waiting">Vibrate on call waiting</string>
-  <string name="incall_vibrate_hangup_title">Vibrate on hang up</string>
-  <string name="incall_vibrate_45_title">Vibrate every minute</string>
-  <string name="incall_vibrate_45_summary">Vibrates at the 45 second mark of every minute during outgoing calls</string>
+  <string name="incall_vibration_category_title">Vibração durante chamada</string>
+  <string name="incall_vibrate_outgoing_title">Vibrar ao atender</string>
+  <string name="vibrate_call_waiting">Vibrar ao receber chamada em espera</string>
+  <string name="incall_vibrate_hangup_title">Vibrar ao desligar</string>
+  <string name="incall_vibrate_45_title">Vibrar a cada minuto</string>
+  <string name="incall_vibrate_45_summary">Vibrar aos 45 segundos de cada minuto durante chamadas realizadas</string>
   <!-- Description for incoming calls that were blacklisted -->
-  <string name="type_blacklist">Blacklisted call</string>
-  <string name="menu_add_to_blacklist">Add to blocked caller list</string>
-  <string name="toast_added_to_blacklist">%s added to blocked caller list.</string>
-  <string name="toast_removed_from_blacklist">%s removed from blocked caller list.</string>
+  <string name="type_blacklist">Chamada na lista negra</string>
+  <string name="menu_add_to_blacklist">Adicionar à lista de bloqueio</string>
+  <string name="toast_added_to_blacklist">%s adicionado a lista de bloqueio.</string>
+  <string name="toast_removed_from_blacklist">%s removido da lista de bloqueio.</string>
   <string name="call_log_action_block">Block caller</string>
   <string name="call_log_action_unblock">Caller blocked</string>
 </resources>
