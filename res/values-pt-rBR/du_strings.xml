@@ -55,6 +55,6 @@
   <string name="menu_add_to_blacklist">Adicionar à lista de bloqueio</string>
   <string name="toast_added_to_blacklist">%s adicionado a lista de bloqueio.</string>
   <string name="toast_removed_from_blacklist">%s removido da lista de bloqueio.</string>
-  <string name="call_log_action_block">Block caller</string>
-  <string name="call_log_action_unblock">Caller blocked</string>
+  <string name="call_log_action_block">Bloquear chamador</string>
+  <string name="call_log_action_unblock">Chamador bloqueado</string>
 </resources>

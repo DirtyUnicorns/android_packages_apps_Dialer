@@ -122,17 +122,15 @@ Ver e ouvir suas mensagens de voz, sem ter que ligar para um número. Podem have
   <string name="voicemail_status_configure_voicemail">Configurar o correio de voz</string>
   <!--  Voicemail status message shown at the top of call details screen to notify the user that
     the audio of this voicemail is not available. [CHAR LIMIT=64] -->
-  <string name="voicemail_status_audio_not_available">Audio not available</string>
+  <string name="voicemail_status_audio_not_available">Áudio não disponível</string>
   <!--  User action prompt shown next to a voicemail status message to let the user configure
     visual voicemail. [CHAR LIMIT=20] -->
-  <string name="voicemail_status_action_configure">Set up</string>
+  <string name="voicemail_status_action_configure">Configurar</string>
   <!--  User action prompt shown next to a voicemail status message to let the user call voicemail
     server directly to listen to the voicemails. [CHAR LIMIT=20] -->
-  <string name="voicemail_status_action_call_server">Call voicemail</string>
+  <string name="voicemail_status_action_call_server">Ligar para correio de voz</string>
   <!-- The counter for calls in a group and the date of the latest call as shown in the call log [CHAR LIMIT=15] -->
-  <string name="call_log_item_count_and_date">(<xliff:g id="count">%1$d</xliff:g>)
-        <xliff:g id="date">%2$s</xliff:g>
-    </string>
+  <string name="call_log_item_count_and_date">(<xliff:g id="count">%1$d</xliff:g>)        <xliff:g id="date">%2$s</xliff:g>    </string>
   <!-- Title for the sms disambiguation dialog -->
   <string name="sms_disambig_title">Escolher número</string>
   <!-- Title for the call disambiguation dialog -->
@@ -164,17 +162,17 @@ Ver e ouvir suas mensagens de voz, sem ter que ligar para um número. Podem have
 
          Used by AccessibilityService to announce the purpose of the view.
     -->
-  <string name="description_playback_speakerphone">Switch on or off speakerphone</string>
+  <string name="description_playback_speakerphone">Ligar ou desligar o viva-voz</string>
   <!-- String describing the seekbar in the voicemail playback to seek playback position.
 
          Used by AccessibilityService to announce the purpose of the view.
     -->
-  <string name="description_playback_seek">Seek playback position</string>
+  <string name="description_playback_seek">Procurar posição de reprodução</string>
   <!-- String describing the button in the voicemail playback to decrease playback rate.
 
          Used by AccessibilityService to announce the purpose of the view.
     -->
-  <string name="description_rate_decrease">Decrease playback rate</string>
+  <string name="description_rate_decrease">Diminuir a taxa de reprodução</string>
   <!-- String describing the button in the voicemail playback to increase playback rate.
 
          Used by AccessibilityService to announce the purpose of the view.
@@ -192,11 +190,11 @@ Ver e ouvir suas mensagens de voz, sem ter que ligar para um número. Podem have
          [CHAR LIMIT=NONE] -->
   <string name="action_menu_dialpad_button">dial pad</string>
   <!-- Menu item to copy something [CHAR_LIMIT=10] -->
-  <string name="menu_copy">Copy</string>
+  <string name="menu_copy">Copiar</string>
   <!-- Menu item used to show only outgoing in the call log. [CHAR LIMIT=30] -->
-  <string name="menu_show_outgoing_only">Show outgoing only</string>
+  <string name="menu_show_outgoing_only">Mostrar somente efetuadas</string>
   <!-- Menu item used to show only incoming in the call log. [CHAR LIMIT=30] -->
-  <string name="menu_show_incoming_only">Show incoming only</string>
+  <string name="menu_show_incoming_only">Mostrar somente recebidas</string>
   <!-- Menu item used to show only missed in the call log. [CHAR LIMIT=30] -->
   <string name="menu_show_missed_only">Show missed only</string>
   <!-- Menu item used to show only voicemails in the call log. [CHAR LIMIT=30] -->
