@@ -142,7 +142,7 @@ Ver e ouvir suas mensagens de voz, sem ter que ligar para um número. Podem have
          Used by AccessibilityService to announce the purpose of the button.
          [CHAR LIMIT=NONE]
     -->
-  <string name="description_search_button">search</string>
+  <string name="description_search_button">pesquisar</string>
   <!-- String describing the Dial ImageButton
 
          Used by AccessibilityService to announce the purpose of the button.
