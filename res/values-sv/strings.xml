@@ -98,13 +98,12 @@
   <!-- The header to show that call log is only showing missed calls. [CHAR LIMIT=40] -->
   <string name="call_log_missed_header">Endast missade samtal</string>
   <!-- Title for promo card for visual voicemail. [CHAR LIMIT=40] -->
-  <string name="visual_voicemail_title">Visual voicemail</string>
+  <string name="visual_voicemail_title">Visuell röstbrevlåda</string>
   <!-- Promo card text for visual voicemail. -->
   <string name="visual_voicemail_text">
-        See and listen to your voicemail, without having to call a number. Data charges may apply.
-    </string>
+Se och lyssna på din röstbrevlåda, utan att behöva ringa ett nummer. Dataavgifter kan tillkomma.    </string>
   <!-- Text for "Settings" link for visual voicemail promo card. [CHAR LIMIT=30] -->
-  <string name="visual_voicemail_settings">Settings</string>
+  <string name="visual_voicemail_settings">Inställningar</string>
   <!--  Voicemail status message shown at the top of call log to notify the user that no new
     voicemails are currently available. This can happen when both notification as well as data
     connection to the voicemail server is lost. [CHAR LIMIT=64] -->
@@ -309,7 +308,7 @@
   <!-- String used to display calls from pay phone in the call log -->
   <string name="payphone">Telefonautomat</string>
   <!-- A nicely formatted call duration displayed when viewing call details for duration less than 1 minute. For example "28 sec" -->
-  <string name="callDetailsShortDurationFormat"><xliff:g id="seconds" example="28">%s</xliff:g> sec</string>
+  <string name="callDetailsShortDurationFormat"><xliff:g id="seconds" example="28">%s </xliff:g> sek</string>
   <!-- A nicely formatted call duration displayed when viewing call details. For example "42 min 28 sec" -->
   <string name="callDetailsDurationFormat"><xliff:g id="MINUTES">%s</xliff:g> min <xliff:g id="SECONDS">%s</xliff:g> sek</string>
   <!-- Dialog message which is shown when the user tries to make a phone call
@@ -374,7 +373,7 @@
   <!-- Accessibility text for the tab showing the user's contacts. [CHAR LIMIT=40] -->
   <string name="tab_all_contacts">Kontakter</string>
   <!-- Accessibility text for the tab showing the user's voicemails. [CHAR LIMIT=40] -->
-  <string name="tab_voicemail">Voicemail</string>
+  <string name="tab_voicemail">Röstmeddelande</string>
   <!--  Text displayed when user swipes out a favorite contact -->
   <string name="favorite_hidden">Borttagen från favoriter</string>
   <!--  Text displayed for the undo button to undo removing a favorite contact -->
@@ -386,23 +385,23 @@
   <string name="search_shortcut_create_new_contact">Skapa ny kontakt</string>
   <!-- Shortcut item used to add a number to an existing contact directly from search.
          [CHAR LIMIT=25] -->
-  <string name="search_shortcut_add_to_contact">Add to a contact</string>
+  <string name="search_shortcut_add_to_contact">Lägg till i en Kontakt</string>
   <!-- Shortcut item used to send a text message directly from search. [CHAR LIMIT=25] -->
   <string name="search_shortcut_send_sms_message">Skicka sms</string>
   <!-- Shortcut item used to make a video call directly from search. [CHAR LIMIT=25] -->
   <string name="search_shortcut_make_video_call">Ring videosamtal</string>
   <!-- Title for the call log list item that brings users to the full call history when clicked -->
-  <string name="show_call_history">View full call history</string>
+  <string name="show_call_history">Visa fullständig samtalshistorik</string>
   <!-- Number of missed calls shown on call card [CHAR LIMIT=40] -->
   <string name="num_missed_calls"><xliff:g id="NUMBER">%s</xliff:g> nya missade samtal</string>
   <!-- Shown when there are no speed dial favorites. -->
   <string name="speed_dial_empty">Kortnummer är snabbval för favoritkontakter och nummer du ringer till ofta</string>
   <!-- Shown as an action when there are no speed dial favorites -->
-  <string name="speed_dial_empty_add_favorite_action">Add a favorite</string>
+  <string name="speed_dial_empty_add_favorite_action">Lägg till en favorit</string>
   <!-- Shown when there are no contacts in the all contacts list. -->
   <string name="all_contacts_empty">Inga kontakter</string>
   <!-- Shown as an action when the all contacts list is empty -->
-  <string name="all_contacts_empty_add_contact_action">Add a contact</string>
+  <string name="all_contacts_empty_add_contact_action">Lägga till en kontakt</string>
   <!-- Shows up as a tooltip to provide a hint to the user that the profile pic in a contact
          card can be tapped to bring up a list of all numbers, or long pressed to start reordering
          [CHAR LIMIT=NONE]
@@ -425,7 +424,8 @@
   <!-- Button text for the button displayed underneath an entry in the call log, which when
          tapped triggers a return call to the named user. [CHAR LIMIT=30] -->
   <string name="call_log_action_call">
-        Call <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
+Ring<xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
+    
     </string>
   <!-- String describing an incoming missed call entry in the call log.
          Note: AccessibilityServices uses this attribute to announce what the view represents.
@@ -468,13 +468,12 @@
          Note: AccessibilityServices uses this attribute to announce the purpose of the button.
          [CHAR LIMIT=NONE] -->
   <string name="description_voicemail_play">
-        Play voicemail from <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
-    </string>
+Spela röstmeddelande från <xliff:g id="nameOrNumber" example="John Smith"> ^ 1 </xliff:g>    </string>
   <!-- String describing the "pause voicemail" action for an entry in the call log.
          Note: AccessibilityServices uses this attribute to announce the purpose of the button.
          [CHAR LIMIT=NONE] -->
   <string name="description_voicemail_pause">
-        Pause voicemail from <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
+Pausa röstmeddelande från <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
     </string>
   <!-- String describing the "delete voicemail" action for an entry in the call log.
          Note: AccessibilityServices uses this attribute to announce the purpose of the button.
@@ -587,9 +586,9 @@
   <!-- DO NOT TRANSLATE. Internal key for vibrate when ringing preference. -->
   <!-- DO NOT TRANSLATE. Internal key for DTMF tone length preference. -->
   <!-- The label of the button used to turn on a single permission -->
-  <string name="permission_single_turn_on">Turn on</string>
+  <string name="permission_single_turn_on">Slå på</string>
   <!--  The label of the button used to turn on multiple permissions -->
-  <string name="permission_multiple_turn_on">Set permissions</string>
+  <string name="permission_multiple_turn_on">Bestäm behörigheter</string>
   <!-- Shown as a prompt to turn on the contacts permission to enable speed dial -->
   <string name="permission_no_speeddial">To enable speed dial,\n turn on the Contacts permission.</string>
   <!-- Shown as a prompt to turn on the phone permission to enable the call log -->
