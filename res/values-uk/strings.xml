@@ -56,7 +56,7 @@
   <!-- Text displayed when the call log is empty. -->
   <string name="recentCalls_empty">Немає дзвінків</string>
   <!-- Label of the button displayed when the call log is empty. Allows the user to make a call. -->
-  <string name="recentCalls_empty_action">Make a call</string>
+  <string name="recentCalls_empty_action">Телефонувати</string>
   <!-- Title of the confirmation dialog for clearing the call log. [CHAR LIMIT=37]  -->
   <string name="clearCallLogConfirmation_title">Очистити історію дзвінків?</string>
   <!-- Confirmation dialog for clearing the call log. [CHAR LIMIT=NONE]  -->
@@ -99,13 +99,13 @@
   <!-- The header to show that call log is only showing missed calls. [CHAR LIMIT=40] -->
   <string name="call_log_missed_header">Лише пропущені виклики</string>
   <!-- Title for promo card for visual voicemail. [CHAR LIMIT=40] -->
-  <string name="visual_voicemail_title">Visual voicemail</string>
+  <string name="visual_voicemail_title">Візуальна голосова пошта</string>
   <!-- Promo card text for visual voicemail. -->
   <string name="visual_voicemail_text">
         See and listen to your voicemail, without having to call a number. Data charges may apply.
     </string>
   <!-- Text for "Settings" link for visual voicemail promo card. [CHAR LIMIT=30] -->
-  <string name="visual_voicemail_settings">Settings</string>
+  <string name="visual_voicemail_settings">Налаштування</string>
   <!--  Voicemail status message shown at the top of call log to notify the user that no new
     voicemails are currently available. This can happen when both notification as well as data
     connection to the voicemail server is lost. [CHAR LIMIT=64] -->
@@ -310,7 +310,7 @@
   <!-- String used to display calls from pay phone in the call log -->
   <string name="payphone">Таксофон</string>
   <!-- A nicely formatted call duration displayed when viewing call details for duration less than 1 minute. For example "28 sec" -->
-  <string name="callDetailsShortDurationFormat"><xliff:g id="seconds" example="28">%s</xliff:g> sec</string>
+  <string name="callDetailsShortDurationFormat"><xliff:g id="seconds" example="28">%s </xliff:g> сек</string>
   <!-- A nicely formatted call duration displayed when viewing call details. For example "42 min 28 sec" -->
   <string name="callDetailsDurationFormat"><xliff:g id="MINUTES">%s</xliff:g> хв <xliff:g id="SECONDS">%s</xliff:g> с</string>
   <!-- Dialog message which is shown when the user tries to make a phone call
@@ -375,7 +375,7 @@
   <!-- Accessibility text for the tab showing the user's contacts. [CHAR LIMIT=40] -->
   <string name="tab_all_contacts">Контакти</string>
   <!-- Accessibility text for the tab showing the user's voicemails. [CHAR LIMIT=40] -->
-  <string name="tab_voicemail">Voicemail</string>
+  <string name="tab_voicemail">Голосова пошта</string>
   <!--  Text displayed when user swipes out a favorite contact -->
   <string name="favorite_hidden">Вилучено з вибраного</string>
   <!--  Text displayed for the undo button to undo removing a favorite contact -->
@@ -387,23 +387,23 @@
   <string name="search_shortcut_create_new_contact">Створити новий контакт</string>
   <!-- Shortcut item used to add a number to an existing contact directly from search.
          [CHAR LIMIT=25] -->
-  <string name="search_shortcut_add_to_contact">Add to a contact</string>
+  <string name="search_shortcut_add_to_contact">Додати до контакта</string>
   <!-- Shortcut item used to send a text message directly from search. [CHAR LIMIT=25] -->
   <string name="search_shortcut_send_sms_message">Надіслати SMS</string>
   <!-- Shortcut item used to make a video call directly from search. [CHAR LIMIT=25] -->
   <string name="search_shortcut_make_video_call">Здійснити відеодзвінок</string>
   <!-- Title for the call log list item that brings users to the full call history when clicked -->
-  <string name="show_call_history">View full call history</string>
+  <string name="show_call_history">Повний журнал дзвінків</string>
   <!-- Number of missed calls shown on call card [CHAR LIMIT=40] -->
   <string name="num_missed_calls">Нових пропущених дзвінків: <xliff:g id="NUMBER">%s</xliff:g></string>
   <!-- Shown when there are no speed dial favorites. -->
   <string name="speed_dial_empty">Швидкий набір – це набір вибраних номерів і номерів, на які ви часто телефонуєте, одним дотиком</string>
   <!-- Shown as an action when there are no speed dial favorites -->
-  <string name="speed_dial_empty_add_favorite_action">Add a favorite</string>
+  <string name="speed_dial_empty_add_favorite_action">Додати до улюбленого</string>
   <!-- Shown when there are no contacts in the all contacts list. -->
   <string name="all_contacts_empty">Немає контактів</string>
   <!-- Shown as an action when the all contacts list is empty -->
-  <string name="all_contacts_empty_add_contact_action">Add a contact</string>
+  <string name="all_contacts_empty_add_contact_action">Додати контакт</string>
   <!-- Shows up as a tooltip to provide a hint to the user that the profile pic in a contact
          card can be tapped to bring up a list of all numbers, or long pressed to start reordering
          [CHAR LIMIT=NONE]
@@ -418,7 +418,7 @@
   <!-- Button text for a button displayed underneath an entry in the call log, which opens up a
          messaging app to send a SMS to the number represented by the call log entry.
          [CHAR LIMIT=30] -->
-  <string name="call_log_action_send_message">Send Message</string>
+  <string name="call_log_action_send_message">Надіслати повідомлення</string>
   <!-- Button text for the button displayed underneath an entry in the call log.
          Tapping navigates the user to the call details screen where the user can view details for
          the call log entry. [CHAR LIMIT=30] -->
@@ -426,8 +426,7 @@
   <!-- Button text for the button displayed underneath an entry in the call log, which when
          tapped triggers a return call to the named user. [CHAR LIMIT=30] -->
   <string name="call_log_action_call">
-        Call <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
-    </string>
+Зателефонувати <xliff:g id="nameOrNumber" example="John Smith"> ^ 1 </xliff:g>    </string>
   <!-- String describing an incoming missed call entry in the call log.
          Note: AccessibilityServices uses this attribute to announce what the view represents.
          [CHAR LIMIT=NONE] -->

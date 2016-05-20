@@ -147,12 +147,12 @@ Ver e ouvir suas mensagens de voz, sem ter que ligar para um número. Podem have
 
          Used by AccessibilityService to announce the purpose of the button.
     -->
-  <string name="description_dial_button">dial</string>
+  <string name="description_dial_button">discar</string>
   <!-- String describing the digits text box containing the number to dial.
 
          Used by AccessibilityService to announce the purpose of the view.
     -->
-  <string name="description_digits_edittext">number to dial</string>
+  <string name="description_digits_edittext">número para discar</string>
   <!-- String describing the button in the voicemail playback to start/stop playback.
 
          Used by AccessibilityService to announce the purpose of the view.
@@ -177,18 +177,18 @@ Ver e ouvir suas mensagens de voz, sem ter que ligar para um número. Podem have
 
          Used by AccessibilityService to announce the purpose of the view.
     -->
-  <string name="description_rate_increase">Increase playback rate</string>
+  <string name="description_rate_increase">Aumentar a taxa de reprodução</string>
   <!-- Content description for the fake action menu button that brings up the call history
          activity -->
-  <string name="action_menu_call_history_description">Call History</string>
+  <string name="action_menu_call_history_description">Histórico de Chamadas</string>
   <!-- Content description for the fake action menu overflow button.
          This should be same as the description for the real action menu
          overflow button available in ActionBar.
          [CHAR LIMIT=NONE] -->
-  <string name="action_menu_overflow_description" msgid="2295659037509008453">More options</string>
+  <string name="action_menu_overflow_description" msgid="2295659037509008453">Mais opções</string>
   <!-- Content description for the button that displays the dialpad
          [CHAR LIMIT=NONE] -->
-  <string name="action_menu_dialpad_button">dial pad</string>
+  <string name="action_menu_dialpad_button">teclado de discagem</string>
   <!-- Menu item to copy something [CHAR_LIMIT=10] -->
   <string name="menu_copy">Copiar</string>
   <!-- Menu item used to show only outgoing in the call log. [CHAR LIMIT=30] -->
@@ -196,88 +196,88 @@ Ver e ouvir suas mensagens de voz, sem ter que ligar para um número. Podem have
   <!-- Menu item used to show only incoming in the call log. [CHAR LIMIT=30] -->
   <string name="menu_show_incoming_only">Mostrar somente recebidas</string>
   <!-- Menu item used to show only missed in the call log. [CHAR LIMIT=30] -->
-  <string name="menu_show_missed_only">Show missed only</string>
+  <string name="menu_show_missed_only">Mostrar apenas perdidas</string>
   <!-- Menu item used to show only voicemails in the call log. [CHAR LIMIT=30] -->
-  <string name="menu_show_voicemails_only">Show voicemails only</string>
+  <string name="menu_show_voicemails_only">Mostar apenas correios de voz</string>
   <!-- Menu item used to show all calls in the call log. [CHAR LIMIT=30] -->
-  <string name="menu_show_all_calls">Show all calls</string>
+  <string name="menu_show_all_calls">Mostrar todas as chamadas</string>
   <!-- Menu items for dialpad options as part of Pause and Wait ftr [CHAR LIMIT=30] -->
-  <string name="add_2sec_pause">Add 2-sec pause</string>
-  <string name="add_wait">Add wait</string>
+  <string name="add_2sec_pause">Adicionar pausa de 2 segundos</string>
+  <string name="add_wait">Adicionar espera</string>
   <!-- Label for the dialer app setting page [CHAR LIMIT=30]-->
-  <string name="dialer_settings_label">Settings</string>
+  <string name="dialer_settings_label">Configurar</string>
   <!-- Menu item to create a new contact [CHAR LIMIT=30] -->
-  <string name="menu_newContact">New contact</string>
+  <string name="menu_newContact">Novo contato</string>
   <!-- Menu item to display all contacts [CHAR LIMIT=30] -->
-  <string name="menu_allContacts">All contacts</string>
+  <string name="menu_allContacts">Todos os contatos</string>
   <!-- Title bar for call detail screen -->
-  <string name="callDetailTitle">Call details</string>
+  <string name="callDetailTitle">Detalhes da chamada</string>
   <!-- Toast for call detail screen when couldn't read the requested details -->
-  <string name="toast_call_detail_error">Details not available</string>
+  <string name="toast_call_detail_error">Detalhes não disponíveis</string>
   <!-- Item label: jump to the in-call DTMF dialpad.
          (Part of a list of options shown in the dialer when another call
          is already in progress.) -->
-  <string name="dialer_useDtmfDialpad">Use touch tone keypad</string>
+  <string name="dialer_useDtmfDialpad">Usar tom de toque do teclado</string>
   <!-- Item label: jump to the in-call UI.
          (Part of a list of options shown in the dialer when another call
          is already in progress.) -->
-  <string name="dialer_returnToInCallScreen">Return to call in progress</string>
+  <string name="dialer_returnToInCallScreen">Retornar para chamada em andamento</string>
   <!-- Item label: use the Dialer's dialpad to add another call.
          (Part of a list of options shown in the dialer when another call
          is already in progress.) -->
-  <string name="dialer_addAnotherCall">Add call</string>
+  <string name="dialer_addAnotherCall">Adicionar chamada</string>
   <!-- Title for incoming call details screen -->
-  <string name="type_incoming">Incoming call</string>
+  <string name="type_incoming">Recebendo chamada</string>
   <!-- Title for outgoing call details screen -->
-  <string name="type_outgoing">Outgoing call</string>
+  <string name="type_outgoing">Chamadas realizadas</string>
   <!-- Title for missed call details screen -->
-  <string name="type_missed">Missed call</string>
+  <string name="type_missed">Chamada perdida</string>
   <!-- Title for incoming video call in call details screen [CHAR LIMIT=60] -->
-  <string name="type_incoming_video">Incoming video call</string>
+  <string name="type_incoming_video">Recebendo chamada de vídeo</string>
   <!-- Title for outgoing video call in call details screen [CHAR LIMIT=60] -->
-  <string name="type_outgoing_video">Outgoing video call</string>
+  <string name="type_outgoing_video">Efetuando chamada de vídeo</string>
   <!-- Title for missed video call in call details screen [CHAR LIMIT=60] -->
-  <string name="type_missed_video">Missed video call</string>
+  <string name="type_missed_video">Vídeo chamada perdida</string>
   <!-- Title for voicemail details screen -->
-  <string name="type_voicemail">Voicemail</string>
+  <string name="type_voicemail">Correios de Voz</string>
   <!-- Description for incoming calls going to voice mail vs. not -->
-  <string name="actionIncomingCall">Incoming calls</string>
+  <string name="actionIncomingCall">Chamadas recebidas</string>
   <!-- String describing the icon in the call log used to play a voicemail.
 
         Note: AccessibilityServices use this attribute to announce what the view represents.
               This is especially valuable for views without textual representation like ImageView.
     -->
-  <string name="description_call_log_play_button">Play voicemail</string>
+  <string name="description_call_log_play_button">Reproduzir correio de voz</string>
   <!-- String describing the button to view the contact for the current number.
 
         Note: AccessibilityServices use this attribute to announce what the view represents.
               This is especially valuable for views without textual representation like ImageView.
     -->
-  <string name="description_view_contact">View contact <xliff:g id="name">%1$s</xliff:g></string>
+  <string name="description_view_contact">Visualizar contato <xliff:g id="name">%1$s</xliff:g></string>
   <!-- String describing the button to call a number or contact.
 
         Note: AccessibilityServices use this attribute to announce what the view represents.
               This is especially valuable for views without textual representation like ImageView.
     -->
-  <string name="description_call">Call <xliff:g id="name">%1$s</xliff:g></string>
+  <string name="description_call">Chamar <xliff:g id="name">%1$s </xliff:g></string>
   <!-- String describing the button to access the contact details for a name or number.
 
         Note: AccessibilityServices use this attribute to announce what the view represents.
               This is especially valuable for views without textual representation like ImageView.
     -->
-  <string name="description_contact_details">Contact details for <xliff:g id="nameOrNumber">%1$s</xliff:g></string>
+  <string name="description_contact_details">Detalhes de contato para <xliff:g id="nameOrNumber">%1$s</xliff:g></string>
   <!-- String indicating a call log entry has an associated voicemail.
 
     Note: AccessibilityServices use this attribute to announce what the view represents.
           This is especially valuable for views without textual representation like ImageView.
     -->
-  <string name="description_new_voicemail">New voicemail.</string>
+  <string name="description_new_voicemail">Novo correio de voz.</string>
   <!-- String indicating the number of calls to/from a caller in the call log.
 
     Note: AccessibilityServices use this attribute to announce what the view represents.
           This is especially valuable for views without textual representation like ImageView.
     -->
-  <string name="description_num_calls"><xliff:g id="numberOfCalls">%1$s</xliff:g> calls.</string>
+  <string name="description_num_calls"><xliff:g id="numberOfCalls">%1$s</xliff:g> chamadas.</string>
   <!-- String indicating a call log entry had video capabilities.
 
     Note: AccessibilityServices use this attribute to announce what the view represents.
@@ -301,39 +301,39 @@ Ver e ouvir suas mensagens de voz, sem ter que ligar para um número. Podem have
     -->
   <string name="description_call_log_unheard_voicemail">Unheard voicemail</string>
   <!-- String describing the icon used to start a voice search -->
-  <string name="description_start_voice_search">Start voice search</string>
+  <string name="description_start_voice_search">Iniciar pesquisa por voz</string>
   <!-- Menu item used to call a contact, containing the number of the contact to call -->
-  <string name="menu_callNumber">Call <xliff:g id="number">%s</xliff:g></string>
+  <string name="menu_callNumber">Chamar <xliff:g id="number">%s</xliff:g></string>
   <!-- String used to display calls from unknown numbers in the call log -->
-  <string name="unknown">Unknown</string>
+  <string name="unknown">Desconhecido</string>
   <!-- String used for displaying calls to the voicemail number in the call log -->
-  <string name="voicemail">Voicemail</string>
+  <string name="voicemail">Correios de Voz</string>
   <!-- String used to display calls from private numbers in the call log -->
-  <string name="private_num">Private number</string>
+  <string name="private_num">Número privado</string>
   <!-- String used to display calls from pay phone in the call log -->
   <string name="payphone">Payphone</string>
   <!-- A nicely formatted call duration displayed when viewing call details for duration less than 1 minute. For example "28 sec" -->
   <string name="callDetailsShortDurationFormat"><xliff:g id="seconds" example="28">%s</xliff:g> sec</string>
   <!-- A nicely formatted call duration displayed when viewing call details. For example "42 min 28 sec" -->
-  <string name="callDetailsDurationFormat"><xliff:g id="minutes" example="42">%s</xliff:g> min <xliff:g id="seconds" example="28">%s</xliff:g> sec</string>
+  <string name="callDetailsDurationFormat"><xliff:g id="minutes" example="42">%s</xliff:g> min <xliff:g id="seconds" example="28">%s</xliff:g> seg</string>
   <!-- Dialog message which is shown when the user tries to make a phone call
          to prohibited phone numbers [CHAR LIMIT=NONE] -->
-  <string name="dialog_phone_call_prohibited_message" msgid="4313552620858880999">Can\'t call this number</string>
+  <string name="dialog_phone_call_prohibited_message" msgid="4313552620858880999">Não é possível ligar para este número</string>
   <!-- Dialog message which is shown when the user tries to check voicemail
          while the system isn't ready for the access. [CHAR LIMIT=NONE] -->
   <string name="dialog_voicemail_not_ready_message">To set up voicemail, go to Menu &gt; Settings.</string>
   <!-- Dialog message which is shown when the user tries to check voicemail
          while the system is in airplane mode. The user cannot access to
          voicemail service in Airplane mode. [CHAR LIMI=NONE] -->
-  <string name="dialog_voicemail_airplane_mode_message">To call voicemail, first turn off Airplane mode.</string>
+  <string name="dialog_voicemail_airplane_mode_message">Para chamar o correio de voz, primeiro desligue o modo avião.</string>
   <!-- Message that appears in the favorites tab of the Phone app when the contact list has not fully loaded yet (below the favorite and frequent contacts) [CHAR LIMIT=20] -->
-  <string name="contact_list_loading">Loading\u2026</string>
+  <string name="contact_list_loading">Carregando\u2026</string>
   <!-- The title of a dialog that displays the IMEI of the phone -->
   <string name="imei">IMEI</string>
   <!-- The title of a dialog that displays the MEID of the CDMA phone -->
   <string name="meid">MEID</string>
   <!-- Dialog text displayed when loading a phone number from the SIM card for speed dial -->
-  <string name="simContacts_emptyLoading">Loading from SIM card\u2026</string>
+  <string name="simContacts_emptyLoading">Carregando do cartão SIM\u2026</string>
   <!-- Dialog title displayed when loading a phone number from the SIM card for speed dial -->
   <string name="simContacts_title">SIM card contacts</string>
   <!-- Message displayed when there is no application available to handle the add contact menu option. [CHAR LIMIT=NONE] -->
@@ -348,13 +348,13 @@ Ver e ouvir suas mensagens de voz, sem ter que ligar para um número. Podem have
   <string name="activity_not_available">No app for that on this device</string>
   <!-- Hint displayed in dialer search box when there is no query that is currently typed.
          [CHAR LIMIT=30] -->
-  <string name="dialer_hint_find_contact">Enter a name or phone number</string>
+  <string name="dialer_hint_find_contact">Insira um nome ou número de telefone</string>
   <!-- String resource for the font-family to use for the call log activity's title
          Do not translate. -->
   <!-- String resource for the font-family to use for the full call history footer
          Do not translate. -->
   <!-- Text displayed when the list of missed calls is empty -->
-  <string name="recentMissed_empty">You have no missed calls.</string>
+  <string name="recentMissed_empty">Você não tem chamadas perdidas.</string>
   <!-- Text displayed when the list of voicemails is empty -->
   <string name="recentVoicemails_empty">Your voicemail inbox is empty.</string>
   <!--  Menu option to show favorite contacts only -->
@@ -369,14 +369,14 @@ Ver e ouvir suas mensagens de voz, sem ter que ligar para um número. Podem have
   <string name="call_log_missed_title">Missed</string>
   <!-- Title for the call log tab containing the list of all voicemail calls only
          [CHAR LIMIT=30] -->
-  <string name="call_log_voicemail_title">Voicemail</string>
+  <string name="call_log_voicemail_title">Correios de Voz</string>
   <!-- Accessibility text for the tab showing recent and favorite contacts who can be called.
          [CHAR LIMIT=40] -->
-  <string name="tab_speed_dial">Speed dial</string>
+  <string name="tab_speed_dial">Discagem rápida</string>
   <!-- Accessibility text for the tab showing the call log of recent calls. [CHAR LIMIT=40] -->
-  <string name="tab_recents">Recents</string>
+  <string name="tab_recents">Recentes</string>
   <!-- Accessibility text for the tab showing the user's contacts. [CHAR LIMIT=40] -->
-  <string name="tab_all_contacts">Contacts</string>
+  <string name="tab_all_contacts">Contatos</string>
   <!-- Accessibility text for the tab showing the user's voicemails. [CHAR LIMIT=40] -->
   <string name="tab_voicemail">Voicemail</string>
   <!--  Text displayed when user swipes out a favorite contact -->
@@ -389,16 +389,16 @@ Ver e ouvir suas mensagens de voz, sem ter que ligar para um número. Podem have
     </string>
   <!-- Shortcut item used to add a number directly to a new contact from search.
          [CHAR LIMIT=25] -->
-  <string name="search_shortcut_create_new_contact">Create new contact</string>
+  <string name="search_shortcut_create_new_contact">Criar novo contato</string>
   <!-- Shortcut item used to add a number to an existing contact directly from search.
          [CHAR LIMIT=25] -->
-  <string name="search_shortcut_add_to_contact">Add to a contact</string>
+  <string name="search_shortcut_add_to_contact">Adicionar aos contactos</string>
   <!-- Shortcut item used to send a text message directly from search. [CHAR LIMIT=25] -->
-  <string name="search_shortcut_send_sms_message">Send SMS</string>
+  <string name="search_shortcut_send_sms_message">Enviar SMS</string>
   <!-- Shortcut item used to make a video call directly from search. [CHAR LIMIT=25] -->
-  <string name="search_shortcut_make_video_call">Make video call</string>
+  <string name="search_shortcut_make_video_call">Fazer videochamada</string>
   <!-- Title for the call log list item that brings users to the full call history when clicked -->
-  <string name="show_call_history">View full call history</string>
+  <string name="show_call_history">Exibir histórico de chamada completo</string>
   <!-- Number of missed calls shown on call card [CHAR LIMIT=40] -->
   <string name="num_missed_calls"><xliff:g id="number">%s</xliff:g> new missed calls</string>
   <!-- Shown when there are no speed dial favorites. -->
