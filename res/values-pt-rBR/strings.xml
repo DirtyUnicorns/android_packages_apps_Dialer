@@ -284,14 +284,14 @@ Ver e ouvir suas mensagens de voz, sem ter que ligar para um número. Podem have
           This is especially valuable for views without textual representation like ImageView.
           [CHAR LIMIT=NONE]
     -->
-  <string name="description_video_call">Video call.</string>
+  <string name="description_video_call">Vídeo chamada.</string>
   <!-- String describing the button to SMS a number or contact.
 
         Note: AccessibilityServices use this attribute to announce what the view represents.
               This is especially valuable for views without textual representation like ImageView.
               [CHAR LIMIT=NONE]
     -->
-  <string name="description_send_text_message">Send SMS to <xliff:g id="name">%1$s</xliff:g></string>
+  <string name="description_send_text_message">Enviar SMS para <xliff:g id="NAME">%1$s</xliff:g></string>
   <!-- String describing the icon in the call log used to represent an unheard voicemail left to
          the user.
 
@@ -299,7 +299,7 @@ Ver e ouvir suas mensagens de voz, sem ter que ligar para um número. Podem have
               This is especially valuable for views without textual representation like ImageView.
               [CHAR LIMIT=NONE]
     -->
-  <string name="description_call_log_unheard_voicemail">Unheard voicemail</string>
+  <string name="description_call_log_unheard_voicemail">Nova mensagem de voz</string>
   <!-- String describing the icon used to start a voice search -->
   <string name="description_start_voice_search">Iniciar pesquisa por voz</string>
   <!-- Menu item used to call a contact, containing the number of the contact to call -->
@@ -311,9 +311,9 @@ Ver e ouvir suas mensagens de voz, sem ter que ligar para um número. Podem have
   <!-- String used to display calls from private numbers in the call log -->
   <string name="private_num">Número privado</string>
   <!-- String used to display calls from pay phone in the call log -->
-  <string name="payphone">Payphone</string>
+  <string name="payphone">Telefone público</string>
   <!-- A nicely formatted call duration displayed when viewing call details for duration less than 1 minute. For example "28 sec" -->
-  <string name="callDetailsShortDurationFormat"><xliff:g id="seconds" example="28">%s</xliff:g> sec</string>
+  <string name="callDetailsShortDurationFormat"><xliff:g id="seconds" example="28">%s </xliff:g> sec</string>
   <!-- A nicely formatted call duration displayed when viewing call details. For example "42 min 28 sec" -->
   <string name="callDetailsDurationFormat"><xliff:g id="minutes" example="42">%s</xliff:g> min <xliff:g id="seconds" example="28">%s</xliff:g> seg</string>
   <!-- Dialog message which is shown when the user tries to make a phone call
@@ -321,7 +321,7 @@ Ver e ouvir suas mensagens de voz, sem ter que ligar para um número. Podem have
   <string name="dialog_phone_call_prohibited_message" msgid="4313552620858880999">Não é possível ligar para este número</string>
   <!-- Dialog message which is shown when the user tries to check voicemail
          while the system isn't ready for the access. [CHAR LIMIT=NONE] -->
-  <string name="dialog_voicemail_not_ready_message">To set up voicemail, go to Menu &gt; Settings.</string>
+  <string name="dialog_voicemail_not_ready_message">Para configurar o correio de voz, vá no Menu &gt; Configurações.</string>
   <!-- Dialog message which is shown when the user tries to check voicemail
          while the system is in airplane mode. The user cannot access to
          voicemail service in Airplane mode. [CHAR LIMI=NONE] -->
@@ -335,9 +335,9 @@ Ver e ouvir suas mensagens de voz, sem ter que ligar para um número. Podem have
   <!-- Dialog text displayed when loading a phone number from the SIM card for speed dial -->
   <string name="simContacts_emptyLoading">Carregando do cartão SIM\u2026</string>
   <!-- Dialog title displayed when loading a phone number from the SIM card for speed dial -->
-  <string name="simContacts_title">SIM card contacts</string>
+  <string name="simContacts_title">Contatos do Cartão SIM</string>
   <!-- Message displayed when there is no application available to handle the add contact menu option. [CHAR LIMIT=NONE] -->
-  <string name="add_contact_not_available">No contacts app available</string>
+  <string name="add_contact_not_available">Nenhum app de contatos disponível</string>
   <!-- Message displayed when there is no application available to handle voice search. [CHAR LIMIT=NONE] -->
   <string name="voice_search_not_available">Voice search not available</string>
   <!-- Message displayed when the Phone application has been disabled and a phone call cannot
@@ -363,10 +363,10 @@ Ver e ouvir suas mensagens de voz, sem ter que ligar para um número. Podem have
   <string name="call_log_activity_title">History</string>
   <!-- Title for the call log tab containing the list of all voicemails and calls
          [CHAR LIMIT=30] -->
-  <string name="call_log_all_title">All</string>
+  <string name="call_log_all_title">Todos</string>
   <!-- Title for the call log tab containing the list of all missed calls only
          [CHAR LIMIT=30] -->
-  <string name="call_log_missed_title">Missed</string>
+  <string name="call_log_missed_title">Perdidas</string>
   <!-- Title for the call log tab containing the list of all voicemail calls only
          [CHAR LIMIT=30] -->
   <string name="call_log_voicemail_title">Correios de Voz</string>
@@ -378,14 +378,14 @@ Ver e ouvir suas mensagens de voz, sem ter que ligar para um número. Podem have
   <!-- Accessibility text for the tab showing the user's contacts. [CHAR LIMIT=40] -->
   <string name="tab_all_contacts">Contatos</string>
   <!-- Accessibility text for the tab showing the user's voicemails. [CHAR LIMIT=40] -->
-  <string name="tab_voicemail">Voicemail</string>
+  <string name="tab_voicemail">Correio de Voz</string>
   <!--  Text displayed when user swipes out a favorite contact -->
-  <string name="favorite_hidden">Removed from favorites</string>
+  <string name="favorite_hidden">Removido dos favoritos</string>
   <!--  Text displayed for the undo button to undo removing a favorite contact -->
-  <string name="favorite_hidden_undo">Undo</string>
+  <string name="favorite_hidden_undo">Desfazer</string>
   <!-- Shortcut item used to call a number directly from search -->
-  <string name="search_shortcut_call_number">Call
-        <xliff:g id="number">%s</xliff:g>
+  <string name="search_shortcut_call_number">Chamar
+    <xliff:g id="name">%s </xliff:g>
     </string>
   <!-- Shortcut item used to add a number directly to a new contact from search.
          [CHAR LIMIT=25] -->

@@ -28,14 +28,14 @@
   <string name="enable_people_lookup_summary">搜尋時顯示線上人名查詢結果</string>
   <string name="enable_reverse_lookup_title">反向搜尋</string>
   <string name="enable_reverse_lookup_summary">未知號碼來電時搜尋相關的人名或地點資料</string>
-  <string name="forward_lookup_provider_title">正向搜尋的提供者</string>
+  <string name="forward_lookup_provider_title">正向搜尋提供者</string>
   <string name="people_lookup_provider_title">人名搜尋提供者</string>
   <string name="reverse_lookup_provider_title">反向搜尋提供者</string>
   <!-- Chinese Reverse Lookup Provider -->
   <string name="cyngn_reverse_lookup_provider_name">Cyngn Chinese (CN)</string>
   <!--  for speed dial -->
   <string name="speed_dial_settings">快速撥號設定</string>
-  <string name="speed_dial_not_set">(未設定)</string>
+  <string name="speed_dial_not_set">(未指定)</string>
   <string name="speed_dial_replace">取代</string>
   <string name="speed_dial_delete">刪除</string>
   <string name="speed_dial_unassigned_dialog_title">按鍵未指定</string>

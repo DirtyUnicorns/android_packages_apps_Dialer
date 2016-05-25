@@ -17,44 +17,44 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Forward lookup -->
-  <string name="nearby_places">Nearby places</string>
-  <string name="people">People</string>
+  <string name="nearby_places">Nabijgelegen plaatsen</string>
+  <string name="people">Mensen</string>
   <!-- Number lookup -->
-  <string name="lookup_settings_label">Phone number lookup</string>
-  <string name="lookup_settings_description">Lookup of unknown phone numbers</string>
-  <string name="enable_forward_lookup_title">Forward lookup</string>
-  <string name="enable_forward_lookup_summary">Show nearby places when searching in the dialer</string>
-  <string name="enable_people_lookup_title">People lookup</string>
-  <string name="enable_people_lookup_summary">Show online results for people when searching in the dialer</string>
-  <string name="enable_reverse_lookup_title">Reverse lookup</string>
-  <string name="enable_reverse_lookup_summary">Look up information about the person or place for unknown numbers on incoming calls</string>
-  <string name="forward_lookup_provider_title">Forward lookup provider</string>
-  <string name="people_lookup_provider_title">People lookup provider</string>
-  <string name="reverse_lookup_provider_title">Reverse lookup provider</string>
+  <string name="lookup_settings_label">Telefoonnummer zoeken</string>
+  <string name="lookup_settings_description">Onbekende telefoonnummers opzoeken</string>
+  <string name="enable_forward_lookup_title">Opzoeken doorsturen</string>
+  <string name="enable_forward_lookup_summary">Toon nabijgelegen plaatsen bij het zoeken in de kiezer</string>
+  <string name="enable_people_lookup_title">Mensen zoeken</string>
+  <string name="enable_people_lookup_summary">Laat online resultaten laten zien voor personen bij het zoeken in de kiezer</string>
+  <string name="enable_reverse_lookup_title">Omgekeerd zoeken</string>
+  <string name="enable_reverse_lookup_summary">Informatie over de persoon of plaats opzoeken bij inkomende oproepen van onbekende nummers</string>
+  <string name="forward_lookup_provider_title">Doorsturen zoeken provider</string>
+  <string name="people_lookup_provider_title">Mensen opzoeken provider</string>
+  <string name="reverse_lookup_provider_title">Omgekeerd zoeken provider</string>
   <!-- Chinese Reverse Lookup Provider -->
-  <string name="cyngn_reverse_lookup_provider_name">Cyngn Chinese (CN)</string>
+  <string name="cyngn_reverse_lookup_provider_name">Cyngn Chinees (CN)</string>
   <!--  for speed dial -->
-  <string name="speed_dial_settings">Speed dial settings</string>
-  <string name="speed_dial_not_set">(not set)</string>
-  <string name="speed_dial_replace">Replace</string>
-  <string name="speed_dial_delete">Delete</string>
-  <string name="speed_dial_unassigned_dialog_title">Key unassigned</string>
-  <string name="speed_dial_unassigned_dialog_message">No speed dial action is assigned to number key \'<xliff:g id="number">%s</xliff:g>\'. Do you want to assign an action now?</string>
-  <string name="dialog_speed_dial_airplane_mode_message">To use speed dial, first turn off Airplane mode.</string>
-  <string name="yes">Yes</string>
-  <string name="no">No</string>
+  <string name="speed_dial_settings">Instellingen snelkiesnummers</string>
+  <string name="speed_dial_not_set">(niet ingesteld)</string>
+  <string name="speed_dial_replace">Vervang</string>
+  <string name="speed_dial_delete">Wis</string>
+  <string name="speed_dial_unassigned_dialog_title">Toets niet toegewezen</string>
+  <string name="speed_dial_unassigned_dialog_message">Er is geen contact toegewezen aan snelkiesnummer \'<xliff:g id="number">%s</xliff:g>\'. Wilt u nu een contact toewijzen?</string>
+  <string name="dialog_speed_dial_airplane_mode_message">Om snelkiesnummers te gebruiken dient u eerst vliegmodus uit te schakelen.</string>
+  <string name="yes">Ja</string>
+  <string name="no">Nee</string>
   <!-- In call vibrate options -->
-  <string name="incall_vibration_category_title">In-call vibration</string>
-  <string name="incall_vibrate_outgoing_title">Vibrate on answer</string>
-  <string name="vibrate_call_waiting">Vibrate on call waiting</string>
-  <string name="incall_vibrate_hangup_title">Vibrate on hang up</string>
-  <string name="incall_vibrate_45_title">Vibrate every minute</string>
-  <string name="incall_vibrate_45_summary">Vibrates at the 45 second mark of every minute during outgoing calls</string>
+  <string name="incall_vibration_category_title">Trillen tijdens bellen</string>
+  <string name="incall_vibrate_outgoing_title">Trillen bij aannemen</string>
+  <string name="vibrate_call_waiting">Trillen bij wachten</string>
+  <string name="incall_vibrate_hangup_title">Trillen bij ophangen</string>
+  <string name="incall_vibrate_45_title">Elke minuut trillen</string>
+  <string name="incall_vibrate_45_summary">Elke 45e seconde van een minuut trillen bij uitgaande gesprekken</string>
   <!-- Description for incoming calls that were blacklisted -->
-  <string name="type_blacklist">Blacklisted call</string>
-  <string name="menu_add_to_blacklist">Add to blocked caller list</string>
-  <string name="toast_added_to_blacklist">%s added to blocked caller list.</string>
-  <string name="toast_removed_from_blacklist">%s removed from blocked caller list.</string>
-  <string name="call_log_action_block">Block caller</string>
-  <string name="call_log_action_unblock">Caller blocked</string>
+  <string name="type_blacklist">Op blacklist geplaatste oproep</string>
+  <string name="menu_add_to_blacklist">Toevoegen aan geblokkeerde beller lijst</string>
+  <string name="toast_added_to_blacklist">%s toegevoegd aan de geblokkeerde bellerlijst.</string>
+  <string name="toast_removed_from_blacklist">%s verwijderd uit de geblokkeerde bellerlijst.</string>
+  <string name="call_log_action_block">Blokkeer beller</string>
+  <string name="call_log_action_unblock">Beller geblokkeerd</string>
 </resources>
