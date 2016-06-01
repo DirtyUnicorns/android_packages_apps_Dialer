@@ -53,8 +53,8 @@
   <!-- Description for incoming calls that were blacklisted -->
   <string name="type_blacklist">Черный список</string>
   <string name="menu_add_to_blacklist">Добавить в список заблокированных вызовов</string>
-  <string name="toast_added_to_blacklist">добавлен в список заблокированных вызовов.</string>
-  <string name="toast_removed_from_blacklist">удален из списка заблокированных вызовов.</string>
+  <string name="toast_added_to_blacklist">%s добавлен в список заблокированных вызовов.</string>
+  <string name="toast_removed_from_blacklist">%s удален из списка заблокированных вызовов.</string>
   <string name="call_log_action_block">Блокировать вызов</string>
   <string name="call_log_action_unblock">Вызывающий объект заблокирован</string>
 </resources>

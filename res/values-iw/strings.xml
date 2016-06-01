@@ -66,6 +66,8 @@
   <!-- Title of the notification of new voicemails. [CHAR LIMIT=30] -->
   <plurals name="notification_voicemail_title">
     <item quantity="one">הודעת דואר קולי</item>
+    <item quantity="two"> <xliff:g id="COUNT">%1$d</xliff:g> הודעות דואר קולי </item>
+    <item quantity="many"> <xliff:g id="COUNT">%1$d</xliff:g> הודעות דואר קולי </item>
     <item quantity="other"> <xliff:g id="COUNT">%1$d</xliff:g> הודעות דואר קולי </item>
   </plurals>
   <!-- Used in the notification of a new voicemail for the action to play the voicemail. -->
@@ -482,6 +484,8 @@
          [CHAR LIMIT=NONE] -->
   <plurals name="description_voicemail_unread">
     <item quantity="one">משתתף <xliff:g id="Count_0">%d</xliff:g></item>
+    <item quantity="two"><xliff:g id="Count_1">%d</xliff:g> משתתפים</item>
+    <item quantity="many"><xliff:g id="Count_1">%d</xliff:g> משתתפים</item>
     <item quantity="other"><xliff:g id="Count_1">%d</xliff:g> משתתפים</item>
   </plurals>
   <!-- Description for the "create new contact" action for an entry in the call log. This action
