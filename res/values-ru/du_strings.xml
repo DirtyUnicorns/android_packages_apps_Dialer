@@ -39,8 +39,8 @@
   <string name="speed_dial_replace">Заменить</string>
   <string name="speed_dial_delete">Удалить</string>
   <string name="speed_dial_unassigned_dialog_title">Нет назначенного номера</string>
-  <string name="speed_dial_unassigned_dialog_message">Клавише не присвоен номер быстрого набора. Назначить его?</string>
-  <string name="dialog_speed_dial_airplane_mode_message">Чтобы использовать Быстрый набор, выключите режим полёта.</string>
+  <string name="speed_dial_unassigned_dialog_message">Клавише \"<xliff:g id="number">%s</xliff:g>\" не присвоен номер быстрого набора. Назначить его?</string>
+  <string name="dialog_speed_dial_airplane_mode_message">Чтобы использовать быстрый набор, выключите режим полёта.</string>
   <string name="yes">Да</string>
   <string name="no">Нет</string>
   <!-- In call vibrate options -->
@@ -53,8 +53,8 @@
   <!-- Description for incoming calls that were blacklisted -->
   <string name="type_blacklist">Черный список</string>
   <string name="menu_add_to_blacklist">Добавить в список заблокированных вызовов</string>
-  <string name="toast_added_to_blacklist">%s добавлен в список заблокированных вызовов.</string>
-  <string name="toast_removed_from_blacklist">%s удален из списка заблокированных вызовов.</string>
-  <string name="call_log_action_block">Блокировать вызов</string>
+  <string name="toast_added_to_blacklist">Абонент \"%s\" добавлен в чёрный список.</string>
+  <string name="toast_removed_from_blacklist">Абонент \"%s\" удален из чёрного списка.</string>
+  <string name="call_log_action_block">Заблокировать абонента</string>
   <string name="call_log_action_unblock">Вызывающий объект заблокирован</string>
 </resources>

@@ -21,9 +21,9 @@
   <string name="people">Kişiler</string>
   <!-- Number lookup -->
   <string name="lookup_settings_label">Telefon numarası bul</string>
-  <string name="lookup_settings_description">Lookup of unknown phone numbers</string>
+  <string name="lookup_settings_description">Bilinmeyen telefon numaralarını arama</string>
   <string name="enable_forward_lookup_title">Forward lookup</string>
-  <string name="enable_forward_lookup_summary">Show nearby places when searching in the dialer</string>
+  <string name="enable_forward_lookup_summary">Çeviricide arama yaparken yakın yerleri göster</string>
   <string name="enable_people_lookup_title">Kişi bul</string>
   <string name="enable_people_lookup_summary">Çeviricide arama yaparken kişiler için çevrimiçi arama sonuçlarını göster</string>
   <string name="enable_reverse_lookup_title">Reverse lookup</string>
@@ -36,8 +36,8 @@
   <!--  for speed dial -->
   <string name="speed_dial_settings">Hızlı arama ayarları</string>
   <string name="speed_dial_not_set">(not set)</string>
-  <string name="speed_dial_replace">Replace</string>
-  <string name="speed_dial_delete">Delete</string>
+  <string name="speed_dial_replace">Değiştir</string>
+  <string name="speed_dial_delete">Sil</string>
   <string name="speed_dial_unassigned_dialog_title">Numara atanmadı</string>
   <string name="speed_dial_unassigned_dialog_message">\'<xliff:g id="number">%s</xliff:g>\' numarasına hızlı arama işlevi atanmadı. Şimdi atamak ister misiniz?</string>
   <string name="dialog_speed_dial_airplane_mode_message">Hızlı aramayı kullanmak için, önce uçak modunu kapatın.</string>

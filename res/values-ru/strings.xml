@@ -479,7 +479,7 @@
   <plurals name="description_voicemail_unread">
     <item quantity="one">новое голосовое сообщение</item>
     <item quantity="few">новое голосовое сообщение</item>
-    <item quantity="other">новое голосовое сообщение</item>
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> новых голосовых сообщений</item>
   </plurals>
   <!-- Description for the "create new contact" action for an entry in the call log. This action
          opens a screen for creating a new contact for this name or number. [CHAR LIMIT=NONE] -->
@@ -579,17 +579,17 @@
   <!--  The label of the button used to turn on multiple permissions -->
   <string name="permission_multiple_turn_on">Установка разрешений</string>
   <!-- Shown as a prompt to turn on the contacts permission to enable speed dial -->
-  <string name="permission_no_speeddial">Чтобы включить быстрый набор, включите разрешение для контактов.</string>
+  <string name="permission_no_speeddial">Чтобы включить быстрый набор,\n включите разрешение для контактов.</string>
   <!-- Shown as a prompt to turn on the phone permission to enable the call log -->
-  <string name="permission_no_calllog">Чтобы увидеть ваш журнал звонков, включите разрешение для Телефона.</string>
+  <string name="permission_no_calllog">Чтобы увидеть ваш журнал звонков,\n включите разрешение для Телефона.</string>
   <!-- Shown as a prompt to turn on the contacts permission to show all contacts -->
-  <string name="permission_no_contacts">Чтобы увидеть ваши контакты, включите разрешение для Контактов.</string>
+  <string name="permission_no_contacts">Чтобы увидеть ваши контакты,\n включите разрешение для Контактов.</string>
   <!-- Shown as a prompt to turn on the phone permission to show voicemails -->
-  <string name="permission_no_voicemail">Для доступа к голосовой почте, включите разрешение для Телефона.</string>
+  <string name="permission_no_voicemail">Для доступа к голосовой почте,\n включите разрешение для Телефона.</string>
   <!-- Shown as a prompt to turn on contacts permissions to allow contact search -->
-  <string name="permission_no_search">Чтобы найти ваши контакты, включите разрешение для Контактов.</string>
+  <string name="permission_no_search">Чтобы найти ваши контакты,\n включите разрешение для Контактов.</string>
   <!-- Shown as a prompt to turn on the phone permission to allow a call to be placed -->
-  <string name="permission_place_call">Чтобы сделать вызов, включите разрешение для Телефона.</string>
+  <string name="permission_place_call">Чтобы сделать вызов,\n включите разрешение для Телефона.</string>
   <!-- Shown as a message that notifies the user that the Phone app cannot write to system settings, which is why the system settings app is being launched directly instead.-->
   <string name="toast_cannot_write_system_settings">Приложение Телефон не имеет разрешения на запись в системные настройки.</string>
 </resources>
