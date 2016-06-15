@@ -52,7 +52,7 @@
   <string name="incall_vibrate_45_summary">Вибрация на 45 секунде каждой минуты во время исходящих вызовов</string>
   <!-- Description for incoming calls that were blacklisted -->
   <string name="type_blacklist">Черный список</string>
-  <string name="menu_add_to_blacklist">Добавить в список заблокированных вызовов</string>
+  <string name="menu_add_to_blacklist">Добавить в чёрный список</string>
   <string name="toast_added_to_blacklist">Абонент \"%s\" добавлен в чёрный список.</string>
   <string name="toast_removed_from_blacklist">Абонент \"%s\" удален из чёрного списка.</string>
   <string name="call_log_action_block">Заблокировать абонента</string>
