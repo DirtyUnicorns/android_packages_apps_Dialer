@@ -589,7 +589,7 @@
   <!-- Shown as a prompt to turn on contacts permissions to allow contact search -->
   <string name="permission_no_search">搜尋您的聯絡人，請開啟\'\'聯絡人\'\'程式權限</string>
   <!-- Shown as a prompt to turn on the phone permission to allow a call to be placed -->
-  <string name="permission_place_call">To place a call,\n turn on the Phone permission.</string>
+  <string name="permission_place_call">欲撥打電話，\n請開啟電話權限。</string>
   <!-- Shown as a message that notifies the user that the Phone app cannot write to system settings, which is why the system settings app is being launched directly instead.-->
   <string name="toast_cannot_write_system_settings">電話程式沒有權限來修改系統設定</string>
 </resources>

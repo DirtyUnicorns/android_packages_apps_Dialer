@@ -40,7 +40,7 @@
   <string name="recentCalls_callNumber">Ara: <xliff:g id="NAME">%s</xliff:g></string>
   <!-- Text for a menu item to report a call as having been incorrectly identified.
          [CHAR LIMIT=30] -->
-  <string name="call_detail_menu_report">Report inaccurate number</string>
+  <string name="call_detail_menu_report">Hatalı numarayı rapor et</string>
   <!-- Menu item used to copy a number from the call log to the dialer so it can be edited before calling it -->
   <string name="recentCalls_editNumberBeforeCall">Önce numarayı düzenle</string>
   <!-- Menu item used to add a number from the call log to contacts -->
@@ -104,7 +104,7 @@
         See and listen to your voicemail, without having to call a number. Data charges may apply.
     </string>
   <!-- Text for "Settings" link for visual voicemail promo card. [CHAR LIMIT=30] -->
-  <string name="visual_voicemail_settings">Settings</string>
+  <string name="visual_voicemail_settings">Ayarlar</string>
   <!--  Voicemail status message shown at the top of call log to notify the user that no new
     voicemails are currently available. This can happen when both notification as well as data
     connection to the voicemail server is lost. [CHAR LIMIT=64] -->
@@ -386,23 +386,23 @@
   <string name="search_shortcut_create_new_contact">Yeni kişi oluştur</string>
   <!-- Shortcut item used to add a number to an existing contact directly from search.
          [CHAR LIMIT=25] -->
-  <string name="search_shortcut_add_to_contact">Add to a contact</string>
+  <string name="search_shortcut_add_to_contact">Kişilere ekle</string>
   <!-- Shortcut item used to send a text message directly from search. [CHAR LIMIT=25] -->
   <string name="search_shortcut_send_sms_message">SMS gönder</string>
   <!-- Shortcut item used to make a video call directly from search. [CHAR LIMIT=25] -->
   <string name="search_shortcut_make_video_call">Video görüşmesi yap</string>
   <!-- Title for the call log list item that brings users to the full call history when clicked -->
-  <string name="show_call_history">View full call history</string>
+  <string name="show_call_history">Tam arama geçmişini görüntüle</string>
   <!-- Number of missed calls shown on call card [CHAR LIMIT=40] -->
   <string name="num_missed_calls"><xliff:g id="NUMBER">%s</xliff:g> yeni cevapsız çağrı</string>
   <!-- Shown when there are no speed dial favorites. -->
   <string name="speed_dial_empty">Hızlı arama, favorilerinizin ve sık kullandığınız numaraların tek tuşla aranmasıdır.</string>
   <!-- Shown as an action when there are no speed dial favorites -->
-  <string name="speed_dial_empty_add_favorite_action">Add a favorite</string>
+  <string name="speed_dial_empty_add_favorite_action">Favorilere ekle</string>
   <!-- Shown when there are no contacts in the all contacts list. -->
   <string name="all_contacts_empty">Kişi yok</string>
   <!-- Shown as an action when the all contacts list is empty -->
-  <string name="all_contacts_empty_add_contact_action">Add a contact</string>
+  <string name="all_contacts_empty_add_contact_action">Kişi ekle</string>
   <!-- Shows up as a tooltip to provide a hint to the user that the profile pic in a contact
          card can be tapped to bring up a list of all numbers, or long pressed to start reordering
          [CHAR LIMIT=NONE]
@@ -425,7 +425,7 @@
   <!-- Button text for the button displayed underneath an entry in the call log, which when
          tapped triggers a return call to the named user. [CHAR LIMIT=30] -->
   <string name="call_log_action_call">
-        Call <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
+        Telefon et <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
     </string>
   <!-- String describing an incoming missed call entry in the call log.
          Note: AccessibilityServices uses this attribute to announce what the view represents.
@@ -587,9 +587,9 @@
   <!-- DO NOT TRANSLATE. Internal key for vibrate when ringing preference. -->
   <!-- DO NOT TRANSLATE. Internal key for DTMF tone length preference. -->
   <!-- The label of the button used to turn on a single permission -->
-  <string name="permission_single_turn_on">Turn on</string>
+  <string name="permission_single_turn_on">Aç</string>
   <!--  The label of the button used to turn on multiple permissions -->
-  <string name="permission_multiple_turn_on">Set permissions</string>
+  <string name="permission_multiple_turn_on">İzinleri ayarla</string>
   <!-- Shown as a prompt to turn on the contacts permission to enable speed dial -->
   <string name="permission_no_speeddial">To enable speed dial,\n turn on the Contacts permission.</string>
   <!-- Shown as a prompt to turn on the phone permission to enable the call log -->
@@ -599,9 +599,9 @@
   <!-- Shown as a prompt to turn on the phone permission to show voicemails -->
   <string name="permission_no_voicemail">To access your voicemail,\n turn on the Phone permission.</string>
   <!-- Shown as a prompt to turn on contacts permissions to allow contact search -->
-  <string name="permission_no_search">To search your contacts, turn on the Contacts permissions.</string>
+  <string name="permission_no_search">Kişilerinizi aramak için kişiler izinlerini açın.</string>
   <!-- Shown as a prompt to turn on the phone permission to allow a call to be placed -->
   <string name="permission_place_call">To place a call,\n turn on the Phone permission.</string>
   <!-- Shown as a message that notifies the user that the Phone app cannot write to system settings, which is why the system settings app is being launched directly instead.-->
-  <string name="toast_cannot_write_system_settings">Phone app does not have permission to write to system settings.</string>
+  <string name="toast_cannot_write_system_settings">Telefon uygulamasının sistem ayatlarına yazma yetkisi yok.</string>
 </resources>

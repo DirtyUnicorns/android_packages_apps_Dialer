@@ -35,24 +35,24 @@
   <string name="cyngn_reverse_lookup_provider_name">Cyngn Çince (CN)</string>
   <!--  for speed dial -->
   <string name="speed_dial_settings">Hızlı arama ayarları</string>
-  <string name="speed_dial_not_set">(not set)</string>
+  <string name="speed_dial_not_set">(ayarlanmadı)</string>
   <string name="speed_dial_replace">Değiştir</string>
   <string name="speed_dial_delete">Sil</string>
   <string name="speed_dial_unassigned_dialog_title">Numara atanmadı</string>
   <string name="speed_dial_unassigned_dialog_message">\'<xliff:g id="number">%s</xliff:g>\' numarasına hızlı arama işlevi atanmadı. Şimdi atamak ister misiniz?</string>
   <string name="dialog_speed_dial_airplane_mode_message">Hızlı aramayı kullanmak için, önce uçak modunu kapatın.</string>
   <string name="yes">Evet</string>
-  <string name="no">No</string>
+  <string name="no">Hayır</string>
   <!-- In call vibrate options -->
-  <string name="incall_vibration_category_title">In-call vibration</string>
-  <string name="incall_vibrate_outgoing_title">Vibrate on answer</string>
+  <string name="incall_vibration_category_title">Gelen aramada titret</string>
+  <string name="incall_vibrate_outgoing_title">Cevaplandığında titret</string>
   <string name="vibrate_call_waiting">Çağrı bekletildiğinde titre</string>
   <string name="incall_vibrate_hangup_title">Kapatıldığında titret</string>
   <string name="incall_vibrate_45_title">Her dakika titre</string>
-  <string name="incall_vibrate_45_summary">Vibrates at the 45 second mark of every minute during outgoing calls</string>
+  <string name="incall_vibrate_45_summary">Giden aramalarda her dakikanın 45. saniyesinde titret</string>
   <!-- Description for incoming calls that were blacklisted -->
-  <string name="type_blacklist">Blacklisted call</string>
-  <string name="menu_add_to_blacklist">Add to blocked caller list</string>
+  <string name="type_blacklist">Kara listeye alınan çağrı</string>
+  <string name="menu_add_to_blacklist">Engellenen arayan listesine ekle</string>
   <string name="toast_added_to_blacklist">%s engellenen arayan listesine eklendi.</string>
   <string name="toast_removed_from_blacklist">%s engellenen arayan listesinden silindi.</string>
   <string name="call_log_action_block">Arayanı engelle</string>
