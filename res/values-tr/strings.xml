@@ -101,7 +101,7 @@
   <string name="visual_voicemail_title">Görsel Sesli Mesaj</string>
   <!-- Promo card text for visual voicemail. -->
   <string name="visual_voicemail_text">
-        See and listen to your voicemail, without having to call a number. Data charges may apply.
+        Sesli mesajlarınıza bakın ve dinleyin, bir numarayı aramanıza gerek kalmadan. Veri ücreti uygulanabilir.
     </string>
   <!-- Text for "Settings" link for visual voicemail promo card. [CHAR LIMIT=30] -->
   <string name="visual_voicemail_settings">Ayarlar</string>

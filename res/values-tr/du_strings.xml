@@ -27,7 +27,7 @@
   <string name="enable_people_lookup_title">Kişi bul</string>
   <string name="enable_people_lookup_summary">Çeviricide arama yaparken kişiler için çevrimiçi arama sonuçlarını göster</string>
   <string name="enable_reverse_lookup_title">Reverse lookup</string>
-  <string name="enable_reverse_lookup_summary">Look up information about the person or place for unknown numbers on incoming calls</string>
+  <string name="enable_reverse_lookup_summary">Gelen aramalarda bilinmeyen numaralar için kişi veya mekan bilgisi araştır</string>
   <string name="forward_lookup_provider_title">Forward lookup provider</string>
   <string name="people_lookup_provider_title">People lookup provider</string>
   <string name="reverse_lookup_provider_title">Reverse lookup provider</string>
