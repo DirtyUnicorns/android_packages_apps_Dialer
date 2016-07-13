@@ -468,37 +468,37 @@
          Note: AccessibilityServices uses this attribute to announce the purpose of the button.
          [CHAR LIMIT=NONE] -->
   <string name="description_voicemail_play">
-        Play voicemail from <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
+        <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>den sesli mesajları çal
     </string>
   <!-- String describing the "pause voicemail" action for an entry in the call log.
          Note: AccessibilityServices uses this attribute to announce the purpose of the button.
          [CHAR LIMIT=NONE] -->
   <string name="description_voicemail_pause">
-        Pause voicemail from <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
+         <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>dan gelen sesli mesajları duraklat
     </string>
   <!-- String describing the "delete voicemail" action for an entry in the call log.
          Note: AccessibilityServices uses this attribute to announce the purpose of the button.
          [CHAR LIMIT=NONE] -->
   <string name="description_voicemail_delete">
-        Delete voicemail from <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
+         <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>dan gelen sesli mesajları sil
     </string>
   <!-- String describing the number of new voicemails, displayed as a number badge on a tab.
          Note: AccessibilityServices uses this attribute to announce the purpose of the button.
          [CHAR LIMIT=NONE] -->
   <plurals name="description_voicemail_unread">
-    <item quantity="one"><xliff:g id="count">%d</xliff:g> new voicemail</item>
-    <item quantity="other"><xliff:g id="count">%d</xliff:g> new voicemails</item>
+    <item quantity="one"><xliff:g id="count">%d</xliff:g> yeni sesli mesaj</item>
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> yeni sesli mesaj</item>
   </plurals>
   <!-- Description for the "create new contact" action for an entry in the call log. This action
          opens a screen for creating a new contact for this name or number. [CHAR LIMIT=NONE] -->
   <string name="description_create_new_contact_action">
-        Create contact for <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g>
+         <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g> için kişi oluştur
     </string>
   <!-- Description for the "add to existing contact" action for an entry in the call log. This
          action opens a screen for adding this name or number to an existing contact.
          [CHAR LIMIT=NONE] -->
   <string name="description_add_to_existing_contact_action">
-        Add <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g> to existing contact
+         <xliff:g id="nameOrNumber" example="John Smith">^1</xliff:g> varolan bir kişiye ekle
     </string>
   <!-- String describing the "details" action for an entry in the call log.  The details action
          displays the call details screen for an entry in the call log.  This shows the calls to
