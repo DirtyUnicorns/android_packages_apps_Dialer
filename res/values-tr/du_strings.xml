@@ -22,15 +22,15 @@
   <!-- Number lookup -->
   <string name="lookup_settings_label">Telefon numarası bul</string>
   <string name="lookup_settings_description">Bilinmeyen telefon numaralarını arama</string>
-  <string name="enable_forward_lookup_title">Forward lookup</string>
+  <string name="enable_forward_lookup_title">Yönlendirme araması</string>
   <string name="enable_forward_lookup_summary">Çeviricide arama yaparken yakın yerleri göster</string>
   <string name="enable_people_lookup_title">Kişi bul</string>
   <string name="enable_people_lookup_summary">Çeviricide arama yaparken kişiler için çevrimiçi arama sonuçlarını göster</string>
-  <string name="enable_reverse_lookup_title">Reverse lookup</string>
+  <string name="enable_reverse_lookup_title">Ters arama</string>
   <string name="enable_reverse_lookup_summary">Gelen aramalarda bilinmeyen numaralar için kişi veya mekan bilgisi araştır</string>
-  <string name="forward_lookup_provider_title">Forward lookup provider</string>
-  <string name="people_lookup_provider_title">People lookup provider</string>
-  <string name="reverse_lookup_provider_title">Reverse lookup provider</string>
+  <string name="forward_lookup_provider_title">Arama yönlendirme sağlayıcısı</string>
+  <string name="people_lookup_provider_title">Kişi arama sağlayıcısı</string>
+  <string name="reverse_lookup_provider_title">Ters arama sağlayıcısı</string>
   <!-- Chinese Reverse Lookup Provider -->
   <string name="cyngn_reverse_lookup_provider_name">Cyngn Çince (CN)</string>
   <!--  for speed dial -->
