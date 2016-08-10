@@ -55,6 +55,6 @@
   <string name="menu_add_to_blacklist">Ajouter à la liste des numéros de téléphone bloqués</string>
   <string name="toast_added_to_blacklist">%s ajouté à la liste des numéros de téléphone bloqués</string>
   <string name="toast_removed_from_blacklist">%s supprimé de la liste des numéros de téléphone bloqués</string>
-  <string name="call_log_action_block">Numéro de téléphone bloqués</string>
-  <string name="call_log_action_unblock">Numéro de téléphone débloqué</string>
+  <string name="call_log_action_block">Bloquer ce numéro</string>
+  <string name="call_log_action_unblock">Débloquer ce numéro</string>
 </resources>

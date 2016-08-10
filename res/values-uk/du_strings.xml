@@ -17,44 +17,44 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Forward lookup -->
-  <string name="nearby_places">Nearby places</string>
+  <string name="nearby_places">Найближчі місця</string>
   <string name="people">Люди</string>
   <!-- Number lookup -->
   <string name="lookup_settings_label">Пошук номеру телефона</string>
   <string name="lookup_settings_description">Пошук невідомих номерів</string>
   <string name="enable_forward_lookup_title">Прямий пошук</string>
-  <string name="enable_forward_lookup_summary">Show nearby places when searching in the dialer</string>
-  <string name="enable_people_lookup_title">People lookup</string>
-  <string name="enable_people_lookup_summary">Show online results for people when searching in the dialer</string>
+  <string name="enable_forward_lookup_summary">Показати прилеглі місця при пошуку в номеронабирачі</string>
+  <string name="enable_people_lookup_title">Пошук людей</string>
+  <string name="enable_people_lookup_summary">Показати онлайн результати для людей при пошуку в номеронабирачі</string>
   <string name="enable_reverse_lookup_title">Зворотній пошук</string>
   <string name="enable_reverse_lookup_summary">Пошук інформації про людину або місце для вхідних дзвінків з невідомих номерів</string>
-  <string name="forward_lookup_provider_title">Forward lookup provider</string>
+  <string name="forward_lookup_provider_title">Постачальник прямого пошуку</string>
   <string name="people_lookup_provider_title">Постачальник пошуку даних про людей</string>
-  <string name="reverse_lookup_provider_title">Reverse lookup provider</string>
+  <string name="reverse_lookup_provider_title">Постачальник зворотного пошуку</string>
   <!-- Chinese Reverse Lookup Provider -->
   <string name="cyngn_reverse_lookup_provider_name">Cyngn Chinese (CN)</string>
   <!--  for speed dial -->
   <string name="speed_dial_settings">Налаштування швидкого набору</string>
   <string name="speed_dial_not_set">(не вказано)</string>
   <string name="speed_dial_replace">Замінити</string>
-  <string name="speed_dial_delete">Delete</string>
-  <string name="speed_dial_unassigned_dialog_title">Key unassigned</string>
-  <string name="speed_dial_unassigned_dialog_message">No speed dial action is assigned to number key \'<xliff:g id="number">%s</xliff:g>\'. Do you want to assign an action now?</string>
+  <string name="speed_dial_delete">Видалити</string>
+  <string name="speed_dial_unassigned_dialog_title">Ключ непризначений</string>
+  <string name="speed_dial_unassigned_dialog_message">Клавіші «<xliff:g id="number">%s</xliff:g>» не надано номер швидкого набору. Призначити його?</string>
   <string name="dialog_speed_dial_airplane_mode_message">Щоб використовувати швидкий набір, спершу вимкніть режим польоту.</string>
   <string name="yes">Так</string>
   <string name="no">Ні</string>
   <!-- In call vibrate options -->
-  <string name="incall_vibration_category_title">In-call vibration</string>
-  <string name="incall_vibrate_outgoing_title">Vibrate on answer</string>
+  <string name="incall_vibration_category_title">Вібрація під час виклику</string>
+  <string name="incall_vibrate_outgoing_title">Вібрувати при відповіді</string>
   <string name="vibrate_call_waiting">Вібрувати під час очікування дзвінка</string>
   <string name="incall_vibrate_hangup_title">Вібрувати при завершені</string>
   <string name="incall_vibrate_45_title">Вібрувати кожну хвилину</string>
   <string name="incall_vibrate_45_summary">Вібрувати кожну хвилину на 45 секунді під час вихідного виклику</string>
   <!-- Description for incoming calls that were blacklisted -->
   <string name="type_blacklist">Чорний список викликів</string>
-  <string name="menu_add_to_blacklist">Add to blocked caller list</string>
-  <string name="toast_added_to_blacklist">%s added to blocked caller list.</string>
-  <string name="toast_removed_from_blacklist">%s removed from blocked caller list.</string>
-  <string name="call_log_action_block">Block caller</string>
-  <string name="call_log_action_unblock">Caller blocked</string>
+  <string name="menu_add_to_blacklist">Додати до списку заблокованих абонентів</string>
+  <string name="toast_added_to_blacklist">%s додано до списку заблокованих абонентів.</string>
+  <string name="toast_removed_from_blacklist">%s видалено зі списку заблокованих абонентів.</string>
+  <string name="call_log_action_block">Блокувач абонентів</string>
+  <string name="call_log_action_unblock">Заблокований абонент</string>
 </resources>
