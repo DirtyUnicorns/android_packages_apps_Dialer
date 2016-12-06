@@ -41,6 +41,7 @@ import android.view.Window;
 import android.view.WindowManager;
 
 import com.android.contacts.common.GeoUtil;
+import com.android.contacts.common.compat.CallSdkCompat;
 import com.android.contacts.common.compat.CompatUtils;
 import com.android.contacts.common.compat.telecom.TelecomManagerCompat;
 import com.android.contacts.common.interactions.TouchPointManager;
@@ -109,10 +110,12 @@ public class InCallPresenter implements CallList.Listener,
 
     private AudioModeProvider mAudioModeProvider;
     private StatusBarNotifier mStatusBarNotifier;
+    private ExternalCallNotifier mExternalCallNotifier;
     private InCallVibrationHandler mInCallVibrationHandler;
     private ContactInfoCache mContactInfoCache;
     private Context mContext;
     private CallList mCallList;
+    private ExternalCallList mExternalCallList;
     private InCallActivity mInCallActivity;
     private InCallState mInCallState = InCallState.NO_CALLS;
     private ProximitySensor mProximitySensor;
@@ -300,8 +303,10 @@ public class InCallPresenter implements CallList.Listener,
 
     public void setUp(Context context,
             CallList callList,
+            ExternalCallList externalCallList,
             AudioModeProvider audioModeProvider,
             StatusBarNotifier statusBarNotifier,
+            ExternalCallNotifier externalCallNotifier,
             ContactInfoCache contactInfoCache,
             ProximitySensor proximitySensor) {
         if (mServiceConnected) {
@@ -322,6 +327,7 @@ public class InCallPresenter implements CallList.Listener,
         addListener(mInCallVibrationHandler);
 
         mStatusBarNotifier = statusBarNotifier;
+        mExternalCallNotifier = externalCallNotifier;
         addListener(mStatusBarNotifier);
 
         mAudioModeProvider = audioModeProvider;
@@ -333,6 +339,8 @@ public class InCallPresenter implements CallList.Listener,
         addInCallUiListener(mAnswerPresenter);
 
         mCallList = callList;
+        mExternalCallList = externalCallList;
+        externalCallList.addExternalCallListener(mExternalCallNotifier);
 
         // This only gets called by the service so this is okay.
         mServiceConnected = true;
@@ -505,7 +513,12 @@ public class InCallPresenter implements CallList.Listener,
         if (shouldAttemptBlocking(call)) {
             maybeBlockCall(call);
         } else {
-            mCallList.onCallAdded(call);
+            if (call.getDetails()
+                    .hasProperty(CallSdkCompat.Details.PROPERTY_IS_EXTERNAL_CALL)) {
+                mExternalCallList.onCallAdded(call);
+            } else {
+                mCallList.onCallAdded(call);
+            }
         }
 
         // Since a call has been added we are no longer waiting for Telecom to send us a call.
@@ -523,6 +536,9 @@ public class InCallPresenter implements CallList.Listener,
         }
         if (FilteredNumbersUtil.hasRecentEmergencyCall(mContext)) {
             Log.i(this, "Not attempting to block incoming call due to recent emergency call");
+            return false;
+        }
+        if (call.getDetails().hasProperty(CallSdkCompat.Details.PROPERTY_IS_EXTERNAL_CALL)) {
             return false;
         }
 
@@ -594,8 +610,13 @@ public class InCallPresenter implements CallList.Listener,
     }
 
     public void onCallRemoved(android.telecom.Call call) {
-        mCallList.onCallRemoved(call);
-        call.unregisterCallback(mCallCallback);
+        if (call.getDetails()
+                .hasProperty(CallSdkCompat.Details.PROPERTY_IS_EXTERNAL_CALL)) {
+            mExternalCallList.onCallRemoved(call);
+        } else {
+            mCallList.onCallRemoved(call);
+            call.unregisterCallback(mCallCallback);
+        }
     }
 
     public void onCanAddCallChanged(boolean canAddCall) {
@@ -1510,6 +1531,9 @@ public class InCallPresenter implements CallList.Listener,
             if (mStatusBarNotifier != null) {
                 removeListener(mStatusBarNotifier);
             }
+            if (mExternalCallNotifier != null && mExternalCallList != null) {
+                mExternalCallList.removeExternalCallListener(mExternalCallNotifier);
+            }
             mStatusBarNotifier = null;
 
  
@@ -1816,6 +1840,10 @@ public class InCallPresenter implements CallList.Listener,
 
     AnswerPresenter getAnswerPresenter() {
         return mAnswerPresenter;
+    }
+
+    ExternalCallNotifier getExternalCallNotifier() {
+        return mExternalCallNotifier;
     }
 
     /**
