@@ -15,37 +15,40 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- In-call vibrate options -->
-  <string name="incall_vibration_category_title">In-call vibration</string>
-  <string name="incall_vibrate_outgoing_title">Vibrate on answer</string>
-  <string name="vibrate_call_waiting">Vibrate on call waiting</string>
-  <string name="incall_vibrate_hangup_title">Vibrate on hang up</string>
-  <string name="incall_vibrate_45_title">Vibrate every minute</string>
-  <string name="incall_vibrate_45_summary">Vibrates at 45s of every minute during outgoing calls</string>
+  <string name="incall_vibration_category_title">通話中のバイブレーション</string>
+  <string name="incall_vibrate_outgoing_title">応答時のバイブレーション</string>
+  <string name="vibrate_call_waiting">割込通話時のバイブレーション</string>
+  <string name="incall_vibrate_hangup_title">通話終了時のバイブレーション</string>
+  <string name="incall_vibrate_45_title">時間ごとのバイブレーション</string>
+  <string name="incall_vibrate_45_summary">発信時に毎分45秒で振動させる</string>
   <!-- Proximity speaker -->
-  <string name="speaker_settings_label">Proximity speakerphone</string>
-  <string name="prox_auto_speaker_title">Automatic proximity speakerphone</string>
-  <string name="prox_auto_speaker_summary">Enable speakerphone automatically when your phone is removed from your ear</string>
-  <string name="prox_auto_speaker_delay_title">Speakerphone delay</string>
-  <string name="prox_auto_speaker_delay_dialog_title">Speakerphone delay in (ms)</string>
-  <string name="prox_auto_speaker_delay_summary">Speakerphone will be activated in <xliff:g id="number">%d</xliff:g> ms</string>
-  <string name="prox_auto_speaker_incall_only_title">Only while in call</string>
-  <string name="prox_auto_speaker_incall_only_summary_on">On outgoing calls, listener will only become active after the receiving party answers</string>
-  <string name="prox_auto_speaker_incall_only_summary_off">Listener will be active during all offhook call states (default)</string>
+  <string name="speaker_settings_label">近接スピーカーフォン</string>
+  <string name="prox_auto_speaker_title">自動近接スピーカーフォン</string>
+  <string name="prox_auto_speaker_summary">電話を耳から離したときにスピーカーフォンを自動的に有効にする</string>
+  <string name="prox_auto_speaker_delay_title">スピーカーフォンの遅延</string>
+  <string name="prox_auto_speaker_delay_dialog_title">スピーカーフォンの遅延（ミリ秒）</string>
+  <string name="prox_auto_speaker_delay_summary">スピーカーフォンは<xliff:g id="number">%d</xliff:g>ミリ秒でアクティブになります</string>
+  <string name="prox_auto_speaker_incall_only_title">通話中のみ</string>
+  <string name="prox_auto_speaker_incall_only_summary_on">発信側では、受信側が応答した後にスピーカーがアクティブになります</string>
+  <string name="prox_auto_speaker_incall_only_summary_off">スピーカーは、通話時のすべての状態でアクティブになります（デフォルト）</string>
   <!-- Forward lookup -->
-  <string name="nearby_places">Nearby places</string>
-  <string name="people">People</string>
+  <string name="nearby_places">近くの場所</string>
+  <string name="people">人物</string>
   <!-- Number lookup -->
-  <string name="lookup_settings_label">Phone number lookup</string>
-  <string name="lookup_settings_description">Lookup of unknown phone numbers</string>
-  <string name="enable_forward_lookup_title">Forward lookup</string>
-  <string name="enable_forward_lookup_summary">Show nearby places when searching in the dialer</string>
-  <string name="enable_people_lookup_title">People lookup</string>
-  <string name="enable_people_lookup_summary">Show online results for people when searching in the dialer</string>
-  <string name="enable_reverse_lookup_title">Reverse lookup</string>
-  <string name="enable_reverse_lookup_summary">Look up information about the person or place for unknown numbers on incoming calls</string>
-  <string name="forward_lookup_provider_title">Forward lookup provider</string>
-  <string name="people_lookup_provider_title">People lookup provider</string>
-  <string name="reverse_lookup_provider_title">Reverse lookup provider</string>
+  <string name="lookup_settings_label">電話番号検索</string>
+  <string name="lookup_settings_description">不明な電話番号を検索する</string>
+  <string name="enable_forward_lookup_title">前方検索</string>
+  <string name="enable_forward_lookup_summary">ダイヤラーで検索した際に近くの場所を表示する</string>
+  <string name="enable_people_lookup_title">人物検索</string>
+  <string name="enable_people_lookup_summary">ダイヤル画面で検索しているときに人物のオンラインの結果を表示する</string>
+  <string name="enable_reverse_lookup_title">逆引き検索</string>
+  <string name="enable_reverse_lookup_summary">着信中の不明な番号の人物または場所の情報を検索する</string>
+  <string name="forward_lookup_provider_title">前方検索プロバイダ</string>
+  <string name="people_lookup_provider_title">人物検索プロバイダ</string>
+  <string name="reverse_lookup_provider_title">逆引き検索プロバイダ</string>
   <!-- Chinese Reverse Lookup Provider -->
-  <string name="cyngn_reverse_lookup_provider_name">Cyngn Chinese (CN)</string>
+  <string name="cyngn_reverse_lookup_provider_name">Cyngn 中国語 (CN)</string>
+  <!-- speed dial -->
+  <string name="speed_dial_edit_title">スピードダイヤルを編集する <xliff:g id="index" example="2">%1$d</xliff:g></string>
+  <string name="speed_dial_input_hint">番号を入力してください</string>
 </resources>

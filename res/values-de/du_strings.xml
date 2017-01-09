@@ -22,11 +22,11 @@
   <string name="incall_vibrate_45_title">Jede Minute vibrieren</string>
   <string name="incall_vibrate_45_summary">Vibriert nach 45 Sekunden jeder Minute bei ausgehenden Gesprächen</string>
   <!-- Proximity speaker -->
-  <string name="speaker_settings_label">Freisprecheinrichtung bei Annäherung</string>
-  <string name="prox_auto_speaker_title">Automatische Freisprecheinrichtung bei Annäherung</string>
+  <string name="speaker_settings_label">Abstandsabhängige Freisprechfunktion</string>
+  <string name="prox_auto_speaker_title">Automatische Freispreichfunktion bei Annäherung</string>
   <string name="prox_auto_speaker_summary">Freisprechen automatisch aktivieren, wenn Ihr Telefon vom Ohr entfernt wird</string>
-  <string name="prox_auto_speaker_delay_title">Freisprecheinrichtung Verzögerung</string>
-  <string name="prox_auto_speaker_delay_dialog_title">Freisprecheinrichtung Verzögerung (ms)</string>
+  <string name="prox_auto_speaker_delay_title">Verzögerung bei Freisprecheinrichtung</string>
+  <string name="prox_auto_speaker_delay_dialog_title">Verzögerung bei Freisprecheinrichtung in (ms)</string>
   <string name="prox_auto_speaker_delay_summary">Freisprecheinrichtung wird in <xliff:g id="number">%d </xliff:g> ms aktiviert</string>
   <string name="prox_auto_speaker_incall_only_title">Nur während eines Anrufs</string>
   <string name="prox_auto_speaker_incall_only_summary_on">Bei ausgehenden Anrufen wird der Hörer erst dann aktiv, wenn der Empfänger antwortet</string>
@@ -40,7 +40,7 @@
   <string name="enable_forward_lookup_title">Vorwärtssuche</string>
   <string name="enable_forward_lookup_summary">Bei der Telefonnummernsuche Orte in der Nähe einschließen</string>
   <string name="enable_people_lookup_title">Personensuche</string>
-  <string name="enable_people_lookup_summary">Beim Suchen im Dialer Onlineresultate der Personen anzeigen</string>
+  <string name="enable_people_lookup_summary">Onlineergebnisse für Personen in der Suche des Dialer anzeigen</string>
   <string name="enable_reverse_lookup_title">Rückwärtssuche</string>
   <string name="enable_reverse_lookup_summary">Bei eingehenden Anrufen unbekannter Nummern, Informationen über die Person oder Ort suchen</string>
   <string name="forward_lookup_provider_title">Anbieter für Vorwärtssuche</string>
@@ -48,4 +48,7 @@
   <string name="reverse_lookup_provider_title">Anbieter für Rückwärtssuche</string>
   <!-- Chinese Reverse Lookup Provider -->
   <string name="cyngn_reverse_lookup_provider_name">Cyngn Chinesisch (CN)</string>
+  <!-- speed dial -->
+  <string name="speed_dial_edit_title">Schnellwahl <xliff:g id="index" example="2">%1$d</xliff:g> bearbeiten</string>
+  <string name="speed_dial_input_hint">Bitte geben Sie eine Zahl ein</string>
 </resources>

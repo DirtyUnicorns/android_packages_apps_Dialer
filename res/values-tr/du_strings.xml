@@ -48,4 +48,7 @@
   <string name="reverse_lookup_provider_title">Geri arama sağlayıcısı</string>
   <!-- Chinese Reverse Lookup Provider -->
   <string name="cyngn_reverse_lookup_provider_name">Cyngn Çince (CN)</string>
+  <!-- speed dial -->
+  <string name="speed_dial_edit_title"><xliff:g id="index" example="2">%1$d</xliff:g> Hızlı aramayı düzenle</string>
+  <string name="speed_dial_input_hint">Lütfen telefon numarası girin</string>
 </resources>

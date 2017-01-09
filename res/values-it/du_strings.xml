@@ -48,4 +48,7 @@
   <string name="reverse_lookup_provider_title">Provider di ricerca inversa</string>
   <!-- Chinese Reverse Lookup Provider -->
   <string name="cyngn_reverse_lookup_provider_name">Cyngn Cinese (CN)</string>
+  <!-- speed dial -->
+  <string name="speed_dial_edit_title">Modifica composizione rapida <xliff:g id="index" example="2">%1$d </xliff:g></string>
+  <string name="speed_dial_input_hint">Inserire numero</string>
 </resources>

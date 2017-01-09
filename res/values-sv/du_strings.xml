@@ -22,14 +22,14 @@
   <string name="incall_vibrate_45_title">Vibrera varje minut</string>
   <string name="incall_vibrate_45_summary">Vibrerar på 45s av varje minut under utgående samtal</string>
   <!-- Proximity speaker -->
-  <string name="speaker_settings_label">Proximity speakerphone</string>
-  <string name="prox_auto_speaker_title">Automatic proximity speakerphone</string>
-  <string name="prox_auto_speaker_summary">Enable speakerphone automatically when your phone is removed from your ear</string>
-  <string name="prox_auto_speaker_delay_title">Speakerphone delay</string>
-  <string name="prox_auto_speaker_delay_dialog_title">Speakerphone delay in (ms)</string>
-  <string name="prox_auto_speaker_delay_summary">Speakerphone will be activated in <xliff:g id="number">%d</xliff:g> ms</string>
-  <string name="prox_auto_speaker_incall_only_title">Only while in call</string>
-  <string name="prox_auto_speaker_incall_only_summary_on">On outgoing calls, listener will only become active after the receiving party answers</string>
+  <string name="speaker_settings_label">Närhet högtalartelefon</string>
+  <string name="prox_auto_speaker_title">Automatisk närhet högtalartelefon</string>
+  <string name="prox_auto_speaker_summary">Aktivera högtalartelefonen automatiskt när telefonen tas bort från ditt öra</string>
+  <string name="prox_auto_speaker_delay_title">Högtalartelefon fördröjning</string>
+  <string name="prox_auto_speaker_delay_dialog_title">Högtalartelefonen fördröjning i (ms)</string>
+  <string name="prox_auto_speaker_delay_summary">Högtalartelefonen kommer att aktiveras i <xliff:g id="number">%d </xliff:g> ms</string>
+  <string name="prox_auto_speaker_incall_only_title">Endast under samtal</string>
+  <string name="prox_auto_speaker_incall_only_summary_on">Vid utgående samtal, lyssnaren kommer endast vara aktiv vid svar</string>
   <string name="prox_auto_speaker_incall_only_summary_off">Listener will be active during all offhook call states (default)</string>
   <!-- Forward lookup -->
   <string name="nearby_places">Nearby places</string>
@@ -48,4 +48,7 @@
   <string name="reverse_lookup_provider_title">Reverse lookup provider</string>
   <!-- Chinese Reverse Lookup Provider -->
   <string name="cyngn_reverse_lookup_provider_name">Cyngn Chinese (CN)</string>
+  <!-- speed dial -->
+  <string name="speed_dial_edit_title">Edit speed dial <xliff:g id="index" example="2">%1$d</xliff:g></string>
+  <string name="speed_dial_input_hint">Please enter a number</string>
 </resources>
