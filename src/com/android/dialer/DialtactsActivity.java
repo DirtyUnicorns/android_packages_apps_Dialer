@@ -890,7 +890,7 @@ public class DialtactsActivity extends TransactionSafeActivity implements View.O
     }
 
     protected int getSearchBoxHint () {
-        return R.string.dialer_hint_find_contact;
+        return R.string.dialer_hint_find_contact_custom;
     }
 
     /**

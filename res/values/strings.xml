@@ -520,7 +520,7 @@
 
     <!-- Hint displayed in dialer search box when there is no query that is currently typed.
          [CHAR LIMIT=30] -->
-    <string name="dialer_hint_find_contact">Search people &amp; places</string>
+    <string name="dialer_hint_find_contact">Search contacts</string>
 
     <!-- Hint displayed in add blocked number search box when there is no query typed.
          [CHAR LIMIT=45] -->
@@ -1063,26 +1063,4 @@
 
     <!-- Accessibility announcement to indicate which call is active -->
     <string name="accessibility_call_is_active"><xliff:g id="nameOrNumber">^1</xliff:g> is active</string>
-
-    <!--  for speed dial -->
-    <string name="speed_dial_settings">Speed dial settings</string>
-
-    <string name="speed_dial_not_set">(not set)</string>
-
-    <string name="speed_dial_replace">Replace</string>
-
-    <string name="speed_dial_delete">Delete</string>
-
-    <string name="speed_dial_unassigned_dialog_title">Key unassigned</string>
-
-    <string name="speed_dial_unassigned_dialog_message">No speed dial action is assigned to number k
-ey \'<xliff:g id="number">%s</xliff:g>\'. Do you want to assign an action now?</string>
-
-    <string name="dialog_speed_dial_airplane_mode_message">To use speed dial, first turn off Airplan
-e mode.</string>
-
-    <string name="yes">Yes</string>
-
-    <string name="no">No</string>
-
 </resources>
