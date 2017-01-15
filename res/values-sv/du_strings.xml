@@ -33,7 +33,7 @@
   <string name="prox_auto_speaker_incall_only_summary_off">Listener will be active during all offhook call states (default)</string>
   <!-- Forward lookup -->
   <string name="nearby_places">Nearby places</string>
-  <string name="people">People</string>
+  <string name="people">Personer</string>
   <!-- Number lookup -->
   <string name="lookup_settings_label">Phone number lookup</string>
   <string name="lookup_settings_description">Lookup of unknown phone numbers</string>
@@ -48,7 +48,19 @@
   <string name="reverse_lookup_provider_title">Reverse lookup provider</string>
   <!-- Chinese Reverse Lookup Provider -->
   <string name="cyngn_reverse_lookup_provider_name">Cyngn Chinese (CN)</string>
+  <!-- Hint displayed in dialer search box when there is no query that is currently typed.
+          [CHAR LIMIT=30] -->
+  <string name="dialer_hint_find_contact_custom">Search people &amp; places</string>
   <!-- speed dial -->
+  <string name="speed_dial_settings">Speed dial settings</string>
+  <string name="speed_dial_not_set">(ej angivet)</string>
+  <string name="speed_dial_replace">Ersätt</string>
+  <string name="speed_dial_delete">Ta bort</string>
+  <string name="speed_dial_unassigned_dialog_title">Key unassigned</string>
+  <string name="speed_dial_unassigned_dialog_message">No speed dial action is assigned to number key \'<xliff:g id="number">%s</xliff:g>\'. Do you want to assign an action now?</string>
+  <string name="dialog_speed_dial_airplane_mode_message">To use speed dial, first turn off Airplane mode.</string>
+  <string name="yes">Ja</string>
+  <string name="no">Nej</string>
   <string name="speed_dial_edit_title">Edit speed dial <xliff:g id="index" example="2">%1$d</xliff:g></string>
-  <string name="speed_dial_input_hint">Please enter a number</string>
+  <string name="speed_dial_input_hint">Ange ett nummer</string>
 </resources>

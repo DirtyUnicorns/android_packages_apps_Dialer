@@ -48,7 +48,19 @@
   <string name="reverse_lookup_provider_title">逆引き検索プロバイダ</string>
   <!-- Chinese Reverse Lookup Provider -->
   <string name="cyngn_reverse_lookup_provider_name">Cyngn 中国語 (CN)</string>
+  <!-- Hint displayed in dialer search box when there is no query that is currently typed.
+          [CHAR LIMIT=30] -->
+  <string name="dialer_hint_find_contact_custom">連絡先や場所を検索</string>
   <!-- speed dial -->
+  <string name="speed_dial_settings">スピードダイヤルの設定</string>
+  <string name="speed_dial_not_set">（未設定）</string>
+  <string name="speed_dial_replace">置換</string>
+  <string name="speed_dial_delete">削除</string>
+  <string name="speed_dial_unassigned_dialog_title">キーに割り当てがありません</string>
+  <string name="speed_dial_unassigned_dialog_message"><xliff:g id="number">%s</xliff:g>番のキーにはスピードダイアルの動作が割り当てられていません。動作を割り当てますか？</string>
+  <string name="dialog_speed_dial_airplane_mode_message">スピードダイヤルを使用するには、機内モードをOFFにしてください。</string>
+  <string name="yes">はい</string>
+  <string name="no">いいえ</string>
   <string name="speed_dial_edit_title">スピードダイヤルを編集する <xliff:g id="index" example="2">%1$d</xliff:g></string>
   <string name="speed_dial_input_hint">番号を入力してください</string>
 </resources>

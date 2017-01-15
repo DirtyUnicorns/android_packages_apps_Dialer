@@ -48,7 +48,19 @@
   <string name="reverse_lookup_provider_title">Provedor de pesquisa reversa</string>
   <!-- Chinese Reverse Lookup Provider -->
   <string name="cyngn_reverse_lookup_provider_name">Cyngn Chinese (CN)</string>
+  <!-- Hint displayed in dialer search box when there is no query that is currently typed.
+          [CHAR LIMIT=30] -->
+  <string name="dialer_hint_find_contact_custom">Pesquisar contatos &amp; places</string>
   <!-- speed dial -->
+  <string name="speed_dial_settings">Configurações de discagem rápida</string>
+  <string name="speed_dial_not_set">(não definido)</string>
+  <string name="speed_dial_replace">Substituir</string>
+  <string name="speed_dial_delete">Excluir</string>
+  <string name="speed_dial_unassigned_dialog_title">Tecla não atribuída</string>
+  <string name="speed_dial_unassigned_dialog_message">Nenhuma ação de discagem rápida está atribuída à tecla \'<xliff:g id="number">%s</xliff:g>\'. Deseja atribuir uma ação agora?</string>
+  <string name="dialog_speed_dial_airplane_mode_message">Para utilizar a discagem rápida, primeiro desligue o modo avião.</string>
+  <string name="yes">Sim</string>
+  <string name="no">Não</string>
   <string name="speed_dial_edit_title">Editar velocidade dial <xliff:g id="index" example="2">%1$d </xliff:g></string>
   <string name="speed_dial_input_hint">Por favor, insira um número</string>
 </resources>

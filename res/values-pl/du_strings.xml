@@ -48,7 +48,19 @@
   <string name="reverse_lookup_provider_title">Dostawca wyszukiwania wstecz</string>
   <!-- Chinese Reverse Lookup Provider -->
   <string name="cyngn_reverse_lookup_provider_name">Cyngn Chinese (CN)</string>
+  <!-- Hint displayed in dialer search box when there is no query that is currently typed.
+          [CHAR LIMIT=30] -->
+  <string name="dialer_hint_find_contact_custom">Wyszukaj kontakty &amp; miejsca</string>
   <!-- speed dial -->
+  <string name="speed_dial_settings">Ustawienia szybkiego wybierania</string>
+  <string name="speed_dial_not_set">(nieustawione)</string>
+  <string name="speed_dial_replace">Zastąp</string>
+  <string name="speed_dial_delete">Skasuj</string>
+  <string name="speed_dial_unassigned_dialog_title">Klawisz nieprzypisany</string>
+  <string name="speed_dial_unassigned_dialog_message">Do klawisza \'<xliff:g id="number">%s</xliff:g>\' nie przypisano żadnej akcji szybkiego wybierania. Czy chcesz przypisać ją teraz?</string>
+  <string name="dialog_speed_dial_airplane_mode_message">Aby korzystać z szybkiego wybierania, najpierw należy wyłączyć tryb samolotowy.</string>
+  <string name="yes">Tak</string>
+  <string name="no">Nie</string>
   <string name="speed_dial_edit_title">Edycja skróconego wybierania <xliff:g id="index" example="2">%1$d </xliff:g></string>
   <string name="speed_dial_input_hint">Wprowadź numer</string>
 </resources>

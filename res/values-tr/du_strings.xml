@@ -48,7 +48,19 @@
   <string name="reverse_lookup_provider_title">Geri arama sağlayıcısı</string>
   <!-- Chinese Reverse Lookup Provider -->
   <string name="cyngn_reverse_lookup_provider_name">Cyngn Çince (CN)</string>
+  <!-- Hint displayed in dialer search box when there is no query that is currently typed.
+          [CHAR LIMIT=30] -->
+  <string name="dialer_hint_find_contact_custom">Kişileri &amp; yerleri ara</string>
   <!-- speed dial -->
+  <string name="speed_dial_settings">Hızlı arama ayarları</string>
+  <string name="speed_dial_not_set">(ayarlanmadı)</string>
+  <string name="speed_dial_replace">Değiştir</string>
+  <string name="speed_dial_delete">Sil</string>
+  <string name="speed_dial_unassigned_dialog_title">Numara atanmadı</string>
+  <string name="speed_dial_unassigned_dialog_message">\'<xliff:g id="number">%s</xliff:g>\' numarasına hızlı arama işlevi atanmadı. Şimdi atamak ister misiniz?</string>
+  <string name="dialog_speed_dial_airplane_mode_message">Hızlı aramayı kullanmak için, önce Uçak Modunu kapatın.</string>
+  <string name="yes">Evet</string>
+  <string name="no">Hayır</string>
   <string name="speed_dial_edit_title"><xliff:g id="index" example="2">%1$d</xliff:g> Hızlı aramayı düzenle</string>
   <string name="speed_dial_input_hint">Lütfen telefon numarası girin</string>
 </resources>

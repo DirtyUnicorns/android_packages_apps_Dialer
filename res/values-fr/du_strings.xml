@@ -48,7 +48,19 @@
   <string name="reverse_lookup_provider_title">Fournisseur d\'annuaire inversé</string>
   <!-- Chinese Reverse Lookup Provider -->
   <string name="cyngn_reverse_lookup_provider_name">Cyngn Chinese (CN)</string>
+  <!-- Hint displayed in dialer search box when there is no query that is currently typed.
+          [CHAR LIMIT=30] -->
+  <string name="dialer_hint_find_contact_custom">Rechercher des contacts ou des lieux</string>
   <!-- speed dial -->
+  <string name="speed_dial_settings">Numérotation abrégée</string>
+  <string name="speed_dial_not_set">(non défini)</string>
+  <string name="speed_dial_replace">Remplacer</string>
+  <string name="speed_dial_delete">Effacer</string>
+  <string name="speed_dial_unassigned_dialog_title">Touche libre</string>
+  <string name="speed_dial_unassigned_dialog_message">Aucune numérotation abrégée n\'est définie pour la touche \"<xliff:g id="number">%s</xliff:g>\". Attribuer une numérotation abrégée maintenant ?</string>
+  <string name="dialog_speed_dial_airplane_mode_message">Pour utiliser la numérotation abrégée, désactiver d\'abord le mode Avion.</string>
+  <string name="yes">Oui</string>
+  <string name="no">Non</string>
   <string name="speed_dial_edit_title">Modifier la numérotation abrégée <xliff:g id="index" example="2">%1$d</xliff:g></string>
   <string name="speed_dial_input_hint">Entrer un numéro</string>
 </resources>

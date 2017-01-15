@@ -48,7 +48,19 @@
   <string name="reverse_lookup_provider_title">Anbieter für Rückwärtssuche</string>
   <!-- Chinese Reverse Lookup Provider -->
   <string name="cyngn_reverse_lookup_provider_name">Cyngn Chinesisch (CN)</string>
+  <!-- Hint displayed in dialer search box when there is no query that is currently typed.
+          [CHAR LIMIT=30] -->
+  <string name="dialer_hint_find_contact_custom">Nach Personen &amp; Orten suchen</string>
   <!-- speed dial -->
+  <string name="speed_dial_settings">Kurzwahl Einstellungen</string>
+  <string name="speed_dial_not_set">(nicht gesetzt)</string>
+  <string name="speed_dial_replace">Ersetzen</string>
+  <string name="speed_dial_delete">Löschen</string>
+  <string name="speed_dial_unassigned_dialog_title">Schlüssel nicht zugewiesen</string>
+  <string name="speed_dial_unassigned_dialog_message">Keine Kurzwahl-Aktion für \'<xliff:g id="number">%s</xliff:g>\' zugewiesen. Möchten Sie jetzt eine Aktion zuweisen?</string>
+  <string name="dialog_speed_dial_airplane_mode_message">Zum Benutzen der Kurzwahl, Flugmodus deaktivieren.</string>
+  <string name="yes">Ja</string>
+  <string name="no">Nein</string>
   <string name="speed_dial_edit_title">Schnellwahl <xliff:g id="index" example="2">%1$d</xliff:g> bearbeiten</string>
   <string name="speed_dial_input_hint">Bitte geben Sie eine Zahl ein</string>
 </resources>

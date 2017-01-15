@@ -48,7 +48,19 @@
   <string name="reverse_lookup_provider_title">Poskytovatel zpětného vyhledávání</string>
   <!-- Chinese Reverse Lookup Provider -->
   <string name="cyngn_reverse_lookup_provider_name">Cyngn Čína (CN)</string>
+  <!-- Hint displayed in dialer search box when there is no query that is currently typed.
+          [CHAR LIMIT=30] -->
+  <string name="dialer_hint_find_contact_custom">Prohledat kontakty</string>
   <!-- speed dial -->
+  <string name="speed_dial_settings">Nastavení rychlého vytáčení</string>
+  <string name="speed_dial_not_set">(nenastaveno)</string>
+  <string name="speed_dial_replace">Nahradit</string>
+  <string name="speed_dial_delete">Vymazat</string>
+  <string name="speed_dial_unassigned_dialog_title">Klávesa nepřiřazena</string>
+  <string name="speed_dial_unassigned_dialog_message">Akce pro rychlé vytáčení není pro tuto klávesu \"<xliff:g id="number">%s</xliff:g>\" přiřazena. Chcete jí nyní přiřadit?</string>
+  <string name="dialog_speed_dial_airplane_mode_message">Pro použití rychlého vytáčení nejprve vypněte režim „V letadle“.</string>
+  <string name="yes">Ano</string>
+  <string name="no">Ne</string>
   <string name="speed_dial_edit_title">Upravit rychlost vytáčení <xliff:g id="index" example="2">%1$d </xliff:g></string>
   <string name="speed_dial_input_hint">Prosím zadejte číslo</string>
 </resources>

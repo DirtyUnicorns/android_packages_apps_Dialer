@@ -48,7 +48,19 @@
   <string name="reverse_lookup_provider_title">Provider di ricerca inversa</string>
   <!-- Chinese Reverse Lookup Provider -->
   <string name="cyngn_reverse_lookup_provider_name">Cyngn Cinese (CN)</string>
+  <!-- Hint displayed in dialer search box when there is no query that is currently typed.
+          [CHAR LIMIT=30] -->
+  <string name="dialer_hint_find_contact_custom">Cerca persone &amp; luoghi</string>
   <!-- speed dial -->
+  <string name="speed_dial_settings">Impostazioni composizione rapida</string>
+  <string name="speed_dial_not_set">(non impostato)</string>
+  <string name="speed_dial_replace">Sostituisci</string>
+  <string name="speed_dial_delete">Elimina</string>
+  <string name="speed_dial_unassigned_dialog_title">Tasto non assegnato</string>
+  <string name="speed_dial_unassigned_dialog_message">Nessuna azione di composizione rapida assegnata al tasto numero <xliff:g id="number">%s</xliff:g>. Vuoi assegnare un\'azione ora?</string>
+  <string name="dialog_speed_dial_airplane_mode_message">Per usare la composizione rapida occorre prima disattivare la modalità aereo.</string>
+  <string name="yes">Si</string>
+  <string name="no">No</string>
   <string name="speed_dial_edit_title">Modifica composizione rapida <xliff:g id="index" example="2">%1$d </xliff:g></string>
   <string name="speed_dial_input_hint">Inserire numero</string>
 </resources>

@@ -29,8 +29,8 @@
   <string name="prox_auto_speaker_delay_dialog_title">Задержка включения громкой связи (мс)</string>
   <string name="prox_auto_speaker_delay_summary">Громкая связь будет активированна через <xliff:g id="number">%d</xliff:g> мс</string>
   <string name="prox_auto_speaker_incall_only_title">Только во время звонка</string>
-  <string name="prox_auto_speaker_incall_only_summary_on">On outgoing calls, listener will only become active after the receiving party answers</string>
-  <string name="prox_auto_speaker_incall_only_summary_off">Listener will be active during all offhook call states (default)</string>
+  <string name="prox_auto_speaker_incall_only_summary_on">При исходящих звонках функция активируется только после ответа на вызов</string>
+  <string name="prox_auto_speaker_incall_only_summary_off">Функция активна при любых вызовах (по умолчанию)</string>
   <!-- Forward lookup -->
   <string name="nearby_places">Ближайшие места</string>
   <string name="people">Люди</string>
@@ -42,13 +42,25 @@
   <string name="enable_people_lookup_title">Поиск людей</string>
   <string name="enable_people_lookup_summary">Показывать результаты онлайн при поиске людей через номеронабиратель</string>
   <string name="enable_reverse_lookup_title">Обратный поиск</string>
-  <string name="enable_reverse_lookup_summary">Look up information about the person or place for unknown numbers on incoming calls</string>
-  <string name="forward_lookup_provider_title">Forward lookup provider</string>
-  <string name="people_lookup_provider_title">People lookup provider</string>
-  <string name="reverse_lookup_provider_title">Reverse lookup provider</string>
+  <string name="enable_reverse_lookup_summary">Искать информацию о человеке/месте для неизвестных входящих номеров</string>
+  <string name="forward_lookup_provider_title">Поставщик прямого поиска</string>
+  <string name="people_lookup_provider_title">Поставщик поиска людей</string>
+  <string name="reverse_lookup_provider_title">Поставщик обратного поиска</string>
   <!-- Chinese Reverse Lookup Provider -->
   <string name="cyngn_reverse_lookup_provider_name">Cyngn Китай (CN)</string>
+  <!-- Hint displayed in dialer search box when there is no query that is currently typed.
+          [CHAR LIMIT=30] -->
+  <string name="dialer_hint_find_contact_custom">Поиск в контактах</string>
   <!-- speed dial -->
-  <string name="speed_dial_edit_title">Edit speed dial <xliff:g id="index" example="2">%1$d</xliff:g></string>
-  <string name="speed_dial_input_hint">Please enter a number</string>
+  <string name="speed_dial_settings">Настройки быстрого набора</string>
+  <string name="speed_dial_not_set">(не установлено)</string>
+  <string name="speed_dial_replace">Заменить</string>
+  <string name="speed_dial_delete">Удалить</string>
+  <string name="speed_dial_unassigned_dialog_title">Нет назначенного номера</string>
+  <string name="speed_dial_unassigned_dialog_message">Клавише \"<xliff:g id="number">%s</xliff:g>\" не присвоен номер быстрого набора. Назначить его?</string>
+  <string name="dialog_speed_dial_airplane_mode_message">Чтобы использовать быстрый набор, выключите режим полёта.</string>
+  <string name="yes">Да</string>
+  <string name="no">Нет</string>
+  <string name="speed_dial_edit_title">Изменить скорость набора <xliff:g id="index" example="2">%1$d </xliff:g></string>
+  <string name="speed_dial_input_hint">Пожалуйста введите номер</string>
 </resources>

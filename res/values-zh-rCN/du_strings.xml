@@ -15,40 +15,52 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- In-call vibrate options -->
-  <string name="incall_vibration_category_title">In-call vibration</string>
-  <string name="incall_vibrate_outgoing_title">Vibrate on answer</string>
-  <string name="vibrate_call_waiting">Vibrate on call waiting</string>
-  <string name="incall_vibrate_hangup_title">Vibrate on hang up</string>
-  <string name="incall_vibrate_45_title">Vibrate every minute</string>
-  <string name="incall_vibrate_45_summary">Vibrates at 45s of every minute during outgoing calls</string>
+  <string name="incall_vibration_category_title">来电振动</string>
+  <string name="incall_vibrate_outgoing_title">接通时振动</string>
+  <string name="vibrate_call_waiting">呼叫等待时振动</string>
+  <string name="incall_vibrate_hangup_title">通话结束时振动</string>
+  <string name="incall_vibrate_45_title">每分钟振动</string>
+  <string name="incall_vibrate_45_summary">呼出通话达到每分钟的 45 秒时振动</string>
   <!-- Proximity speaker -->
-  <string name="speaker_settings_label">Proximity speakerphone</string>
-  <string name="prox_auto_speaker_title">Automatic proximity speakerphone</string>
-  <string name="prox_auto_speaker_summary">Enable speakerphone automatically when your phone is removed from your ear</string>
-  <string name="prox_auto_speaker_delay_title">Speakerphone delay</string>
-  <string name="prox_auto_speaker_delay_dialog_title">Speakerphone delay in (ms)</string>
-  <string name="prox_auto_speaker_delay_summary">Speakerphone will be activated in <xliff:g id="number">%d</xliff:g> ms</string>
-  <string name="prox_auto_speaker_incall_only_title">Only while in call</string>
-  <string name="prox_auto_speaker_incall_only_summary_on">On outgoing calls, listener will only become active after the receiving party answers</string>
-  <string name="prox_auto_speaker_incall_only_summary_off">Listener will be active during all offhook call states (default)</string>
+  <string name="speaker_settings_label">自动免提</string>
+  <string name="prox_auto_speaker_title">自动启动免提功能</string>
+  <string name="prox_auto_speaker_summary">当您的手机离开您的耳边时启用扬声器</string>
+  <string name="prox_auto_speaker_delay_title">扬声器延迟</string>
+  <string name="prox_auto_speaker_delay_dialog_title">扬声器延迟(毫秒)</string>
+  <string name="prox_auto_speaker_delay_summary">免提功能将在 <xliff:g id="number">%d</xliff:g> 毫秒后启动</string>
+  <string name="prox_auto_speaker_incall_only_title">仅在通话中时</string>
+  <string name="prox_auto_speaker_incall_only_summary_on">拨出电话时，检测器在对方接听后才激活</string>
+  <string name="prox_auto_speaker_incall_only_summary_off">检测器在通话状态始终激活(默认)</string>
   <!-- Forward lookup -->
-  <string name="nearby_places">Nearby places</string>
-  <string name="people">People</string>
+  <string name="nearby_places">附近地点</string>
+  <string name="people">联系人</string>
   <!-- Number lookup -->
-  <string name="lookup_settings_label">Phone number lookup</string>
-  <string name="lookup_settings_description">Lookup of unknown phone numbers</string>
-  <string name="enable_forward_lookup_title">Forward lookup</string>
-  <string name="enable_forward_lookup_summary">Show nearby places when searching in the dialer</string>
-  <string name="enable_people_lookup_title">People lookup</string>
-  <string name="enable_people_lookup_summary">Show online results for people when searching in the dialer</string>
-  <string name="enable_reverse_lookup_title">Reverse lookup</string>
-  <string name="enable_reverse_lookup_summary">Look up information about the person or place for unknown numbers on incoming calls</string>
-  <string name="forward_lookup_provider_title">Forward lookup provider</string>
-  <string name="people_lookup_provider_title">People lookup provider</string>
-  <string name="reverse_lookup_provider_title">Reverse lookup provider</string>
+  <string name="lookup_settings_label">号码查询</string>
+  <string name="lookup_settings_description">查找未知的电话号码</string>
+  <string name="enable_forward_lookup_title">正向查询</string>
+  <string name="enable_forward_lookup_summary">在拨号器搜索时显示附近地点</string>
+  <string name="enable_people_lookup_title">人名查询</string>
+  <string name="enable_people_lookup_summary">在拨号器中搜索时显示在线人名搜索结果</string>
+  <string name="enable_reverse_lookup_title">反向查询</string>
+  <string name="enable_reverse_lookup_summary">为未知来电号码查询人名或地点信息</string>
+  <string name="forward_lookup_provider_title">正向查询数据提供商</string>
+  <string name="people_lookup_provider_title">人名查询提供商</string>
+  <string name="reverse_lookup_provider_title">反向查询提供商</string>
   <!-- Chinese Reverse Lookup Provider -->
-  <string name="cyngn_reverse_lookup_provider_name">Cyngn Chinese (CN)</string>
+  <string name="cyngn_reverse_lookup_provider_name">Cyngn 中文 (CN)</string>
+  <!-- Hint displayed in dialer search box when there is no query that is currently typed.
+          [CHAR LIMIT=30] -->
+  <string name="dialer_hint_find_contact_custom">搜索联系人和地点</string>
   <!-- speed dial -->
-  <string name="speed_dial_edit_title">Edit speed dial <xliff:g id="index" example="2">%1$d</xliff:g></string>
-  <string name="speed_dial_input_hint">Please enter a number</string>
+  <string name="speed_dial_settings">快速拨号设置</string>
+  <string name="speed_dial_not_set">（未设置）</string>
+  <string name="speed_dial_replace">替换</string>
+  <string name="speed_dial_delete">删除</string>
+  <string name="speed_dial_unassigned_dialog_title">按键未分配</string>
+  <string name="speed_dial_unassigned_dialog_message">此快速拨号按键 “<xliff:g id="number">%s</xliff:g>” 尚未被使用，您现在想要指定一个动作吗？</string>
+  <string name="dialog_speed_dial_airplane_mode_message">若要使用快速拨号，请先关闭飞行模式。</string>
+  <string name="yes">是</string>
+  <string name="no">否　</string>
+  <string name="speed_dial_edit_title">编辑快速拨号<xliff:g id="index" example="2">%1$d </xliff:g></string>
+  <string name="speed_dial_input_hint">请输入数字</string>
 </resources>
