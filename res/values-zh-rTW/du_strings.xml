@@ -50,17 +50,17 @@
   <string name="cyngn_reverse_lookup_provider_name">Cyngn Chinese (中國)</string>
   <!-- Hint displayed in dialer search box when there is no query that is currently typed.
           [CHAR LIMIT=30] -->
-  <string name="dialer_hint_find_contact_custom">Search people &amp; places</string>
+  <string name="dialer_hint_find_contact_custom">搜尋聯絡人</string>
   <!-- speed dial -->
-  <string name="speed_dial_settings">Speed dial settings</string>
-  <string name="speed_dial_not_set">(not set)</string>
-  <string name="speed_dial_replace">Replace</string>
-  <string name="speed_dial_delete">Delete</string>
-  <string name="speed_dial_unassigned_dialog_title">Key unassigned</string>
-  <string name="speed_dial_unassigned_dialog_message">No speed dial action is assigned to number key \'<xliff:g id="number">%s</xliff:g>\'. Do you want to assign an action now?</string>
-  <string name="dialog_speed_dial_airplane_mode_message">To use speed dial, first turn off Airplane mode.</string>
-  <string name="yes">Yes</string>
-  <string name="no">No</string>
+  <string name="speed_dial_settings">快速撥號設定</string>
+  <string name="speed_dial_not_set">(未指定)</string>
+  <string name="speed_dial_replace">取代</string>
+  <string name="speed_dial_delete">Delete 鍵</string>
+  <string name="speed_dial_unassigned_dialog_title">按鍵未指定</string>
+  <string name="speed_dial_unassigned_dialog_message">尚未指定快速撥號動作至數字鍵「<xliff:g id="number">%s</xliff:g>」，您想現在指定嗎?</string>
+  <string name="dialog_speed_dial_airplane_mode_message">若要使用快速撥號，請先關閉飛航模式。</string>
+  <string name="yes">可</string>
+  <string name="no">否</string>
   <string name="speed_dial_edit_title">編輯快速撥號 <xliff:g id="index" example="2">%1$d</xliff:g></string>
   <string name="speed_dial_input_hint">請輸入一個號碼</string>
 </resources>

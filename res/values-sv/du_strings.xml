@@ -32,11 +32,11 @@
   <string name="prox_auto_speaker_incall_only_summary_on">Vid utgående samtal, lyssnaren kommer endast vara aktiv vid svar</string>
   <string name="prox_auto_speaker_incall_only_summary_off">Listener will be active during all offhook call states (default)</string>
   <!-- Forward lookup -->
-  <string name="nearby_places">Nearby places</string>
+  <string name="nearby_places">Platser i närheten</string>
   <string name="people">Personer</string>
   <!-- Number lookup -->
-  <string name="lookup_settings_label">Phone number lookup</string>
-  <string name="lookup_settings_description">Lookup of unknown phone numbers</string>
+  <string name="lookup_settings_label">Telefonnummersökning</string>
+  <string name="lookup_settings_description">Sökning av okända telefonnummer</string>
   <string name="enable_forward_lookup_title">Forward lookup</string>
   <string name="enable_forward_lookup_summary">Show nearby places when searching in the dialer</string>
   <string name="enable_people_lookup_title">People lookup</string>
