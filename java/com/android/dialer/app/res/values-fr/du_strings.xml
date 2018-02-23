@@ -33,4 +33,9 @@
     <string name="incall_vibrate_hangup_title">Vibrer à la fin de l\'appel</string>
     <string name="incall_vibrate_50_title">Vibrer chaque minute</string>
     <string name="incall_vibrate_50_summary">Vibrer à la cinquantième seconde de chaque minute lors des appels sortants</string>
+
+    <!-- In-call notifications vibrate -->
+    <string name="incall_notifications_vibrate">Notifications lors des appels</string>
+    <string name="incall_notifications_vibrate_summary">Vibrer au lieu d\'émettre un son pour les notifications lors des appels</string>
+
 </resources>
