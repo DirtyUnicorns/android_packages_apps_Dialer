@@ -63,6 +63,13 @@
        android:key="incall_vibrate_50secs"
        android:title="@string/incall_vibrate_50_title"
        android:summary="@string/incall_vibrate_50_summary" />
+
+    <SwitchPreference
+       android:key="@string/in_call_notifications_vibrate_preference_key"
+       android:title="@string/incall_notifications_vibrate"
+       android:summary="@string/incall_notifications_vibrate_summary"
+       android:defaultValue="false" />
+
   </PreferenceCategory>
 
 </PreferenceScreen>
