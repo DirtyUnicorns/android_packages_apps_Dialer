@@ -21,14 +21,14 @@
   <string name="prox_auto_speaker_title">Otomatik yakınlık hoparlörü</string>
   <string name="prox_auto_speaker_summary">Telefonunuzu kulağınızdan çektiğinizde hoparlörü otomatik olarak etkinleştirir</string>
   <string name="prox_auto_speaker_delay_title">Hoparlör gecikmesi</string>
-  <string name="prox_auto_speaker_delay_dialog_title">Hoparlörü gecikmesi (ms)</string>
+  <string name="prox_auto_speaker_delay_dialog_title">Hoparlör gecikmesi (ms)</string>
   <string name="prox_auto_speaker_delay_summary">Hoparlör <xliff:g id="number">%d</xliff:g> ms içinde aktif edilecektir</string>
   <string name="prox_auto_speaker_incall_only_title">Sadece arama sırasında</string>
   <string name="prox_auto_speaker_incall_only_summary_on">Giden aramalarda dinleyici sadece alıcı taraf cevapladıktan sonra aktif hale gelecektir</string>
   <string name="prox_auto_speaker_incall_only_summary_off">Dinleyici aramayı cevapladığı durumda etkin olacak (varsayılan)</string>
   <!-- In-call vibrate options -->
-  <string name="incall_vibration_category_title">Gelen aramada titret</string>
-  <string name="incall_vibrate_outgoing_title">Cevaplandığında titret</string>
+  <string name="incall_vibration_category_title">Çağrı titreşimi</string>
+  <string name="incall_vibrate_outgoing_title">Cevapladığında titret</string>
   <string name="incall_vibrate_call_waiting_title">Arama bekletildiğinde titret</string>
   <string name="incall_vibrate_hangup_title">Kapatıldığında titret</string>
   <string name="incall_vibrate_50_title">Her dakikada titret</string>
