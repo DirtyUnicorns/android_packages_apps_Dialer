@@ -17,17 +17,17 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Forward lookup -->
-  <string name="nearby_places">Nearby places</string>
-  <string name="people">People</string>
+  <string name="nearby_places">Orte in der Nähe</string>
+  <string name="people">Personen</string>
   <!-- Number lookup -->
-  <string name="lookup_settings_label">Phone number lookup</string>
-  <string name="enable_forward_lookup_title">Forward lookup</string>
-  <string name="enable_forward_lookup_summary">Show nearby places when searching in the dialer</string>
-  <string name="enable_people_lookup_title">People lookup</string>
-  <string name="enable_people_lookup_summary">Show online results for people when searching in the dialer</string>
-  <string name="enable_reverse_lookup_title">Reverse lookup</string>
-  <string name="enable_reverse_lookup_summary">Look up information about the person or place for unknown numbers on incoming calls</string>
-  <string name="forward_lookup_provider_title">Forward lookup provider</string>
-  <string name="people_lookup_provider_title">People lookup provider</string>
-  <string name="reverse_lookup_provider_title">Reverse lookup provider</string>
+  <string name="lookup_settings_label">Telefonnummernsuche</string>
+  <string name="enable_forward_lookup_title">Vorwärtssuche</string>
+  <string name="enable_forward_lookup_summary">Bei der Telefonnummernsuche Orte in der Nähe einschließen</string>
+  <string name="enable_people_lookup_title">Personensuche</string>
+  <string name="enable_people_lookup_summary">Onlineergebnisse für Personen in der Suche des Dialer anzeigen</string>
+  <string name="enable_reverse_lookup_title">Rückwärtssuche</string>
+  <string name="enable_reverse_lookup_summary">Bei Anrufen mit unbekannter Nummer Informationen über Person oder Ort suchen</string>
+  <string name="forward_lookup_provider_title">Anbieter für Vorwärtssuche</string>
+  <string name="people_lookup_provider_title">Anbieter für Personensuche</string>
+  <string name="reverse_lookup_provider_title">Anbieter für Rückwärtssuche</string>
 </resources>

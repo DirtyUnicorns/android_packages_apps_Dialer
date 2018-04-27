@@ -17,17 +17,17 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Forward lookup -->
-  <string name="nearby_places">Nearby places</string>
-  <string name="people">People</string>
+  <string name="nearby_places">Lieux à proximité</string>
+  <string name="people">Contacts</string>
   <!-- Number lookup -->
-  <string name="lookup_settings_label">Phone number lookup</string>
-  <string name="enable_forward_lookup_title">Forward lookup</string>
-  <string name="enable_forward_lookup_summary">Show nearby places when searching in the dialer</string>
-  <string name="enable_people_lookup_title">People lookup</string>
-  <string name="enable_people_lookup_summary">Show online results for people when searching in the dialer</string>
-  <string name="enable_reverse_lookup_title">Reverse lookup</string>
-  <string name="enable_reverse_lookup_summary">Look up information about the person or place for unknown numbers on incoming calls</string>
-  <string name="forward_lookup_provider_title">Forward lookup provider</string>
-  <string name="people_lookup_provider_title">People lookup provider</string>
-  <string name="reverse_lookup_provider_title">Reverse lookup provider</string>
+  <string name="lookup_settings_label">Annuaire</string>
+  <string name="enable_forward_lookup_title">Recherche de localisation</string>
+  <string name="enable_forward_lookup_summary">Afficher les lieux à proximité lors de la saisie dans le numéroteur téléphonique</string>
+  <string name="enable_people_lookup_title">Recherche de contacts</string>
+  <string name="enable_people_lookup_summary">Afficher les résultats résultats en provenance d\'Internet pour les contacts, lors de la saisie dans le numéroteur téléphonique</string>
+  <string name="enable_reverse_lookup_title">Annuaire inversé</string>
+  <string name="enable_reverse_lookup_summary">Rechercher des informations sur le contact ou le lieu pour les appels entrants dont le numéros n\'est pas présent dans le répertoire</string>
+  <string name="forward_lookup_provider_title">Fournisseur pour la recherche de localisation</string>
+  <string name="people_lookup_provider_title">Fournisseur pour la recherche de contacts</string>
+  <string name="reverse_lookup_provider_title">Fournisseur d\'annuaire inversé</string>
 </resources>

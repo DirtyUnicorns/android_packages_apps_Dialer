@@ -17,17 +17,17 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Forward lookup -->
-  <string name="nearby_places">Nearby places</string>
-  <string name="people">People</string>
+  <string name="nearby_places">Luoghi nelle vicinanze</string>
+  <string name="people">Persone</string>
   <!-- Number lookup -->
-  <string name="lookup_settings_label">Phone number lookup</string>
-  <string name="enable_forward_lookup_title">Forward lookup</string>
-  <string name="enable_forward_lookup_summary">Show nearby places when searching in the dialer</string>
-  <string name="enable_people_lookup_title">People lookup</string>
-  <string name="enable_people_lookup_summary">Show online results for people when searching in the dialer</string>
-  <string name="enable_reverse_lookup_title">Reverse lookup</string>
-  <string name="enable_reverse_lookup_summary">Look up information about the person or place for unknown numbers on incoming calls</string>
-  <string name="forward_lookup_provider_title">Forward lookup provider</string>
-  <string name="people_lookup_provider_title">People lookup provider</string>
-  <string name="reverse_lookup_provider_title">Reverse lookup provider</string>
+  <string name="lookup_settings_label">Ricerca numero di telefono</string>
+  <string name="enable_forward_lookup_title">Ricerca diretta</string>
+  <string name="enable_forward_lookup_summary">Durante la composizione del numero di telefono mostra i luoghi vicini</string>
+  <string name="enable_people_lookup_title">Ricerca persone</string>
+  <string name="enable_people_lookup_summary">Mostra risultati online delle persone durante la composizione dei numeri</string>
+  <string name="enable_reverse_lookup_title">Ricerca inversa</string>
+  <string name="enable_reverse_lookup_summary">Cerca le informazioni sulla persona o luogo per i numeri sconosciuti sulle chiamate in arrivo</string>
+  <string name="forward_lookup_provider_title">Provider della ricerca diretta</string>
+  <string name="people_lookup_provider_title">Provider della ricerca persone</string>
+  <string name="reverse_lookup_provider_title">Provider della ricerca inversa</string>
 </resources>
