@@ -27,13 +27,13 @@
   <string name="prox_auto_speaker_incall_only_summary_on">Em chamadas de saída, ouvinte só ficará ativo após a chamada ser atendida</string>
   <string name="prox_auto_speaker_incall_only_summary_off">Listener will be active during all offhook call states (default)</string>
   <!-- In-call vibrate options -->
-  <string name="incall_vibration_category_title">In-call vibration</string>
-  <string name="incall_vibrate_outgoing_title">Vibrate on answer</string>
-  <string name="incall_vibrate_call_waiting_title">Vibrate on call waiting</string>
-  <string name="incall_vibrate_hangup_title">Vibrate on hang up</string>
-  <string name="incall_vibrate_50_title">Vibrate every minute</string>
-  <string name="incall_vibrate_50_summary">Vibrates at the 50 second mark of every minute during outgoing calls</string>
+  <string name="incall_vibration_category_title">Vibração durante chamada</string>
+  <string name="incall_vibrate_outgoing_title">Vibrar ao atender</string>
+  <string name="incall_vibrate_call_waiting_title">Vibrar na chamada em espera</string>
+  <string name="incall_vibrate_hangup_title">Vibrar ao terminar a chamada</string>
+  <string name="incall_vibrate_50_title">Vibrar a cada minuto</string>
+  <string name="incall_vibrate_50_summary">Vibrar na marca de 50 segundos de cada minuto durante as chamadas realizadas</string>
   <!-- In-call notifications vibrate -->
-  <string name="incall_notifications_vibrate">Vibrate in-call notifications</string>
-  <string name="incall_notifications_vibrate_summary">Vibrate instead of playing a sound for in-call notifications</string>
+  <string name="incall_notifications_vibrate">Vibrar em todas notificações</string>
+  <string name="incall_notifications_vibrate_summary">Vibrar em vez de reproduzir um som para notificações durante as chamadas</string>
 </resources>
