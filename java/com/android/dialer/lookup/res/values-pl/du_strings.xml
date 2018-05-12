@@ -17,17 +17,17 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Forward lookup -->
-  <string name="nearby_places">Nearby places</string>
-  <string name="people">People</string>
+  <string name="nearby_places">Miejsca w pobliżu</string>
+  <string name="people">Osoby</string>
   <!-- Number lookup -->
-  <string name="lookup_settings_label">Phone number lookup</string>
-  <string name="enable_forward_lookup_title">Forward lookup</string>
-  <string name="enable_forward_lookup_summary">Show nearby places when searching in the dialer</string>
-  <string name="enable_people_lookup_title">People lookup</string>
-  <string name="enable_people_lookup_summary">Show online results for people when searching in the dialer</string>
-  <string name="enable_reverse_lookup_title">Reverse lookup</string>
-  <string name="enable_reverse_lookup_summary">Look up information about the person or place for unknown numbers on incoming calls</string>
-  <string name="forward_lookup_provider_title">Forward lookup provider</string>
-  <string name="people_lookup_provider_title">People lookup provider</string>
-  <string name="reverse_lookup_provider_title">Reverse lookup provider</string>
+  <string name="lookup_settings_label">Wyszukiwanie numeru telefonu</string>
+  <string name="enable_forward_lookup_title">Wyszukiwanie miejsc</string>
+  <string name="enable_forward_lookup_summary">Pokaż miejsca w pobliżu podczas wyszukiwania w dialerze</string>
+  <string name="enable_people_lookup_title">Wyszukiwanie osób</string>
+  <string name="enable_people_lookup_summary">Pokaż wyniki z sieci dla osób wyszukujących w dialerze</string>
+  <string name="enable_reverse_lookup_title">Wyszukiwanie nieznanych</string>
+  <string name="enable_reverse_lookup_summary">Wyszukuj informacje na temat osoby lub miejsca w przypadku połączeń przychodzących od nieznanych numerów</string>
+  <string name="forward_lookup_provider_title">Dostawca wyszukiwania miejsc</string>
+  <string name="people_lookup_provider_title">Dostawca wyszukiwania osób</string>
+  <string name="reverse_lookup_provider_title">Dostawca wyszukiwania nieznanych</string>
 </resources>

@@ -25,7 +25,7 @@
   <string name="prox_auto_speaker_delay_summary">O viva-voz será ativado em <xliff:g id="number">%d</xliff:g> ms</string>
   <string name="prox_auto_speaker_incall_only_title">Somente quando em chamada</string>
   <string name="prox_auto_speaker_incall_only_summary_on">Em chamadas de saída, ouvinte só ficará ativo após a chamada ser atendida</string>
-  <string name="prox_auto_speaker_incall_only_summary_off">Listener will be active during all offhook call states (default)</string>
+  <string name="prox_auto_speaker_incall_only_summary_off">O ouvinte estará ativo durante todos os estados de chamada de desconexão (padrão)</string>
   <!-- In-call vibrate options -->
   <string name="incall_vibration_category_title">Vibração durante chamada</string>
   <string name="incall_vibrate_outgoing_title">Vibrar ao atender</string>

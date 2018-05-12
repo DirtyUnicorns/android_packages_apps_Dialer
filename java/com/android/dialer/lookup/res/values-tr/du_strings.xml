@@ -23,8 +23,8 @@
   <string name="lookup_settings_label">Telefon numarasını arama</string>
   <string name="enable_forward_lookup_title">Yakın yer arama</string>
   <string name="enable_forward_lookup_summary">Çevirici içinde arama yaparken yakındaki yerleri göster</string>
-  <string name="enable_people_lookup_title">Kişi bul</string>
-  <string name="enable_people_lookup_summary">Çeviricilerde arama yapan kişiler için çevrimiçi sonuçları göster</string>
+  <string name="enable_people_lookup_title">Kişi araması</string>
+  <string name="enable_people_lookup_summary">Çeviricide arama yaparken kişiler için çevrimiçi sonuçlarını göster</string>
   <string name="enable_reverse_lookup_title">Bilinmeyen numara arama</string>
   <string name="enable_reverse_lookup_summary">Gelen aramalarda bilinmeyen numaralar için kişi veya yer hakkında bilgi arayın</string>
   <string name="forward_lookup_provider_title">Yakın yer arama sağlayıcısı</string>
