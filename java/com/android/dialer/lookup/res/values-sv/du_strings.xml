@@ -17,17 +17,17 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Forward lookup -->
-  <string name="nearby_places">Nearby places</string>
-  <string name="people">People</string>
+  <string name="nearby_places">Platser i närheten</string>
+  <string name="people">Personer</string>
   <!-- Number lookup -->
-  <string name="lookup_settings_label">Phone number lookup</string>
-  <string name="enable_forward_lookup_title">Forward lookup</string>
-  <string name="enable_forward_lookup_summary">Show nearby places when searching in the dialer</string>
-  <string name="enable_people_lookup_title">People lookup</string>
-  <string name="enable_people_lookup_summary">Show online results for people when searching in the dialer</string>
-  <string name="enable_reverse_lookup_title">Reverse lookup</string>
-  <string name="enable_reverse_lookup_summary">Look up information about the person or place for unknown numbers on incoming calls</string>
-  <string name="forward_lookup_provider_title">Forward lookup provider</string>
-  <string name="people_lookup_provider_title">People lookup provider</string>
-  <string name="reverse_lookup_provider_title">Reverse lookup provider</string>
+  <string name="lookup_settings_label">Telefonnummersökning</string>
+  <string name="enable_forward_lookup_title">Vidarebefordrad sökning</string>
+  <string name="enable_forward_lookup_summary">Visa närliggande platser när du söker i telefonen</string>
+  <string name="enable_people_lookup_title">Personsökning</string>
+  <string name="enable_people_lookup_summary">Visa online resultat för personer när du söker i telefonen</string>
+  <string name="enable_reverse_lookup_title">Omvänd sökning</string>
+  <string name="enable_reverse_lookup_summary">Sök efter information om personen eller platsen för okända nummer vid inkommande samtal</string>
+  <string name="forward_lookup_provider_title">Välj leverantör för vidarebefordrad sökning</string>
+  <string name="people_lookup_provider_title">Leverantör för personsökning</string>
+  <string name="reverse_lookup_provider_title">Leverantör för omvänd sökning</string>
 </resources>

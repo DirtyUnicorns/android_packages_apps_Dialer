@@ -17,23 +17,23 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Proximity speaker -->
-  <string name="speaker_settings_label">Proximity speakerphone</string>
-  <string name="prox_auto_speaker_title">Automatic proximity speakerphone</string>
-  <string name="prox_auto_speaker_summary">Enable speakerphone automatically when your phone is removed from your ear</string>
-  <string name="prox_auto_speaker_delay_title">Speakerphone delay</string>
-  <string name="prox_auto_speaker_delay_dialog_title">Speakerphone delay in (ms)</string>
-  <string name="prox_auto_speaker_delay_summary">Speakerphone will be activated in <xliff:g id="number">%d</xliff:g> ms</string>
-  <string name="prox_auto_speaker_incall_only_title">Only while in call</string>
-  <string name="prox_auto_speaker_incall_only_summary_on">On outgoing calls, listener will only become active after the receiving party answers</string>
-  <string name="prox_auto_speaker_incall_only_summary_off">Listener will be active during all offhook call states (default)</string>
+  <string name="speaker_settings_label">近接スピーカーフォン</string>
+  <string name="prox_auto_speaker_title">自動近接スピーカーフォン</string>
+  <string name="prox_auto_speaker_summary">電話を耳から離したときにスピーカーフォンを自動的に有効にする</string>
+  <string name="prox_auto_speaker_delay_title">スピーカーフォンの遅延</string>
+  <string name="prox_auto_speaker_delay_dialog_title">スピーカーフォンの遅延（ミリ秒）</string>
+  <string name="prox_auto_speaker_delay_summary">スピーカーフォンは<xliff:g id="number">%d</xliff:g>ミリ秒でアクティブになります</string>
+  <string name="prox_auto_speaker_incall_only_title">通話中のみ</string>
+  <string name="prox_auto_speaker_incall_only_summary_on">発信側では、受信側が応答した後にスピーカーがアクティブになります</string>
+  <string name="prox_auto_speaker_incall_only_summary_off">スピーカーは通話時のすべての状態でアクティブになります（既定）</string>
   <!-- In-call vibrate options -->
-  <string name="incall_vibration_category_title">In-call vibration</string>
-  <string name="incall_vibrate_outgoing_title">Vibrate on answer</string>
-  <string name="incall_vibrate_call_waiting_title">Vibrate on call waiting</string>
-  <string name="incall_vibrate_hangup_title">Vibrate on hang up</string>
-  <string name="incall_vibrate_50_title">Vibrate every minute</string>
-  <string name="incall_vibrate_50_summary">Vibrates at the 50 second mark of every minute during outgoing calls</string>
+  <string name="incall_vibration_category_title">着信時に振動する</string>
+  <string name="incall_vibrate_outgoing_title">着信応答時に振動する</string>
+  <string name="incall_vibrate_call_waiting_title">割込通話時に振動させる</string>
+  <string name="incall_vibrate_hangup_title">通話終了時に振動させる</string>
+  <string name="incall_vibrate_50_title">1分ごとに振動する</string>
+  <string name="incall_vibrate_50_summary">発信通話時に50秒経過するごとに振動する</string>
   <!-- In-call notifications vibrate -->
-  <string name="incall_notifications_vibrate">Vibrate in-call notifications</string>
-  <string name="incall_notifications_vibrate_summary">Vibrate instead of playing a sound for in-call notifications</string>
+  <string name="incall_notifications_vibrate">通話中の振動による通知</string>
+  <string name="incall_notifications_vibrate_summary">通話中は通知サウンドの代わりに振動する</string>
 </resources>
